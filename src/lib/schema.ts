@@ -10,13 +10,16 @@ const fecha = z
   .transform((v) => (v instanceof Date ? v.toISOString().slice(0, 10) : String(v)))
   .pipe(z.string().regex(/^\d{4}(-\d{2}(-\d{2})?)?$/, "fecha AAAA, AAAA-MM o AAAA-MM-DD"));
 
+// Solo enlaces web: nada de javascript:, data: ni similares.
+const enlace = z.url({ protocol: /^https?$/, message: "URL http(s) completa" });
+
 export const FuenteSchema = z.object({
   clave: z.string().regex(/^[a-z0-9-]+$/, "clave en minúsculas con guiones"),
   medio: z.string().min(1),
   titulo: z.string().optional(),
   autor: z.string().optional(),
   fecha: fecha.optional(),
-  url: z.string().url().optional(),
+  url: enlace.optional(),
   tipo: z.enum(TIPOS_FUENTE),
   sostiene: z.string().optional(),
   cita: z.string().optional(),
@@ -75,10 +78,10 @@ export const VideoFrontmatterSchema = z.object({
   publicado: fecha.optional(),
   actualizado: fecha.optional(),
   /** Código del reel: instagram.com/sideral_techno/reel/<instagram> */
-  instagram: z.string().optional(),
+  instagram: z.string().regex(/^[A-Za-z0-9_-]+$/, "solo el código del reel").optional(),
   /** tiktok.com/@sideraltechno/video/<tiktok> */
-  tiktok: z.string().optional(),
-  video: z.string().url().optional(),
+  tiktok: z.string().regex(/^\d+$/, "solo el número del vídeo").optional(),
+  video: enlace.optional(),
   lugar: LugarSchema.optional(),
   etiquetas: z.array(z.union([z.string(), z.number()]).transform(String)).default([]),
   guion: z.array(LineaGuionSchema).default([]),

@@ -7,7 +7,7 @@ export const SITIO = {
   instagram: "https://www.instagram.com/sideral_techno/",
   usuarioInstagram: "@sideral_techno",
   tiktok: "https://www.tiktok.com/@sideraltechno",
-  correo: process.env.NEXT_PUBLIC_CORREO ?? "sideraltechno2026@gmail.com",
+  correo: process.env.NEXT_PUBLIC_CORREO ?? "admin@sideraltechno.com",
   idioma: "es-ES",
 } as const;
 

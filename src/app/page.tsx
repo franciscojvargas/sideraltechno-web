@@ -34,7 +34,7 @@ export default function Inicio() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(datos) }} />
 
-      <section className="marco grid items-center gap-16 pb-20 pt-10 sm:pt-16 lg:min-h-[calc(100svh-6rem)] lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:pb-24">
+      <section className="marco grid items-center gap-12 pb-14 pt-10 sm:gap-16 sm:pb-20 sm:pt-16 lg:min-h-[calc(100svh-6rem)] lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:pb-24">
         <div>
           <p className="etiqueta entra">{SITIO.usuarioInstagram} en Instagram y TikTok</p>
           <h1 className="titular entra entra-2 mt-6 text-[clamp(2.75rem,7.2vw,8.5rem)]">
@@ -42,18 +42,21 @@ export default function Inicio() {
             <br />
             <span className="text-gris">en vídeos cortos.</span>
           </h1>
-          <span className="regla entra entra-3 mt-10 w-16" />
-          <p className="entra entra-3 mt-10 max-w-lg text-lg leading-relaxed text-gris sm:text-xl">
+          <span className="regla entra entra-3 mt-8 w-16 sm:mt-10" />
+          <p className="entra entra-3 mt-8 max-w-lg text-lg leading-relaxed text-gris sm:text-xl">
             Discotecas míticas, festivales, la Ruta del Bakalao y el sonido de la pista. Cada dato, con su fuente.
           </p>
-          <div className="entra entra-3 mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
-            <SeguirInstagram />
-            <a href="#videos" className="etiqueta enlace text-blanco/80">Ver los {videos.length} vídeos</a>
+          <div className="entra entra-3 mt-8 flex flex-col gap-3 xs:flex-row xs:flex-wrap xs:items-center sm:mt-10">
+            <SeguirInstagram className="justify-center" />
+            <a href="#videos" className="boton-secundario justify-center border-blanco/35 py-[0.9rem] text-[0.8125rem] font-bold">
+              Ver los {videos.length} vídeos
+              <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 5v14m-6-6 6 6 6-6" /></svg>
+            </a>
           </div>
         </div>
 
         {ultimo && (
-          <div className="group entra entra-2 relative mx-auto aspect-[4/5] w-full max-w-[44rem] lg:max-w-[min(44rem,66svh)]">
+          <div className="group entra entra-2 relative mx-auto aspect-square w-full max-w-[44rem] sm:aspect-[4/5] lg:max-w-[min(44rem,66svh)]">
             {videos.slice(0, 3).map((v, i) => (
               <Link
                 key={v.id}
@@ -73,7 +76,7 @@ export default function Inicio() {
         )}
       </section>
 
-      <section id="videos" aria-labelledby="titulo-videos" className="marco scroll-mt-6">
+      <section id="videos" aria-labelledby="titulo-videos" className="marco scroll-mt-24">
         <Buscador videos={buscables} correo={SITIO.correo} />
       </section>
     </>
