@@ -18,9 +18,9 @@ export function IconoTiktok({ className = "h-4 w-4" }: { className?: string }) {
   );
 }
 
-export function SeguirInstagram({ secundario = false }: { secundario?: boolean }) {
+export function SeguirInstagram({ secundario = false, className = "" }: { secundario?: boolean; className?: string }) {
   return (
-    <a href={SITIO.instagram} target="_blank" rel="me noopener noreferrer" className={secundario ? "boton-secundario" : "boton"}>
+    <a href={SITIO.instagram} target="_blank" rel="me noopener noreferrer" className={`${secundario ? "boton-secundario" : "boton"} ${className}`}>
       <IconoInstagram />
       Seguir en Instagram
     </a>
@@ -33,7 +33,7 @@ export function Redes({ className = "" }: { className?: string }) {
     { href: SITIO.tiktok, nombre: "TikTok", icono: <IconoTiktok className="h-[17px] w-[17px]" /> },
   ];
   return (
-    <ul className={`flex items-center gap-2 ${className}`}>
+    <ul className={`flex items-center gap-1 sm:gap-2 ${className}`}>
       {enlaces.map((e) => (
         <li key={e.nombre}>
           <a href={e.href} target="_blank" rel="me noopener noreferrer" aria-label={`${SITIO.nombre} en ${e.nombre}`} title={e.nombre} className="red">

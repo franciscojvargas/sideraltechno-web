@@ -3,8 +3,8 @@ import { IconoInstagram, Redes } from "./Redes";
 
 export function Pie() {
   return (
-    <footer className="mt-32">
-      <section className="marco border-t border-linea py-20 sm:py-28">
+    <footer className="mt-20 sm:mt-32">
+      <section className="marco border-t border-linea py-14 sm:py-28">
         <p className="etiqueta">Un vídeo, una historia, cada dato con su fuente</p>
         <a href={SITIO.instagram} target="_blank" rel="me noopener noreferrer" className="group mt-6 inline-flex flex-wrap items-center gap-x-6 gap-y-3">
           <span className="titular break-all text-[clamp(2.2rem,8vw,7.5rem)] transition-colors duration-300 [-webkit-text-stroke:1px_var(--blanco)] group-hover:text-transparent">{SITIO.usuarioInstagram}</span>
