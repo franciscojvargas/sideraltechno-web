@@ -50,17 +50,6 @@ credenciales/
 *.borrador.md
 content/videos/_*.md
 
-# Asistentes y herramientas locales
-CLAUDE.md
-CLAUDE.local.md
-AGENTS.md
-.claude/
-.cursor/
-.aider*
-.codex/
-.windsurf/
-.copilot/
-
 # Editores y sistema
 .vscode/*
 !.vscode/extensions.json

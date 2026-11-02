@@ -9,8 +9,7 @@ const PROHIBIDOS = [
   /\.(pem|key|p12|pfx|crt|cer|der|jks|keystore|gpg)$/,
   /(^|\/)id_(rsa|ed25519)/,
   /(credentials|service-account).*\.json$/,
-  /(^|\/)(CLAUDE|AGENTS)(\.local)?\.md$/,
-  /(^|\/)\.(claude|cursor|codex|vercel)\//,
+  /(^|\/)\.vercel\//,
   /(^|\/)(borradores|guiones|notas|privado)\//,
 ];
 
