@@ -93,7 +93,7 @@ noDicho:
   - "Marcas de tiendas de música: lo que se cuenta vale para todas."
 preguntasAbiertas:
   - "¿Qué miras al comprar música, el formato o el tema? ¿Notas la diferencia entre un MP3 a 320 y un WAV en el equipo con el que pinchas?"
-relacionados: [rojo, mesas, mezcla, cdjvinilo]
+relacionados: [rojo, mesas]
 cuentas:
   - { red: instagram, usuario: bccoberlin, nombre: "BCCO" }
 ---

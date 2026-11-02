@@ -102,7 +102,7 @@ noDicho:
   - "El PEAK LIMITER de la propia mesa (activado por defecto en la DJM-900NXS2): está en el manual, pero no salva del CLIP; quedó fuera del guion por tiempo."
 preguntasAbiertas:
   - "¿Lo bajas tú o te lo baja el técnico? Lo que más interesa son los técnicos de sala contando cuánto bajan la etapa cuando el DJ va en rojo."
-relacionados: [limitador, calidad, mesas, cdjvinilo]
+relacionados: [limitador, calidad, mesas]
 cuentas:
   - { red: instagram, usuario: gustavobassanii, nombre: "Gustavo Bassani" }
 ---

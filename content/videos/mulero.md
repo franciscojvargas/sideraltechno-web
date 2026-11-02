@@ -78,7 +78,7 @@ noDicho:
 preguntasAbiertas:
   - "¿Dónde le oíste por primera vez? Los comentarios hablan de la Groove Parade, Florida 135 e Industrial Copera."
   - "Las fiestas en una sala de El Padul tras el cierre de la Copera de Armilla, con Mulero y Alan Fitzpatrick: un recuerdo del público que no tiene fuente todavía."
-relacionados: [florida, copera, nitsa]
+relacionados: [florida, copera]
 cuentas:
   - { red: instagram, usuario: oscarmulerooficial, nombre: "Óscar Mulero" }
 ---

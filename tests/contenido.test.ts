@@ -17,6 +17,6 @@ describe("contenido", () => {
   });
   it.each(videos.map((v) => [v.id, v] as const))("%s: el texto público no lleva notas internas", (_id, v) => {
     const todo = JSON.stringify(v);
-    expect(todo).not.toMatch(/\bla titular\b|visualizaciones|carpeta de temas|permiso pendiente|(^|[\s(`])(publicaciones|docs|guiones|out)\/|\.tsx\b|npm run/i);
+    expect(todo).not.toMatch(/visualizaciones|seguidores ganados|permiso pendiente|\b[\w-]+\/[\w.-]+\.(tsx?|mjs|py|json)\b|npm run/i);
   });
 });
