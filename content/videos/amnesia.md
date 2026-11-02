@@ -186,7 +186,7 @@ noDicho:
   - "El techo de la terraza (años noventa): solo se ve en el dibujo final."
 preguntasAbiertas:
   - "¿En qué año fue tu primera noche en Amnesia? Las primeras respuestas: 1999, 2001 y 2005."
-relacionados: [florida, metro, nitsa]
+relacionados: [florida, metro]
 cuentas:
   - { red: instagram, usuario: amnesiaibiza, nombre: "Amnesia Ibiza" }
 ---

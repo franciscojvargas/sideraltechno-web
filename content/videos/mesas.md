@@ -112,7 +112,7 @@ noDicho:
   - "Qué mesa concreta suena en la demostración: la saturación es una simulación genérica y exagerada; no imita a ninguna mesa."
 preguntasAbiertas:
   - "¿Qué mesa falta en el versus? En los comentarios salieron Rodec, Ecler, Formula Sound, Vestax, la Model 1 o la Xone:23."
-relacionados: [calidad, rojo, mezcla, cdjvinilo]
+relacionados: [calidad, rojo]
 cuentas:
   - { red: instagram, usuario: alphathetaglobal, nombre: "AlphaTheta / Pioneer DJ Global" }
   - { red: instagram, usuario: allenandheath, nombre: "Allen & Heath" }
