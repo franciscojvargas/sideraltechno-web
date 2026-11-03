@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "validar": "node scripts/validar.ts",
+    "publicar": "node scripts/publicar.ts",
     "prebuild": "node scripts/validar.ts",
     "build": "next build",
     "start": "next start",
