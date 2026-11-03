@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Video } from "@/lib/schema";
 
-export type VideoTarjeta = Pick<Video, "id" | "numero" | "titulo" | "estado">;
+export type VideoTarjeta = Pick<Video, "id" | "serie" | "titulo" | "estado">;
 
 export function Cuadricula({ videos }: { videos: VideoTarjeta[] }) {
   return (
@@ -20,7 +20,7 @@ export function Cuadricula({ videos }: { videos: VideoTarjeta[] }) {
               className="aspect-[9/16] h-auto w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.2,0.7,0.2,1)] group-hover:scale-[1.05]"
             />
             <span className="velo absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-carbon via-carbon/70 via-30% to-transparent to-65% p-4 sm:p-5">
-              <span className="etiqueta tabular-nums">{v.numero}{v.estado === "borrador" && ", borrador"}</span>
+              <span className="etiqueta">{[v.serie, v.estado === "borrador" && "borrador"].filter(Boolean).join(", ")}</span>
               <span className="titular mt-2 text-base leading-[1.08] sm:text-lg">{v.titulo}</span>
               <span className="regla mt-3 w-8" />
             </span>
