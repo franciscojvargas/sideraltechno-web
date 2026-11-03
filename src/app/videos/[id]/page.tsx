@@ -22,6 +22,9 @@ function columnasCifras(n: number) {
   return "sm:grid-cols-2";
 }
 
+// Se prerenderizan enteras (ensureStatic en el layout); no necesitan esqueleto de carga.
+export const instant = false;
+
 export function generateStaticParams() {
   return visibles().map((v) => ({ id: v.id }));
 }
@@ -113,14 +116,26 @@ export default async function PaginaVideo({ params }: PageProps<"/videos/[id]">)
     <article className="marco">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(datos) }} />
 
-      <nav aria-label="Migas" className="etiqueta pb-10 pt-4">
+      <nav aria-label="Migas" className="etiqueta pb-8 pt-6 sm:pb-10 sm:pt-4">
         <Link href="/" className="enlace">Vídeos</Link>
         <span className="px-2 text-gris-2">/</span>
         <span className="text-blanco/80">{v.serie ?? v.titulo}</span>
       </nav>
 
-      <div className="grid gap-12 lg:grid-cols-[minmax(17rem,26rem)_minmax(0,1fr)] lg:gap-20 xl:gap-28">
-        <div className="mx-auto w-full max-w-[24rem] lg:sticky lg:top-8 lg:mx-0 lg:max-w-none lg:self-start">
+      <div className="grid gap-10 sm:gap-12 lg:grid-cols-[minmax(17rem,26rem)_minmax(0,1fr)] lg:grid-rows-[auto_1fr] lg:gap-x-20 lg:gap-y-0 xl:gap-x-28">
+        <header className="min-w-0 lg:col-start-2 lg:row-start-1">
+          <p className="etiqueta flex flex-wrap gap-x-5 gap-y-2 tabular-nums">
+            {v.serie && <span>{v.serie}</span>}
+            {v.publicado && <time dateTime={fechaISO(v.publicado)}>{fechaLarga(v.publicado)}</time>}
+            {v.lugar && <span>{[v.lugar.municipio ?? v.lugar.nombre, v.lugar.provincia].filter(Boolean).join(", ")}</span>}
+            {v.estado === "borrador" && <span className="text-blanco/60">Borrador</span>}
+          </p>
+          <h1 className="titular mt-5 max-w-5xl text-[clamp(2.1rem,4.6vw,5.25rem)]">{v.titulo}</h1>
+          <span className="regla mt-7" />
+          <p className="mt-7 max-w-3xl text-lg leading-relaxed text-blanco/90 sm:mt-8 sm:text-xl">{v.resumen}</p>
+        </header>
+
+        <div className="mx-auto w-full max-w-[20rem] sm:max-w-[24rem] lg:sticky lg:top-28 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:mx-0 lg:max-w-none lg:self-start">
           {v.video ? (
             <video controls playsInline preload="none" poster={`/portadas/${v.id}.jpg`} className="aspect-[9/16] w-full rounded-sm bg-carbon-2" src={v.video}>
               Tu navegador no reproduce este vídeo. <a href={v.video}>Descárgalo</a>.
@@ -143,18 +158,8 @@ export default async function PaginaVideo({ params }: PageProps<"/videos/[id]">)
           {tt && <p className="mt-3 text-center text-xs text-gris">También en <a href={tt} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-blanco">TikTok</a></p>}
         </div>
 
-        <div className="min-w-0">
-          <p className="etiqueta flex flex-wrap gap-x-5 gap-y-2 tabular-nums">
-            {v.serie && <span>{v.serie}</span>}
-            {v.publicado && <time dateTime={fechaISO(v.publicado)}>{fechaLarga(v.publicado)}</time>}
-            {v.lugar && <span>{[v.lugar.municipio ?? v.lugar.nombre, v.lugar.provincia].filter(Boolean).join(", ")}</span>}
-            {v.estado === "borrador" && <span className="text-blanco/60">Borrador</span>}
-          </p>
-          <h1 className="titular mt-5 max-w-5xl text-[clamp(2.1rem,4.6vw,5.25rem)]">{v.titulo}</h1>
-          <span className="regla mt-7" />
-          <p className="mt-8 max-w-3xl text-xl leading-relaxed text-blanco/90">{v.resumen}</p>
-
-          <div className="mt-10">
+        <div className="min-w-0 lg:col-start-2 lg:row-start-2">
+          <div className="lg:mt-10">
             <Markdown texto={v.cuerpo} />
           </div>
 
@@ -162,7 +167,7 @@ export default async function PaginaVideo({ params }: PageProps<"/videos/[id]">)
             <section aria-label="Las cifras" className="mt-14">
               <ol className={`grid overflow-hidden rounded-sm border-l border-t border-linea ${columnasCifras(v.cifras.length)}`}>
                 {v.cifras.map((c, i) => (
-                  <li key={i} className="border-b border-r border-linea p-6 transition-colors duration-300 hover:bg-carbon-2">
+                  <li key={i} className="border-b border-r border-linea p-5 transition-colors duration-300 hover:bg-carbon-2 sm:p-6">
                     <p className="titular text-[clamp(1.8rem,3.2vw,2.6rem)]">{c.dato}</p>
                     <p className="mt-3 text-sm leading-relaxed text-blanco/85">{c.texto}</p>
                     <p className="mt-3 text-xs text-gris-2">
@@ -216,7 +221,7 @@ export default async function PaginaVideo({ params }: PageProps<"/videos/[id]">)
       </div>
 
       {mas.length > 0 && (
-        <section aria-labelledby="mas" className="mt-28">
+        <section aria-labelledby="mas" className="mt-20 sm:mt-28">
           <div className="mb-8 flex items-end justify-between gap-6 border-t border-linea pt-8">
             <h2 id="mas" className="etiqueta">Más vídeos</h2>
             <Link href="/#videos" className="etiqueta enlace text-blanco/80">Ver todos</Link>

@@ -6,7 +6,7 @@ export type VideoTarjeta = Pick<Video, "id" | "serie" | "titulo" | "estado">;
 
 export function Cuadricula({ videos }: { videos: VideoTarjeta[] }) {
   return (
-    <ul className="reja grid grid-cols-2 gap-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+    <ul className="reja grid grid-cols-2 gap-x-2 gap-y-1 sm:grid-cols-3 sm:gap-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
       {videos.map((v) => (
         <li key={v.id} className="celda">
           <Link href={`/videos/${v.id}`} className="group relative block overflow-hidden bg-carbon-2">
@@ -23,6 +23,10 @@ export function Cuadricula({ videos }: { videos: VideoTarjeta[] }) {
               <span className="etiqueta">{[v.serie, v.estado === "borrador" && "borrador"].filter(Boolean).join(", ")}</span>
               <span className="titular mt-2 text-base leading-[1.08] sm:text-lg">{v.titulo}</span>
               <span className="regla mt-3 w-8" />
+            </span>
+            <span className="rotulo flex-col gap-1.5 bg-carbon px-0.5 pb-4 pt-3" aria-hidden="true">
+              <span className="etiqueta">{[v.serie, v.estado === "borrador" && "borrador"].filter(Boolean).join(", ")}</span>
+              <span className="line-clamp-2 min-h-[2.5em] text-[0.8125rem] font-bold uppercase leading-[1.25]">{v.titulo}</span>
             </span>
           </Link>
         </li>

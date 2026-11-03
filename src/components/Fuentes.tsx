@@ -14,7 +14,7 @@ export function ListaFuentes({ fuentes, id = "fuentes" }: { fuentes: Fuente[]; i
   return (
     <ol className="grid border-b border-linea xl:grid-cols-2 xl:gap-x-12">
       {fuentes.map((f, i) => (
-        <li key={f.clave} id={`${id}-${f.clave}`} className="grid scroll-mt-8 grid-cols-[2.25rem_1fr] gap-3 border-t border-linea py-4 text-sm leading-relaxed">
+        <li key={f.clave} id={`${id}-${f.clave}`} className="grid scroll-mt-24 grid-cols-[2.25rem_1fr] gap-3 border-t border-linea py-4 text-sm leading-relaxed">
           <span className="tabular-nums text-gris-2">{String(i + 1).padStart(2, "0")}</span>
           <div className="min-w-0">
             <p className="flex flex-wrap gap-x-3">

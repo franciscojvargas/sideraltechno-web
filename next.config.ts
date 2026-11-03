@@ -53,6 +53,8 @@ const nextConfig: NextConfig = {
     return [
       { source: "/:path*", headers: seguridad },
       { source: "/portadas/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=604800, stale-while-revalidate=86400" }] },
+      // Imágenes públicas: los lectores RSS y las vistas previas de otras webs deben poder mostrarlas.
+      ...["/portadas/:path*", "/opengraph-image", "/:path*/opengraph-image"].map((source) => ({ source, headers: [{ key: "Cross-Origin-Resource-Policy", value: "cross-origin" }] })),
     ];
   },
 };

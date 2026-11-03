@@ -29,6 +29,8 @@
   html {
     background: var(--carbon);
     scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
@@ -225,6 +227,46 @@
   }
   .reja a:focus-visible .velo > * {
     transform: none;
+  }
+
+  .cabecera {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(11, 12, 12, 0.88);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid var(--linea);
+    padding-top: max(0.75rem, env(safe-area-inset-top));
+  }
+
+  .reja .rotulo {
+    display: none;
+  }
+
+  /* Sin hover: número y título van bajo la portada y los toques tienen respuesta visual. */
+  @media (hover: none), (pointer: coarse) {
+    .reja .velo {
+      display: none;
+    }
+    .reja .rotulo {
+      display: flex;
+    }
+    .boton,
+    .boton-secundario,
+    .red,
+    .reja a {
+      transition-property: background-color, color, border-color, transform, opacity;
+    }
+    .boton:active,
+    .boton-secundario:active,
+    .red:active {
+      transform: scale(0.97);
+      opacity: 0.85;
+    }
+    .reja a:active {
+      opacity: 0.7;
+    }
   }
 
   @media (hover: hover) and (pointer: fine) {

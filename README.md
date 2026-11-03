@@ -15,7 +15,7 @@ Esta web es su archivo: cada vídeo tiene su página con un texto breve, las cif
 
 ## ¿Un dato mal o una fuente mejor?
 
-Escríbenos a **[sideraltechno2026@gmail.com](mailto:sideraltechno2026@gmail.com)**. Cada página de vídeo tiene un enlace que abre el correo con el asunto ya escrito.
+Escríbenos a **[admin@sideraltechno.com](mailto:admin@sideraltechno.com)**. Cada página de vídeo tiene un enlace que abre el correo con el asunto ya escrito.
 
 ## Cómo está hecha
 
