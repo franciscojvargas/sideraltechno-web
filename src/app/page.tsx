@@ -11,10 +11,10 @@ export default function Inicio() {
   const [ultimo] = videos;
   const buscables = videos.map((v) => ({
     id: v.id,
-    numero: v.numero,
+    serie: v.serie,
     titulo: v.titulo,
     estado: v.estado,
-    texto: palabrasUnicas([v.numero, v.titulo, v.resumen, v.serie, v.etiquetas.join(" "), v.lugar?.nombre, v.lugar?.municipio, v.lugar?.provincia, v.cuerpoPlano].filter(Boolean).join(" ")),
+    texto: palabrasUnicas([v.titulo, v.resumen, v.serie, v.etiquetas.join(" "), v.lugar?.nombre, v.lugar?.municipio, v.lugar?.provincia, v.cuerpoPlano].filter(Boolean).join(" ")),
   }));
 
   const datos = {
