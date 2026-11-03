@@ -63,7 +63,6 @@ export const CreditosSchema = z.object({
 
 export const VideoFrontmatterSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+$/),
-  /** Solo ordena: la web no lo muestra (los vídeos ya no llevan número). */
   numero: z.string().regex(/^\d{3}$/),
   titulo: z.string().min(1),
   gancho: z.string().optional(),
