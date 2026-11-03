@@ -119,13 +119,13 @@ export default async function PaginaVideo({ params }: PageProps<"/videos/[id]">)
       <nav aria-label="Migas" className="etiqueta pb-8 pt-6 sm:pb-10 sm:pt-4">
         <Link href="/" className="enlace">Vídeos</Link>
         <span className="px-2 text-gris-2">/</span>
-        <span className="tabular-nums text-blanco/80">{v.numero}</span>
+        <span className="text-blanco/80">{v.serie ?? v.titulo}</span>
       </nav>
 
       <div className="grid gap-10 sm:gap-12 lg:grid-cols-[minmax(17rem,26rem)_minmax(0,1fr)] lg:grid-rows-[auto_1fr] lg:gap-x-20 lg:gap-y-0 xl:gap-x-28">
         <header className="min-w-0 lg:col-start-2 lg:row-start-1">
           <p className="etiqueta flex flex-wrap gap-x-5 gap-y-2 tabular-nums">
-            <span>{v.numero}</span>
+            {v.serie && <span>{v.serie}</span>}
             {v.publicado && <time dateTime={fechaISO(v.publicado)}>{fechaLarga(v.publicado)}</time>}
             {v.lugar && <span>{[v.lugar.municipio ?? v.lugar.nombre, v.lugar.provincia].filter(Boolean).join(", ")}</span>}
             {v.estado === "borrador" && <span className="text-blanco/60">Borrador</span>}
