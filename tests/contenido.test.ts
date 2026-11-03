@@ -10,6 +10,10 @@ describe("contenido", () => {
   it("los números son únicos", () => {
     expect(new Set(videos.map((v) => v.numero)).size).toBe(videos.length);
   });
+  it("se ordenan por fecha de publicación, lo último primero", () => {
+    const fechas = videos.filter((v) => v.publicado).map((v) => v.publicado!);
+    expect(fechas).toEqual([...fechas].sort().reverse());
+  });
   it.each(videos.map((v) => [v.id, v] as const))("%s: cada cifra tiene fuente y cada publicado su enlace", (_id, v) => {
     for (const c of v.cifras) expect(c.fuentes.length).toBeGreaterThan(0);
     if (v.estado === "publicado") expect(v.instagram ?? v.tiktok).toBeTruthy();

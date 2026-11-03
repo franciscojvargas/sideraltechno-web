@@ -67,7 +67,8 @@ export function todosLosVideos(): Video[] {
       if (c.video && !ids.has(c.video)) throw new ErrorContenido(`${v.id}.md`, `corrección que apunta a un vídeo que no existe: ${c.video}`);
     }
   }
-  videos.sort((a, b) => b.numero.localeCompare(a.numero));
+  // Lo último publicado, primero; los borradores (sin fecha) encima. El mismo día, por número de producción.
+  videos.sort((a, b) => (b.publicado ?? "9999").localeCompare(a.publicado ?? "9999") || b.numero.localeCompare(a.numero));
   cache = videos;
   return videos;
 }
