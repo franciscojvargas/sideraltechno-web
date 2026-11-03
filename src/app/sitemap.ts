@@ -5,7 +5,8 @@ import { SITIO } from "@/lib/sitio";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const videos = videosPublicados();
-  const ultima = fechaISO(videos[0]?.actualizado ?? videos[0]?.publicado);
+  // La portada cambia con cualquier vídeo nuevo o corregido, no solo con el último publicado.
+  const ultima = fechaISO(videos.map((v) => v.actualizado ?? v.publicado ?? "").sort().at(-1));
   return [
     { url: SITIO.url, lastModified: ultima, changeFrequency: "weekly", priority: 1 },
     ...videos.map((v) => ({
