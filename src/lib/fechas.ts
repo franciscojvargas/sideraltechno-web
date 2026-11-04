@@ -1,11 +1,20 @@
-const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+import type { Idioma } from "./idiomas";
 
-export function fechaLarga(f?: string): string {
+const MESES: Record<Idioma, string[]> = {
+  es: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"],
+  en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+};
+
+const FORMATO: Record<Idioma, (a: number, mes: string, d?: number) => string> = {
+  es: (a, mes, d) => (d ? `${d} de ${mes} de ${a}` : `${mes} de ${a}`),
+  en: (a, mes, d) => (d ? `${d} ${mes} ${a}` : `${mes} ${a}`),
+};
+
+export function fechaLarga(f?: string, idioma: Idioma = "es"): string {
   if (!f) return "";
   const [a, m, d] = f.split("-").map(Number);
-  if (d) return `${d} de ${MESES[m - 1]} de ${a}`;
-  if (m) return `${MESES[m - 1]} de ${a}`;
-  return String(a);
+  if (!m) return String(a);
+  return FORMATO[idioma](a, MESES[idioma][m - 1], d);
 }
 
 export function fechaCorta(f?: string): string {
