@@ -60,7 +60,7 @@ fuentes:
   - clave: pioneer-djm900nxs2
     medio: Pioneer DJ
     titulo: "DJM-900NXS2, ficha de producto"
-    url: https://www.pioneerdj.com/en/product/mixer/djm-900nxs2/black/overview/
+    url: https://www.pioneerdj.com/en/product/dj-mixers/djm-900nxs2/
     tipo: oficial
     sostiene: "Que la DJM-900NXS2 es digital, de 4 canales, con un procesador de 96 kHz/64 bit, y que la marca la vende con «un sonido analógico, cálido y natural» (la cita del plano «ni mejor ni fría»)."
     cita: "A studio-quality, 96 kHz/64-bit digital signal processor […] to deliver a warm, natural analog sound"
@@ -68,7 +68,7 @@ fuentes:
   - clave: pioneer-djma9
     medio: Pioneer DJ
     titulo: "DJM-A9, ficha de producto"
-    url: https://www.pioneerdj.com/en/product/mixer/djm-a9/black/overview/
+    url: https://www.pioneerdj.com/en/product/dj-mixers/djm-a9/
     tipo: oficial
     sostiene: "Que la DJM-A9 es de 4 canales y convierte la señal en datos con un conversor A/D de 32 bit en la entrada, y la vuelve a sonido con conversores D/A en las salidas."
     cita: "ESS Technology 32-bit high-quality A/D converter"
@@ -76,7 +76,7 @@ fuentes:
   - clave: pioneer-djmv10
     medio: Pioneer DJ
     titulo: "DJM-V10, ficha de producto"
-    url: https://www.pioneerdj.com/en/product/mixer/djm-v10/black/overview/
+    url: https://www.pioneerdj.com/en/product/dj-mixers/djm-v10/
     tipo: oficial
     sostiene: "Que la DJM-V10 es digital, de 6 canales, con mezcla a 64 bit y conversores A/D y D/A de 32 bit."
     cita: "64-bit mixing and dithering processing, 32-bit high-quality A/D and D/A converters"

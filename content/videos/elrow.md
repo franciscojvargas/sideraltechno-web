@@ -56,7 +56,7 @@ fuentes:
   - clave: elrow-historia
     medio: elrow.com
     titulo: "Historia de elrow"
-    url: https://www.elrow.com/es/history
+    url: https://elrow.com/es/who-we-are/history
     tipo: oficial
     sostiene: "Que elrow lo fundaron en 2010 Cruz y Juan Arnau y que nace de la familia Arnau de Fraga. La web salta de 1993 a 2010: lo de Row y Row 14 está en la prensa que la propia marca republica."
     cita: "Fundada en 2010 por Cruz y Juan Arnau"
@@ -81,7 +81,7 @@ fuentes:
     medio: Metrópoli Abierta
     titulo: "elrow: de una rave en Viladecans a macrofestival mundial"
     fecha: 2022-03-14
-    url: https://metropoliabierta.elespanol.com/vivir-en-barcelona/elrow-rave-viladecans-macrofestival-mundial_50740_102.html
+    url: https://metropoliabierta.elespanol.com/vivir-en-barcelona/20220313/elrow-de-una-rave-en-viladecans-un-macrofestival-mundial-made-in-barcelona/656934372_0.html
     tipo: prensa
     sostiene: "Row en 2001 en la calle Rosselló; la antigua granja de Viladecans abierta en mayo de 2008 como Row 14; las sesiones matutinas de los domingos de 2010; el cierre por las autoridades en noviembre de 2012. Republicado en elrow.com."
     cita: "En 2001 empezó como un local llamado Row en la calle de Rosselló"

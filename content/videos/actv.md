@@ -23,7 +23,7 @@ lugar:
 etiquetas: [actv, termas victoria, akuarela playa, malvarrosa, cabanyal, valència, ruta del bakalao, julio andújar, quique company, casablanca, balneario, años 80]
 guion:
   - { clave: gancho, texto: "ACTV: ¿una discoteca de la Ruta dentro de un balneario?" }
-  - { clave: bucle, texto: "¡Sí! En la Malvarrosa, en Valencia. Ni más ni menos que ACTV." }
+  - { clave: bucle, texto: "Sí. En la Malvarrosa, en Valencia. Ni más ni menos que ACTV." }
   - { clave: termas, texto: "Pero antes fue un balneario: las Termas Victoria. Baños de mar calientes, para la burguesía." }
   - { clave: pabellon, texto: "Un pabellón de 1918 a pie de playa, cuando aún no existía ni el paseo." }
   - { clave: reina, texto: "Su nombre, por la reina Victoria Eugenia. Y su rótulo de hierro aún se ve desde la calle." }

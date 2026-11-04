@@ -59,7 +59,6 @@ fuentes:
   - clave: amnesia-historia
     medio: amnesia.es
     titulo: "History · About us · DJ Alfredo, the man who gave sound to the soul of Ibiza"
-    url: https://www.amnesia.es/en/history
     tipo: oficial
     sostiene: "La terraza al aire libre («a real, open-air terrace»); Alfredo, residente desde 1984; el viaje de los cuatro DJs de Londres en 1987; 1988 y 1989 como «the years dubbed the Second Summer of Love»; el 50 aniversario («50 years dancing in freedom»; «the essence and message endure: dance and forget everything»); la dirección, «Carretera Ibiza a San Antonio Km5 San Rafael»; la frase con la que recuerda a Alfredo."
     cita: "dance and forget everything"

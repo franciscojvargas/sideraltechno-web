@@ -47,7 +47,7 @@ fuentes:
     fecha: 2016
     url: https://it.ra.co/reviews/19037
     tipo: prensa
-    sostiene: "Que en la DJM-900NXS2 los LED de CLIP están separados de los segmentos rojos del medidor y que, si se enciende el CLIP, hay distorsión y ningún limitador interno lo arregla. Vale solo para ese modelo; por eso no se dijo en voz."
+    sostiene: "Que en la DJM-900NXS2 los LED de CLIP están separados de los segmentos rojos del medidor y que, si se enciende el CLIP, hay distorsión y ningún limitador interno lo arregla. Vale solo para ese modelo."
     cita: "if the Clip LED is lit you're distorting, and no in-house limiter can save you"
     consultada: 2026-10-26
   - clave: digitaldjtips
@@ -76,7 +76,7 @@ fuentes:
   - clave: serato-soporte
     medio: Soporte de Serato
     tipo: oficial
-    sostiene: "Que en Serato el rojo del medidor es su propio limitador: por encima de +3 dB actúa y la salida no sube. Es el matiz de que el sentido del rojo cambia según el equipo; no se dijo en voz, quedó para la descripción y los comentarios."
+    sostiene: "Que en Serato el rojo del medidor es su propio limitador: por encima de +3 dB actúa y la salida no sube. Es el matiz de que el sentido del rojo cambia según el equipo."
     consultada: 2026-10-26
   - clave: oms-2022
     medio: OMS (Organización Mundial de la Salud)
@@ -84,7 +84,7 @@ fuentes:
     fecha: 2022
     url: https://www.who.int/publications/i/item/9789240043114
     tipo: oficial
-    sostiene: "El limitador de sala y la referencia de 100 dB de media, contados en el dato 003. Aquí solo sostiene que el limitador baja la etapa cuando la sala pasa del límite."
+    sostiene: "El limitador de sala y la referencia de 100 dB de media, contados en el vídeo del limitador. Aquí solo sostiene que el limitador baja la etapa cuando la sala pasa del límite."
     consultada: 2026-10
 creditos:
   imagenes:
@@ -95,7 +95,7 @@ creditos:
   musica: "«Sauna», Gustavo Bassani (Domme Sesh EP); en el plano del clipping suena recortada a propósito."
 correcciones: []
 noDicho:
-  - "«En una Pioneer, el rojo avisa; la luz CLIP ya es distorsión»: era un dato de un modelo (la DJM-900NXS2) dicho de toda la marca. En voz solo lo que vale para todos los equipos, «la mesa te avisa con el indicador de volumen»."
+  - "«En una Pioneer, el rojo avisa; la luz CLIP ya es distorsión»: era un dato de un modelo (la DJM-900NXS2) dicho de toda la marca. El vídeo dice solo lo que vale para todos los equipos: «la mesa te avisa con el indicador de volumen»."
   - "Que pinchar en rojo «quema los altavoces» (bobinas, calor): solo lo dice un blog sin credenciales de técnico. Sin fuente de fabricante, no se dice."
   - "Midnight Rebels («the house limiters simply hold the volume static while the audio signal itself is flattened»): blog sin autoría técnica, solo de apoyo; no se cita."
   - "Los «19 dB de headroom» de las Pioneer que circulan en foros: no es oficial; el manual habla de picos a 0 dB."

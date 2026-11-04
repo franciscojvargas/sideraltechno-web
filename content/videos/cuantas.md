@@ -34,7 +34,7 @@ cifras:
     fuentes: [breso-2019, telecinco, thomann]
     matiz: "Son exactamente las nueve que el archivo de Vicente Bresó llama «Discotecas más famosas de la Ruta». No es una lista oficial."
   - dato: "Más de 30"
-    texto: "Los clubes que nos nombrasteis en los comentarios de los vídeos 002 y 005 y que no salían en ninguno."
+    texto: "Los clubes que nos nombrasteis en los comentarios de los vídeos sobre la Ruta y sobre su carretera y que no salían en ninguno."
     fuentes: [comentarios]
     matiz: "Recuento propio del 24 de octubre de 2026: 36 nombres; 34 sin los dos dudosos («la Catedral» y «By The Face»). Los comentarios no son una encuesta."
   - dato: "Más de 150"
@@ -53,7 +53,7 @@ fuentes:
     cita: "otras muchas discotecas y salas se consideraron una «extensión» de la Ruta en las diferentes localidades del resto de la provincia de Valencia en los 80 y 90"
     consultada: 2026-10-24
   - clave: comentarios
-    medio: Comentarios de los reels 002 y 005 de @sideral_techno
+    medio: Comentarios de los reels de @sideral_techno sobre la Ruta del Bakalao
     tipo: comentarios
     sostiene: "Los más de 30 clubes que no salían (recuento propio: 36 nombres, 34 sin los dudosos), El Torero y Límite Local como los más nombrados (9 personas distintas cada uno), «más corto que las mangas de un chaleco» y «como la paella»."
     consultada: 2026-10-24

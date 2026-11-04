@@ -46,7 +46,7 @@ cifras:
   - dato: "1993"
     texto: "La misma familia organiza una fiesta en el desierto de Los Monegros. Es el origen del Monegros Desert Festival."
     fuentes: [heraldo-2017, elespanol-2017, elrow-historia]
-    matiz: "La web del Florida (f135.com) habla de 1992 y Wikipedia en español de 1994. El vídeo 011 sobre Monegros cuenta la discrepancia sin afirmar el año."
+    matiz: "La web del Florida (f135.com) habla de 1992 y Wikipedia en español de 1994. El vídeo sobre Monegros cuenta la discrepancia sin afirmar el año."
   - dato: "Más de ocho décadas"
     texto: "En 2026 el club sigue abriendo una noche al mes, con la temporada que arrancó el 19 de septiembre."
     fuentes: [vicious-2026, bajocinca-2026]
@@ -86,7 +86,7 @@ fuentes:
   - clave: elrow-historia
     medio: elrow.com
     titulo: "Historia de elrow"
-    url: https://www.elrow.com/es/history
+    url: https://elrow.com/es/who-we-are/history
     tipo: oficial
     sostiene: "La llegada de Juan Arnau y Francisca Ibarz a Fraga desde Aitona y la fundación del cine Florida; la muerte del fundador un día antes de la actuación de Cugat; la fiesta de 1993 en el desierto; que elrow nace de la familia Arnau."
     cita: "llegaron a Fraga desde Aitona, fundando el cine Florida"

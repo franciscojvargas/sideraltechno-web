@@ -98,7 +98,7 @@ fuentes:
   - clave: elrow-historia
     medio: elrow.com
     titulo: "Historia de elrow"
-    url: https://www.elrow.com/es/history
+    url: https://elrow.com/es/who-we-are/history
     tipo: oficial
     sostiene: "La fiesta en el desierto de 1993 y que Juan Arnau Jr. y Cruz Arnau son hijos de Juan Arnau Durán y María Cruz Lasierra."
     consultada: 2026-10-27
@@ -156,7 +156,7 @@ fuentes:
     medio: Nueva Tribuna
     titulo: "elrow: linaje familiar e historia de la música electrónica en España"
     fecha: 2025-07-10
-    url: https://www.nuevatribuna.es/articulo/cultura---ocio/elrow-linaje-familiar-historia-musica-electronica-espana/20250710183152240320.html
+    url: https://www.nuevatribuna.es/cultura---ocio/elrow-linaje-familiar-historia-musica-electronica-espana/20250710183152240320.html
     tipo: prensa
     sostiene: "La finca familiar perdida por el tatarabuelo en una partida de cartas."
     consultada: 2026-10-27
