@@ -50,7 +50,7 @@ noDicho:
   - "Los artículos concretos de la ordenanza de Madrid, el Decret 176/2009 de Cataluña y el Decreto 6/2012 de Andalucía sobre el limitador: las normas existen, pero no se pudo leer el artículo. Se dijo solo que los límites dependen de cada comunidad y cada ayuntamiento."
   - "Qué marca o modelo de limitador llevan las salas: sin fuente, no se dice."
 preguntasAbiertas:
-  - "¿En qué sala te ha saltado el limitador? El cierre lo preguntaba y nadie contestó: es el dato que falta."
+  - "¿En qué sala te ha saltado el limitador? Es el dato que falta."
 relacionados: [oido, rojo, bombo]
 cuentas: []
 ---

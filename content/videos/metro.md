@@ -139,7 +139,7 @@ fuentes:
     medio: OpenStreetMap
     titulo: "Metro Dance Club (way 683530501, amenity=nightclub)"
     tipo: mapa
-    sostiene: "La ubicación del club junto al vial que OSM llama «Carretera Bigastro - Rojales» (38,0621 N, −0,8825 E); el club pone «Carretera de Bigastro a Jacarilla, km 0,6». El plano de la Vega Baja (el Segura, Orihuela, Bigastro, Jacarilla) y el camino del pueblo al club."
+    sostiene: "La ubicación del club junto al vial que OSM llama «Carretera Bigastro - Rojales» (38,0621 N, 0,8825 O); el club pone «Carretera de Bigastro a Jacarilla, km 0,6». El plano de la Vega Baja (el Segura, Orihuela, Bigastro, Jacarilla) y el camino del pueblo al club."
     consultada: 2026-10-28
   - clave: comentarios-ig
     medio: Comentarios del reel en Instagram
@@ -167,7 +167,7 @@ noDicho:
   - "Qué es Original Club: lo explicaba la convocatoria de 2019, no la de 2026; va en la descripción como «según la convocatoria de 2019», no en voz."
   - "Si el club está en término municipal de Orihuela y no de Bigastro, como dijo un comentario: el club pone «Carretera de Bigastro a Jacarilla, 03380» (código postal de Bigastro). No se discute; se anota."
 preguntasAbiertas:
-  - "¿En qué año fue tu primera noche en Metro Dance Club? En 24 horas el público dijo 1987, 1988, 1991, 1992, 1993, 1994, 1995, 1997, 1998, 1999, 2005, 2006 y 2012."
+  - "¿En qué año fue tu primera noche en Metro Dance Club? En los comentarios salieron 1987, 1988, 1991, 1992, 1993, 1994, 1995, 1997, 1998, 1999, 2005, 2006 y 2012."
   - "El primer logo, «el león de la Metro» según Navarrete: no hemos visto ese dibujo. Si el club lo conserva, sería la imagen de ese plano."
   - "Fotos del tercer aniversario, la entrada de la Nochevieja de 1994-95 y las pulseras guardadas desde 2005 que varias personas dicen conservar."
 relacionados: [florida, barraca, masia]

@@ -95,7 +95,7 @@ fuentes:
     sostiene: "Los mapas de España (L'Hospitalet a Granada) y de la Vega de Granada (Armilla a La Zubia). Armilla y La Zubia se dibujan como municipio, no como punto exacto de cada nave."
 creditos:
   imagenes:
-    - "Con permiso de Industrial Copera, en blanco y negro y sin personas: el neón con el nombre (Rockdelux / Primavera Sound), la sala (Beatburguer), la nave de La Zubia (ArchDaily; fotos del proyecto de Tomás García Píriz) y la pantalla del 30 aniversario (Wololo Sound)."
+    - "Cortesía de Industrial Copera, en blanco y negro y sin personas: el neón con el nombre (Rockdelux / Primavera Sound), la sala (Beatburguer), la nave de La Zubia (ArchDaily; fotos del proyecto de Tomás García Píriz) y la pantalla del 30 aniversario (Wololo Sound)."
   mapa: "Mapas: © colaboradores de OpenStreetMap (ODbL), Natural Earth. Las viviendas alrededor de Armilla son una ilustración rotulada como tal."
   musica: "Pista y efectos sintetizados para el vídeo."
 correcciones: []

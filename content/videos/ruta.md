@@ -82,7 +82,7 @@ creditos:
 correcciones:
   - fecha: 2026-10-23
     error: "«Discotecas a pie de carretera» y «nueve en total»: Espiral (La Eliana) y NOD (Riba-roja de Túria) estaban tierra adentro, ACTV en la playa de la Malvarrosa, y la lista de nueve no es oficial. El mapa ubicaba solo tres clubes y la lista mostraba nueve."
-    correccion: "Un vídeo propio, el 005, con el mapa de los dos clubes del interior, el recorrido de la carretera de norte a sur y la frase «esa lista no es oficial». En el 002 quedó un comentario que apunta al nuevo."
+    correccion: "Un vídeo propio, «¿Estaba toda la Ruta del Bakalao en una sola carretera?», con el mapa de los dos clubes del interior, el recorrido de la carretera de norte a sur y la frase «esa lista no es oficial». En este vídeo quedó un comentario que apunta al nuevo."
     video: correccion
     origen: "comentarios del propio reel, leídos a las 20 horas de publicarlo"
   - fecha: 2026-11-01
