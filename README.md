@@ -25,10 +25,17 @@ Una web estática con [Next.js](https://nextjs.org) y [Tailwind CSS](https://tai
 content/videos/   un fichero Markdown por vídeo: datos, cifras, fuentes y texto
 public/portadas/  la portada de cada vídeo
 src/              la web
+src/lib/textos.ts los textos de la interfaz en cada idioma
 tests/            pruebas del contenido y del repositorio
 ```
 
 El esquema de `src/lib/schema.ts` valida cada ficha al compilar: una cifra sin fuente o una fecha mal escrita impiden publicar.
+
+### Idiomas
+
+La web se lee en español (`/`) y en inglés (`/en`). Las fichas de los vídeos son las mismas en los dos casos y están en español;
+lo que cambia es la interfaz, los metadatos y las imágenes para redes. Cada página declara sus alternativas (`hreflang`) y el sitemap también.
+Para añadir un idioma: una entrada en `IDIOMAS` (`src/lib/idiomas.ts`) y su diccionario en `src/lib/textos.ts`. Las pruebas comprueban que no falte ninguna clave.
 
 ```bash
 npm install

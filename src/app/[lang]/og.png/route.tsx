@@ -1,12 +1,18 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ImageResponse } from "next/og";
+import { IDIOMAS, esIdioma } from "@/lib/idiomas";
+import { TEXTOS } from "@/lib/textos";
 
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
-export const alt = "Sideral Techno, cultura techno en vídeos cortos";
+// Route handler y no opengraph-image: así no se inyecta en las páginas con la ruta interna /es/… y cada página declara su URL pública.
+export function generateStaticParams() {
+  return IDIOMAS.map((lang) => ({ lang }));
+}
 
-export default function Imagen() {
+export async function GET(_peticion: Request, { params }: RouteContext<"/[lang]/og.png">) {
+  const { lang } = await params;
+  if (!esIdioma(lang)) return new Response(null, { status: 404 });
+  const t = TEXTOS[lang].imagen;
   const bold = fs.readFileSync(path.join(process.cwd(), "src", "fuentes", "arimo-700.woff"));
   return new ImageResponse(
     (
@@ -18,9 +24,9 @@ export default function Imagen() {
           </div>
           <div style={{ width: 120, height: 9, background: "#FF2C1C", marginTop: 26 }} />
         </div>
-        <div style={{ fontSize: 30, color: "#8E908A", textTransform: "uppercase", letterSpacing: 4 }}>Cultura techno. Cada dato, con su fuente.</div>
+        <div style={{ fontSize: 30, color: "#8E908A", textTransform: "uppercase", letterSpacing: 4 }}>{t.lema}</div>
       </div>
     ),
-    { ...size, fonts: [{ name: "Arimo", data: bold, weight: 700, style: "normal" }] },
+    { width: 1200, height: 630, fonts: [{ name: "Arimo", data: bold, weight: 700, style: "normal" }] },
   );
 }

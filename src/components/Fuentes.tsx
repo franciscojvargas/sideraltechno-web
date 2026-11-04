@@ -1,5 +1,6 @@
 import type { Fuente } from "@/lib/schema";
 import { fechaLarga } from "@/lib/fechas";
+import type { Idioma } from "@/lib/idiomas";
 
 export function dominio(url?: string): string | undefined {
   if (!url) return undefined;
@@ -10,7 +11,7 @@ export function dominio(url?: string): string | undefined {
   }
 }
 
-export function ListaFuentes({ fuentes, id = "fuentes" }: { fuentes: Fuente[]; id?: string }) {
+export function ListaFuentes({ fuentes, id = "fuentes", idioma = "es" }: { fuentes: Fuente[]; id?: string; idioma?: Idioma }) {
   return (
     <ol className="grid border-b border-linea xl:grid-cols-2 xl:gap-x-12">
       {fuentes.map((f, i) => (
@@ -19,7 +20,7 @@ export function ListaFuentes({ fuentes, id = "fuentes" }: { fuentes: Fuente[]; i
           <div className="min-w-0">
             <p className="flex flex-wrap gap-x-3">
               <span className="font-bold">{f.medio}</span>
-              {f.fecha && <span className="text-gris">{fechaLarga(f.fecha)}</span>}
+              {f.fecha && <span className="text-gris" lang={idioma}>{fechaLarga(f.fecha, idioma)}</span>}
             </p>
             {f.titulo && <p className="mt-0.5 text-gris">{f.titulo}</p>}
             {f.url && (
