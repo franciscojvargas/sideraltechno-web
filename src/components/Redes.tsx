@@ -1,4 +1,6 @@
+import { idiomaActual } from "@/lib/idioma-actual";
 import { SITIO } from "@/lib/sitio";
+import { TEXTOS } from "@/lib/textos";
 
 export function IconoInstagram({ className = "h-4 w-4" }: { className?: string }) {
   return (
@@ -18,16 +20,18 @@ export function IconoTiktok({ className = "h-4 w-4" }: { className?: string }) {
   );
 }
 
-export function SeguirInstagram({ secundario = false, className = "" }: { secundario?: boolean; className?: string }) {
+export async function SeguirInstagram({ secundario = false, className = "" }: { secundario?: boolean; className?: string }) {
+  const t = TEXTOS[await idiomaActual()];
   return (
     <a href={SITIO.instagram} target="_blank" rel="me noopener noreferrer" className={`${secundario ? "boton-secundario" : "boton"} ${className}`}>
       <IconoInstagram />
-      Seguir en Instagram
+      {t.seguir}
     </a>
   );
 }
 
-export function Redes({ className = "" }: { className?: string }) {
+export async function Redes({ className = "" }: { className?: string }) {
+  const t = TEXTOS[await idiomaActual()];
   const enlaces = [
     { href: SITIO.instagram, nombre: "Instagram", icono: <IconoInstagram className="h-[18px] w-[18px]" /> },
     { href: SITIO.tiktok, nombre: "TikTok", icono: <IconoTiktok className="h-[17px] w-[17px]" /> },
@@ -36,7 +40,7 @@ export function Redes({ className = "" }: { className?: string }) {
     <ul className={`flex items-center gap-1 sm:gap-2 ${className}`}>
       {enlaces.map((e) => (
         <li key={e.nombre}>
-          <a href={e.href} target="_blank" rel="me noopener noreferrer" aria-label={`${SITIO.nombre} en ${e.nombre}`} title={e.nombre} className="red">
+          <a href={e.href} target="_blank" rel="me noopener noreferrer" aria-label={t.enRed(e.nombre)} title={e.nombre} className="red">
             {e.icono}
           </a>
         </li>

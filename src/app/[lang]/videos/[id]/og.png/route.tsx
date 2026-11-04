@@ -1,25 +1,25 @@
 import fs from "node:fs";
 import path from "node:path";
-import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
 import { todosLosVideos, videoPorId, videosPublicados } from "@/lib/content";
+import { IDIOMAS, esIdioma } from "@/lib/idiomas";
 import { MOSTRAR_BORRADORES } from "@/lib/sitio";
+import { TEXTOS } from "@/lib/textos";
 
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
-export const alt = "Sideral Techno";
-
+// Route handler y no opengraph-image, por lo mismo que en ../../og.png/route.tsx.
 export function generateStaticParams() {
-  return (MOSTRAR_BORRADORES ? todosLosVideos() : videosPublicados()).map((v) => ({ id: v.id }));
+  const videos = MOSTRAR_BORRADORES ? todosLosVideos() : videosPublicados();
+  return IDIOMAS.flatMap((lang) => videos.map((v) => ({ lang, id: v.id })));
 }
 
-export default async function Imagen({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export async function GET(_peticion: Request, { params }: RouteContext<"/[lang]/videos/[id]/og.png">) {
+  const { lang, id } = await params;
   const v = videoPorId(id);
   // El id llega de la URL: sin vídeo visible no se toca el disco.
-  if (!v || (v.estado !== "publicado" && !MOSTRAR_BORRADORES)) notFound();
+  if (!esIdioma(lang) || !v || (v.estado !== "publicado" && !MOSTRAR_BORRADORES)) return new Response(null, { status: 404 });
+  const t = TEXTOS[lang].imagen;
   const titulo = v.titulo;
-  const portada = `data:image/jpeg;base64,${fs.readFileSync(path.join(process.cwd(), "public", "portadas", `${id}.jpg`)).toString("base64")}`;
+  const portada = `data:image/jpeg;base64,${fs.readFileSync(path.join(process.cwd(), "public", "portadas", `${v.id}.jpg`)).toString("base64")}`;
   const bold = fs.readFileSync(path.join(process.cwd(), "src", "fuentes", "arimo-700.woff"));
   const regular = fs.readFileSync(path.join(process.cwd(), "src", "fuentes", "arimo-400.woff"));
 
@@ -37,16 +37,18 @@ export default async function Imagen({ params }: { params: Promise<{ id: string 
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 18, letterSpacing: 3, textTransform: "uppercase", color: "#8E908A", marginBottom: 18 }}>{v.serie}</div>
             <div style={{ fontSize: titulo.length > 60 ? 48 : 58, fontWeight: 700, lineHeight: 1.02, textTransform: "uppercase", letterSpacing: -1 }}>{titulo}</div>
-            <div style={{ fontSize: 18, color: "#8E908A", marginTop: 24, letterSpacing: 2, textTransform: "uppercase" }}>Míralo en Instagram: @sideral_techno</div>
+            <div style={{ fontSize: 18, color: "#8E908A", marginTop: 24, letterSpacing: 2, textTransform: "uppercase" }}>{t.miralo}</div>
           </div>
         </div>
         <div style={{ display: "flex", width: 380, height: 630, overflow: "hidden" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element -- Satori no usa next/image */}
           <img src={portada} alt="" width={380} height={676} style={{ objectFit: "cover", width: 380, height: 630 }} />
         </div>
       </div>
     ),
     {
-      ...size,
+      width: 1200,
+      height: 630,
       fonts: [
         { name: "Arimo", data: bold, weight: 700, style: "normal" },
         { name: "Arimo", data: regular, weight: 400, style: "normal" },
