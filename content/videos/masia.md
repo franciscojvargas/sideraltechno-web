@@ -24,11 +24,11 @@ etiquetas: [masía, masia, segorbe, sot de ferrer, castellón, alto palancia, xi
 guion:
   - { clave: gancho, texto: "¿Cuántos años tiene Masía realmente?" }
   - { clave: treinta, texto: "Este año celebró treinta y cinco: cuenta desde 1991." }
-  - { clave: fecha, texto: "Pero un seguidor, Llop, guarda esta entrada. Sellada el 17 de julio de 1987." }
+  - { clave: fecha, texto: "Pero un seguidor guarda esta entrada. Sellada el 17 de julio de 1987." }
   - { clave: verano, texto: "Antes, en el mismo sitio, estaba La Masía: discoteca de verano, con pista al aire libre." }
   - { clave: mapa, texto: "Trae un mapa dibujado a mano." }
   - { clave: lugar, texto: "En Segorbe, junto a Sot de Ferrer, en Castellón." }
-  - { clave: puerta, texto: "Llop lo recuerda así: entrabas por la puerta pequeña del dibujo." }
+  - { clave: puerta, texto: "Él lo recuerda así: entrabas por la puerta pequeña del dibujo." }
   - { clave: amanecer, texto: "Y a partir de las siete, amanecías bailando bajo el cielo azul." }
   - { clave: xima, texto: "En 1991, Xima Segarra, que trabajaba allí, la abrió todo el año. Nacía Masía." }
   - { clave: evil, texto: "Su hijo, Dr Evil, trajo el hardcore y el newstyle." }
@@ -41,16 +41,16 @@ cifras:
     texto: "Masía celebró su 35 aniversario el 6 de junio de 2026: cuenta desde 1991."
     fuentes: [discotecamasia-35, hardmusic-2021]
   - dato: "17 de julio de 1987"
-    texto: "La fecha del sello de la entrada que guarda Llop Tejadillos: «ENTRADA · Masia DISCO», con un mapa dibujado a mano con Segorbe, Sot de Ferrer, Algar, Sagunto y la Vall d'Uixó."
-    fuentes: [entrada-llop]
-    matiz: "Un objeto, no una fuente escrita: la entrada se lee en el propio vídeo. Lo que Llop recuerda (la puerta pequeña, el amanecer bailando) se dice como suyo."
+    texto: "La fecha del sello de la entrada que guarda un seguidor: «ENTRADA · Masia DISCO», con un mapa dibujado a mano con Segorbe, Sot de Ferrer, Algar, Sagunto y la Vall d'Uixó."
+    fuentes: [entrada-seguidor]
+    matiz: "Un objeto, no una fuente escrita: la entrada se lee en el propio vídeo. Lo que él recuerda (la puerta pequeña, el amanecer bailando) se dice como suyo."
   - dato: "1991"
     texto: "En el verano de 1991 Xima Segarra, que trabajaba allí de relaciones públicas, abrió La Masía también en invierno: «nacía ya Masía como tal»."
     fuentes: [hardmusic-2021, cintas-demasiado]
     matiz: "Las cintas de J. Demasiado en Masía están fechadas en 1991, 1992 y 1993; en los comentarios, una persona dijo haber estado en la inauguración y otra situó el tercer aniversario en 1994."
 fuentes:
-  - clave: entrada-llop
-    medio: Entrada e invitaciones de Llop Tejadillos
+  - clave: entrada-seguidor
+    medio: Entrada e invitaciones de un seguidor
     titulo: "Entrada de Masia Disco sellada el 17 de julio de 1987 y seis invitaciones de los años 90"
     fecha: 1987-07-17
     tipo: archivo
@@ -106,13 +106,13 @@ fuentes:
     consultada: 2026-10-31
 creditos:
   imagenes:
-    - "La entrada de 1987 y las invitaciones de los años 90: Llop Tejadillos. El logotipo de Masía: Discoteca Masía."
+    - "La entrada de 1987 y las invitaciones de los años 90: de un seguidor de la cuenta. El logotipo de Masía: Discoteca Masía."
     - "Fotos del valle del Palancia (Segorbe, Algar, Sot de Ferrer): Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0; Joanbanjo, CC BY-SA 3.0 y 4.0 (Wikimedia Commons)."
   musica: "LUAR: «Distant Voices»."
   mapa: "Mapa: © colaboradores de OpenStreetMap (ODbL)."
 correcciones: []
 noDicho:
-  - "Que La Masía la abriera Manuel Collado «Bolerito» hacia 1987 en una masía del «tío Julito» de Altura, y que se inaugurara con la piscina: solo lo cuenta Llop."
+  - "Que La Masía la abriera Manuel Collado «Bolerito» hacia 1987 en una masía del «tío Julito» de Altura, y que se inaugurara con la piscina: solo lo cuenta ese seguidor."
   - "Que hoy la lleve Dr Evil: en la entrevista de Hard Music de 2021 la dueña sigue siendo Xima Segarra."
   - "Arturo Roger en su cabina: sin cinta ni cartel que lo diga."
   - "Que la masía sea del siglo XVIII: solo lo dice SoydeSagunto. Un comentario la situaba en la cartografía de Segorbe de 1938, pero no encontró el mapa."
