@@ -36,10 +36,12 @@ export async function generateMetadata({ params }: PageProps<"/videos/[id]">): P
   return {
     title: v.titulo,
     description: v.resumen,
-    alternates: { canonical: `/videos/${v.id}` },
+    alternates: { canonical: `/videos/${v.id}`, types: { "application/rss+xml": "/feed.xml" } },
     keywords: v.etiquetas,
     openGraph: {
       type: "article",
+      siteName: SITIO.nombre,
+      locale: "es_ES",
       title: v.titulo,
       description: v.resumen,
       url: `/videos/${v.id}`,
