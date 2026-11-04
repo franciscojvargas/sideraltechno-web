@@ -139,7 +139,7 @@ fuentes:
     medio: OpenStreetMap
     titulo: "Metro Dance Club (way 683530501, amenity=nightclub)"
     tipo: mapa
-    sostiene: "La ubicación del club junto al vial que OSM llama «Carretera Bigastro - Rojales» (38,0621 N, −0,8825 E); el club pone «Carretera de Bigastro a Jacarilla, km 0,6». El plano de la Vega Baja (el Segura, Orihuela, Bigastro, Jacarilla) y el camino del pueblo al club."
+    sostiene: "La ubicación del club junto al vial que OSM llama «Carretera Bigastro - Rojales» (38,0621 N, 0,8825 O); el club pone «Carretera de Bigastro a Jacarilla, km 0,6». El plano de la Vega Baja (el Segura, Orihuela, Bigastro, Jacarilla) y el camino del pueblo al club."
     consultada: 2026-10-28
   - clave: comentarios-ig
     medio: Comentarios del reel en Instagram

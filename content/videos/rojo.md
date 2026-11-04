@@ -84,7 +84,7 @@ fuentes:
     fecha: 2022
     url: https://www.who.int/publications/i/item/9789240043114
     tipo: oficial
-    sostiene: "El limitador de sala y la referencia de 100 dB de media, contados en el dato 003. Aquí solo sostiene que el limitador baja la etapa cuando la sala pasa del límite."
+    sostiene: "El limitador de sala y la referencia de 100 dB de media, contados en el vídeo del limitador. Aquí solo sostiene que el limitador baja la etapa cuando la sala pasa del límite."
     consultada: 2026-10
 creditos:
   imagenes:

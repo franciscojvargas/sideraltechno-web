@@ -5,7 +5,7 @@ titulo: "Nitsa: ¿el club que nació en una pista que giraba?"
 gancho: "Nitsa: ¿el club que nació en una pista que giraba?"
 serie: "Escena española · Clubes"
 tipo: club
-resumen: "De un sótano con pista giratoria en la plaza Joan Llongueras a la Sala Apolo: la historia de Nitsa, de DJ Sideral, del giro del pop a la electrónica y de su cara B, Astin."
+resumen: "De un sótano con pista giratoria a la Sala Apolo: la historia de Nitsa, de DJ Sideral, del paso del pop a la electrónica y de su cara B, Astin."
 estado: publicado
 formato: largo
 duracion: 88.7

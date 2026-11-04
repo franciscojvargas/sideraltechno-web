@@ -43,7 +43,7 @@ fuentes:
   - clave: dhs-atkins
     medio: Detroit Historical Society
     titulo: "Juan Atkins (Encyclopedia of Detroit)"
-    url: https://detroithistorical.org/learn/encyclopedia-of-detroit/atkins-juan
+    url: https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/atkins-juan
     tipo: oficial
     sostiene: "Que Juan Atkins nació en Detroit, fundó Cybotron con Rick Davis en 1980 y Model 500 y el sello Metroplex en 1985; que a menudo se le ve como el padre del Detroit techno; que Kraftwerk fue una de sus inspiraciones; y que un recopilatorio británico dio a conocer el género."
     cita: "often seen as the father of Detroit techno"

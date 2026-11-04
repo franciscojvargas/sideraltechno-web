@@ -12,9 +12,10 @@ duracion: 157
 publicado: 2026-11-02
 actualizado: 2026-11-02
 instagram: DfN8f66zSpf
+tiktok: "7703356621757386006"
 lugar:
   nombre: Detroit
-  provincia: Michigan
+  provincia: Míchigan
   pais: Estados Unidos
   lat: 42.3314
   lon: -83.0458
@@ -47,7 +48,7 @@ fuentes:
   - clave: dhs
     medio: Detroit Historical Society
     titulo: "Encyclopedia of Detroit: Atkins, Juan"
-    url: https://detroithistorical.org/learn/encyclopedia-of-detroit/atkins-juan
+    url: https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/atkins-juan
     tipo: oficial
     sostiene: "Nacido y criado en Detroit y mudado a Belleville de adolescente; la amistad con Derrick May y Kevin Saunderson; la influencia de George Clinton, Kraftwerk y The Electrifying Mojo; Cybotron con Rick Davis en 1980."
     cita: "The genre itself gained its name from one of his compositions"
