@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
 import { todosLosVideos, videoPorId, videosPublicados } from "@/lib/content";
 import { MOSTRAR_BORRADORES } from "@/lib/sitio";
@@ -15,7 +16,9 @@ export function generateStaticParams() {
 export default async function Imagen({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const v = videoPorId(id);
-  const titulo = v?.titulo ?? "Sideral Techno";
+  // El id llega de la URL: sin vídeo visible no se toca el disco.
+  if (!v || (v.estado !== "publicado" && !MOSTRAR_BORRADORES)) notFound();
+  const titulo = v.titulo;
   const portada = `data:image/jpeg;base64,${fs.readFileSync(path.join(process.cwd(), "public", "portadas", `${id}.jpg`)).toString("base64")}`;
   const bold = fs.readFileSync(path.join(process.cwd(), "src", "fuentes", "arimo-700.woff"));
   const regular = fs.readFileSync(path.join(process.cwd(), "src", "fuentes", "arimo-400.woff"));
@@ -32,7 +35,7 @@ export default async function Imagen({ params }: { params: Promise<{ id: string 
             <div style={{ width: 44, height: 4, background: "#FF2C1C", marginTop: 10 }} />
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <div style={{ fontSize: 18, letterSpacing: 3, textTransform: "uppercase", color: "#8E908A", marginBottom: 18 }}>{v?.serie}</div>
+            <div style={{ fontSize: 18, letterSpacing: 3, textTransform: "uppercase", color: "#8E908A", marginBottom: 18 }}>{v.serie}</div>
             <div style={{ fontSize: titulo.length > 60 ? 48 : 58, fontWeight: 700, lineHeight: 1.02, textTransform: "uppercase", letterSpacing: -1 }}>{titulo}</div>
             <div style={{ fontSize: 18, color: "#8E908A", marginTop: 24, letterSpacing: 2, textTransform: "uppercase" }}>Míralo en Instagram: @sideral_techno</div>
           </div>
