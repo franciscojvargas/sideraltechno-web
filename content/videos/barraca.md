@@ -162,7 +162,7 @@ preguntasAbiertas:
   - "¿Bailabas en la Barraca o en el Circo? ¿En qué años?"
   - "¿De qué año es Bacarra, en Gandía? Un comentario la da por más antigua; otro la fecha en 1966. No hay fuente todavía."
   - "¿Cuándo llegó Carlos Simó a la cabina: 1978, 1980 o 1982? Si tienes un flyer o una foto con fecha, ayuda a cerrarlo."
-relacionados: [ruta, correccion, cuantas, actv, florida]
+relacionados: [ruta, correccion, cuantas, actv, florida, sonora]
 cuentas:
   - { red: instagram, usuario: barraca_music, nombre: "Barraca" }
   - { red: instagram, usuario: lbakalabat, nombre: "LB aka LABAT" }

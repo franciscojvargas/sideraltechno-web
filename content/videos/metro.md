@@ -170,7 +170,7 @@ preguntasAbiertas:
   - "¿En qué año fue tu primera noche en Metro Dance Club? En los comentarios salieron 1987, 1988, 1991, 1992, 1993, 1994, 1995, 1997, 1998, 1999, 2005, 2006 y 2012."
   - "El primer logo, «el león de la Metro» según Navarrete: no hemos visto ese dibujo. Si el club lo conserva, sería la imagen de ese plano."
   - "Fotos del tercer aniversario, la entrada de la Nochevieja de 1994-95 y las pulseras guardadas desde 2005 que varias personas dicen conservar."
-relacionados: [florida, barraca, masia]
+relacionados: [florida, barraca, masia, sonora]
 cuentas:
   - { red: instagram, usuario: metrodanceclub, nombre: "Metro Dance Club" }
   - { red: instagram, usuario: dave_alyan, nombre: "Dave Alyan" }
