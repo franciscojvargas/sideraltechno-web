@@ -210,7 +210,7 @@ noDicho:
 preguntasAbiertas:
   - "¿De dónde viene el nombre «Nitsa»? Ninguna fuente lo explica."
   - "¿Bailaste en el giratorio de la plaza Joan Llongueras o en Apolo? ¿Guardas algún flyer de 1994 a 1996?"
-relacionados: [detroit, elrow, florida]
+relacionados: [detroit, elrow, florida, sonora]
 cuentas:
   - { red: instagram, usuario: nitsa_club, nombre: "Nitsa" }
   - { red: instagram, usuario: sala_apolo, nombre: "Sala Apolo" }
