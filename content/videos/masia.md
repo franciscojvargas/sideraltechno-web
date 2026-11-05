@@ -123,7 +123,7 @@ preguntasAbiertas:
   - "¿En qué año entraste por esa puerta? En los primeros días el público dijo 1988, 1992, 1993, 1994, 1995, 1998, 1999, 2000, 2001, 2003, 2006, 2011 y 2023."
   - "¿Cuál es «la puerta pequeña» del dibujo? El vídeo marca la puerta doble del muro bajo, a la derecha de la palmera; podría ser la casita de la izquierda."
   - "Un flyer de 1990, un vinilo de Masía y diapositivas y cintas de 1991 que varias personas dicen guardar: pedidos en los comentarios."
-relacionados: [barraca, metro, ruta]
+relacionados: [barraca, metro, ruta, sonora]
 cuentas:
   - { red: instagram, usuario: masia_discoteca, nombre: "Masía" }
   - { red: instagram, usuario: dr.evil_masia, nombre: "Dr Evil" }

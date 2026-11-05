@@ -129,7 +129,7 @@ noDicho:
   - "Los DJ concretos que han pasado por la cabina (Hawtin, Cox): solo en Techno Experience."
 preguntasAbiertas:
   - "¿Qué club pondrías tú como el más importante de España? En los comentarios del reel salieron Barraca, Fabrik, Industrial Copera, Groove, La Riviera, Nitsa, Scorpia y Central."
-relacionados: [elrow, monegros]
+relacionados: [elrow, monegros, sonora]
 cuentas:
   - { red: instagram, usuario: florida135official, nombre: "Florida 135" }
 ---
