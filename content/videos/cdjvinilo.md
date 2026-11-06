@@ -12,6 +12,7 @@ duracion: 59.1
 publicado: 2026-11-06
 actualizado: 2026-11-06
 instagram: DfZcywTTcox
+tiktok: "7705017749344439574"
 etiquetas: [vinilo, cdj, technics, sl-1200, pioneer dj, beatmatching, master tempo, hot cue, bucle, fader de pitch, aguja, cabina, dj]
 guion:
   - { clave: gancho, texto: "¿Tiene más mérito pinchar con vinilo?" }
