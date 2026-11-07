@@ -137,7 +137,7 @@ noDicho:
 preguntasAbiertas:
   - "¿Qué club faltó en nuestro primer vídeo? De esa pregunta salieron más de treinta nombres y el vídeo siguiente de la serie."
   - "¿Eran NOD y Espiral parte de la Ruta? La prensa dice que sí; parte del público, que no."
-relacionados: [ruta, cuantas, actv, barraca]
+relacionados: [ruta, cuantas, actv, barraca, chocolate]
 cuentas: []
 ---
 
