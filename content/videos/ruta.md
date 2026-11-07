@@ -98,7 +98,7 @@ noDicho:
 preguntasAbiertas:
   - "¿Cuál era tu discoteca? En los comentarios, las más nombradas fueron Puzzle, Barraca y ACTV."
   - "Un comentario dice que la Ruta iba «de Torrevieja a Castellón». No hemos encontrado ninguna fuente que lo apoye."
-relacionados: [correccion, cuantas, actv, barraca]
+relacionados: [correccion, cuantas, actv, barraca, chocolate]
 cuentas: []
 ---
 
