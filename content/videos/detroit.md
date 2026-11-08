@@ -104,7 +104,7 @@ noDicho:
   - "Que sea Patrimonio Mundial de la UNESCO: es el inventario nacional alemán."
 preguntasAbiertas:
   - "¿Qué peso tuvieron en el origen del techno Kraftwerk, el house de Chicago o el hi-NRG de los clubes gais? En los comentarios salieron los tres."
-relacionados: [atkins]
+relacionados: [atkins, muro]
 cuentas: []
 ---
 
