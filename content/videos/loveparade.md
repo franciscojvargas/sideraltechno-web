@@ -189,7 +189,10 @@ noDicho:
   - "Cuántos vehículos había en 1989: uno según berlin.de y el Tagesspiegel; tres según la taz."
   - "En qué año exacto pasó del Kurfürstendamm al Tiergarten: las fuentes dan 1996 o 1997."
   - "Cifras de público de otros años: solo se da la de 1999, como cifra de entonces."
-  - "El número exacto de heridos en Duisburgo: 500, 640 o 652 según la fuente."
+  - "El número exacto de heridos en Duisburgo: 500 o 652 según la fuente. El vídeo dice «cientos»."
+  - "Las primeras noticias de Duisburgo hablaban de 19 muertos. La cifra final es 21, y es la que se da."
+  - "La fecha de la Rave The Planet Parade de 2027: Rave The Planet todavía no la ha confirmado."
+  - "El plazo para apuntarse a la parada de 2027: el 15 de enero según Rave The Planet y el 10 de enero según The Berliner."
   - "Que la UNESCO declarara patrimonio el techno de Berlín: es el inventario nacional alemán, no la lista de la UNESCO."
 preguntasAbiertas:
   - "¿Fuiste a alguna Love Parade? ¿De qué año?"
