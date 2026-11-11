@@ -196,7 +196,7 @@ noDicho:
   - "Que la UNESCO declarara patrimonio el techno de Berlín: es el inventario nacional alemán, no la lista de la UNESCO."
 preguntasAbiertas:
   - "¿Fuiste a alguna Love Parade? ¿De qué año?"
-relacionados: [muro]
+relacionados: [muro, ley]
 cuentas:
   - { red: instagram, usuario: ravetheplanet, nombre: "Rave The Planet" }
   - { red: instagram, usuario: dr_motte, nombre: "Dr. Motte" }
