@@ -275,7 +275,7 @@ noDicho:
   - "Que la negativa de parte de la propiedad llegara en 2014: ninguna fuente lo fecha; eldiario.es habla de «varios años de desavenencias»."
 preguntasAbiertas:
   - "¿En qué año fuiste tú? Nos interesan las primeras ediciones: quien tenga una entrada, un flyer o una foto de los noventa, que la enseñe en los comentarios."
-relacionados: [florida, elrow]
+relacionados: [florida, elrow, sonar]
 cuentas:
   - { red: instagram, usuario: monegrosfestival, nombre: "Monegros Desert Festival" }
   - { red: instagram, usuario: florida135official, nombre: "Florida 135" }
