@@ -14,10 +14,9 @@ describe("contenido", () => {
     const fechas = videos.filter((v) => v.publicado).map((v) => v.publicado!);
     expect(fechas).toEqual([...fechas].sort().reverse());
   });
-  it.each(videos.map((v) => [v.id, v] as const))("%s: cada cifra tiene fuente y cada publicado su enlace", (_id, v) => {
+  it.each(videos.map((v) => [v.id, v] as const))("%s: cada cifra tiene fuente y los borradores no enlazan al reel", (_id, v) => {
     for (const c of v.cifras) expect(c.fuentes.length).toBeGreaterThan(0);
-    if (v.estado === "publicado") expect(v.instagram ?? v.tiktok).toBeTruthy();
-    if (v.estado === "borrador") expect(v.instagram).toBeUndefined();
+    if (v.estado === "borrador") expect(v.instagram ?? v.tiktok).toBeUndefined();
   });
   it.each(videos.map((v) => [v.id, v] as const))("%s: el texto público no lleva notas internas", (_id, v) => {
     const todo = JSON.stringify(v);
