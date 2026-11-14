@@ -16,7 +16,7 @@ export async function Pie() {
             <IconoInstagram className="h-1/2 w-1/2" />
           </span>
         </a>
-        <p className="mt-6 max-w-xl text-lg text-gris">
+        <p className="justificado mt-6 max-w-xl text-lg text-gris">
           {t.sigue}{" "}
           <a href={SITIO.tiktok} target="_blank" rel="me noopener noreferrer" className="text-blanco underline decoration-gris-2 underline-offset-4 transition-colors hover:decoration-rojo">TikTok</a>.
         </p>
