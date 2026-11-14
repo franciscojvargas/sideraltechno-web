@@ -11,6 +11,8 @@ formato: ampliado
 duracion: 63.8
 publicado: 2026-11-14
 actualizado: 2026-11-14
+instagram: DfuiOJ5Tv8n
+tiktok: "7708051658709667094"
 lugar:
   nombre: Isla del Alacrán
   municipio: Arica
@@ -32,7 +34,7 @@ guion:
   - { clave: hoy, texto: "Aquella noche se volvió leyenda: para muchos, ahí nació la electrónica chilena." }
   - { clave: cierre, texto: "Mándaselo a quien cruzaría un continente por una rave. Y síguenos: cada día, una historia del techno." }
 cifras:
-  - dato: "3 de noviembre de 1994"
+  - dato: "3-11-1994"
     texto: "El eclipse total de sol cruzó Perú, el norte de Chile, Bolivia, el norte de Argentina, Paraguay y Brasil. Arica quedó dentro de la franja de totalidad y Putre, en la montaña, cerca de su línea central. La rave fue esa misma noche."
     fuentes: [wikipedia-eclipse, nasa-1318, rbma-2016]
   - dato: "18 personas"

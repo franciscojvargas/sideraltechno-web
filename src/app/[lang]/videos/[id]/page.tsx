@@ -144,7 +144,7 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
           </p>
           <h1 className="titular mt-5 max-w-5xl text-[clamp(2.1rem,4.6vw,5.25rem)]" lang={langContenido}>{v.titulo}</h1>
           <span className="regla mt-7" />
-          <p className="mt-7 max-w-3xl text-lg leading-relaxed text-blanco/90 sm:mt-8 sm:text-xl" lang={langContenido}>{v.resumen}</p>
+          <p className="justificado mt-7 max-w-3xl text-lg leading-relaxed text-blanco/90 sm:mt-8 sm:text-xl" lang={langContenido}>{v.resumen}</p>
           {t.enEspanol && <p className="mt-5 text-sm text-gris">{t.enEspanol}</p>}
         </header>
 
@@ -178,10 +178,11 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
 
           {v.cifras.length > 0 && (
             <section aria-label={t.cifras} className="mt-14">
+              {/* El dato se mide con su caja (cqi): las palabras largas caben en columnas estrechas sin partirse. */}
               <ol className={`grid overflow-hidden rounded-sm border-l border-t border-linea ${columnasCifras(v.cifras.length)}`}>
                 {v.cifras.map((c, i) => (
-                  <li key={i} className="border-b border-r border-linea p-5 transition-colors duration-300 hover:bg-carbon-2 sm:p-6">
-                    <p className="titular text-[clamp(1.8rem,3.2vw,2.6rem)]">{c.dato}</p>
+                  <li key={i} className="@container border-b border-r border-linea p-5 transition-colors duration-300 hover:bg-carbon-2 sm:p-6">
+                    <p className="titular text-[clamp(1.4rem,16cqi,2.6rem)] hyphens-auto break-words">{c.dato}</p>
                     <p className="mt-3 text-sm leading-relaxed text-blanco/85">{c.texto}</p>
                     <p className="mt-3 text-xs text-gris-2" lang={idioma}>
                       {c.fuentes.length > 1 ? t.fuentes : t.fuente}{" "}
@@ -205,8 +206,8 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
                 {v.correcciones.map((c, i) => (
                   <li key={i}>
                     <p className="text-gris-2" lang={idioma}>{fechaLarga(c.fecha, idioma)}</p>
-                    <p className="mt-1"><span className="text-gris" lang={idioma}>{t.deciamos}</span>{c.error}</p>
-                    <p><span className="text-gris" lang={idioma}>{t.correcto}</span>{c.correccion}</p>
+                    <p className="justificado mt-1"><span className="text-gris" lang={idioma}>{t.deciamos}</span>{c.error}</p>
+                    <p className="justificado"><span className="text-gris" lang={idioma}>{t.correcto}</span>{c.correccion}</p>
                     {c.video && c.video !== v.id && <p className="mt-1" lang={idioma}><Link href={ruta(idioma, `/videos/${c.video}`)} className="underline decoration-gris-2 underline-offset-4">{t.verCorreccion}</Link></p>}
                   </li>
                 ))}

@@ -110,7 +110,12 @@
     font-size: 1.0625rem;
     margin-top: 1.8em;
   }
-  .prosa p {
+  /* Texto corrido justificado; el guionado (según el lang del elemento) evita los huecos en columnas estrechas. */
+  .justificado,
+  .prosa p,
+  .prosa li {
+    text-align: justify;
+    hyphens: auto;
     text-wrap: pretty;
   }
   .prosa a {
