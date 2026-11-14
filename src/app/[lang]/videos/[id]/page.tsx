@@ -144,7 +144,7 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
           </p>
           <h1 className="titular mt-5 max-w-5xl text-[clamp(2.1rem,4.6vw,5.25rem)]" lang={langContenido}>{v.titulo}</h1>
           <span className="regla mt-7" />
-          <p className="justificado mt-7 max-w-3xl text-lg leading-relaxed text-blanco/90 sm:mt-8 sm:text-xl" lang={langContenido}>{v.resumen}</p>
+          <p className="mt-7 max-w-3xl text-lg leading-relaxed text-blanco/90 sm:mt-8 sm:text-xl" lang={langContenido}>{v.resumen}</p>
           {t.enEspanol && <p className="mt-5 text-sm text-gris">{t.enEspanol}</p>}
         </header>
 
@@ -206,8 +206,8 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
                 {v.correcciones.map((c, i) => (
                   <li key={i}>
                     <p className="text-gris-2" lang={idioma}>{fechaLarga(c.fecha, idioma)}</p>
-                    <p className="justificado mt-1"><span className="text-gris" lang={idioma}>{t.deciamos}</span>{c.error}</p>
-                    <p className="justificado"><span className="text-gris" lang={idioma}>{t.correcto}</span>{c.correccion}</p>
+                    <p className="mt-1"><span className="text-gris" lang={idioma}>{t.deciamos}</span>{c.error}</p>
+                    <p><span className="text-gris" lang={idioma}>{t.correcto}</span>{c.correccion}</p>
                     {c.video && c.video !== v.id && <p className="mt-1" lang={idioma}><Link href={ruta(idioma, `/videos/${c.video}`)} className="underline decoration-gris-2 underline-offset-4">{t.verCorreccion}</Link></p>}
                   </li>
                 ))}
