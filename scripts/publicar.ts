@@ -1,10 +1,11 @@
 // Pasa a la web un vídeo recién subido a Instagram y TikTok.
-// Uso: npm run publicar -- <id> --instagram <enlace|código> [--tiktok <enlace|número>] [--fecha AAAA-MM-DD]
+// Uso: npm run publicar -- <id> [--instagram <enlace|código>] [--tiktok <enlace|número>] [--fecha AAAA-MM-DD]
 //                          [--portada <png>] [--borradores <carpeta>]
 //  1. Trae la ficha de <borradores>/videos/<id>.md si aún no está en content/videos/.
 //  2. Pone estado, publicado, actualizado, instagram y tiktok.
 //  3. Deja las portadas en public/portadas/ (las del borrador o generadas desde el PNG).
 //  4. Valida todo el contenido y, si pasa, quita el borrador de la carpeta privada.
+// Sin enlaces (el reel aún está subiendo) publica la ficha igual; se relanza con ellos cuando estén y la fecha no cambia.
 // La carpeta de borradores por defecto es ../sideraltechno/web-borradores (o la variable BORRADORES).
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
@@ -27,7 +28,7 @@ function fallo(mensaje: string): never {
   process.exit(1);
 }
 
-const id = positionals[0] ?? fallo("indica el id del vídeo: npm run publicar -- <id> --instagram <enlace>");
+const id = positionals[0] ?? fallo("indica el id del vídeo: npm run publicar -- <id> [--instagram <enlace>] [--tiktok <enlace>]");
 if (!/^[a-z0-9]+$/.test(id)) fallo(`id no válido: ${id}`);
 
 // Acepta el enlace entero o solo el código.
@@ -40,7 +41,7 @@ function numeroTiktok(v: string): string {
   return m?.[1] ?? fallo(`no entiendo el enlace de TikTok: ${v}`);
 }
 
-const instagram = values.instagram ? codigoInstagram(values.instagram) : fallo("falta --instagram");
+const instagram = values.instagram ? codigoInstagram(values.instagram) : undefined;
 const tiktok = values.tiktok ? numeroTiktok(values.tiktok) : undefined;
 const hoy = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Madrid" });
 if (values.fecha && !(/^\d{4}-\d{2}-\d{2}$/.test(values.fecha) && !Number.isNaN(Date.parse(values.fecha)) && new Date(values.fecha).toISOString().startsWith(values.fecha))) {
@@ -91,10 +92,11 @@ const fecha = values.fecha ?? leerFecha("publicado") ?? hoy;
 ponerCampo(yaml, "estado", "publicado");
 ponerCampo(yaml, "publicado", fecha);
 if (!actualizado || actualizado < fecha) ponerCampo(yaml, "actualizado", fecha);
-ponerCampo(yaml, "instagram", instagram);
+if (instagram) ponerCampo(yaml, "instagram", instagram);
 if (tiktok) ponerCampo(yaml, "tiktok", `"${tiktok}"`);
 fs.writeFileSync(ficha, `---\n${yaml.join("\n")}\n---\n${texto.slice(m[0].length)}`);
-console.log(`Publicado el ${fecha} · Instagram ${instagram}${tiktok ? ` · TikTok ${tiktok}` : " · sin TikTok"}`);
+console.log(`Publicado el ${fecha} · ${instagram ? `Instagram ${instagram}` : "sin Instagram"} · ${tiktok ? `TikTok ${tiktok}` : "sin TikTok"}`);
+if (!instagram && !tiktok) console.log("Aviso: sin enlaces. Relanza con --instagram y --tiktok en cuanto estén.");
 
 // 3. Las portadas: 720×1280 en WebP y 540×960 en JPG (como scripts/portadas.sh).
 // Siempre pasan por ImageMagick con -strip: a la web pública no llegan EXIF, GPS ni perfiles de otras herramientas.
