@@ -51,7 +51,7 @@ export default async function Inicio() {
             <span className="text-gris">{t.portada.titular2}</span>
           </h1>
           <span className="regla entra entra-3 mt-8 w-16 sm:mt-10" />
-          <p className="justificado entra entra-3 mt-8 max-w-lg text-lg leading-relaxed text-gris sm:text-xl">{t.portada.intro}</p>
+          <p className="entra entra-3 mt-8 max-w-lg text-lg leading-relaxed text-gris sm:text-xl">{t.portada.intro}</p>
           <div className="entra entra-3 mt-8 flex flex-col gap-3 xs:flex-row xs:flex-wrap xs:items-center sm:mt-10">
             <SeguirInstagram className="justify-center" />
             <a href="#videos" className="boton-secundario justify-center border-blanco/35 py-[0.9rem] text-[0.8125rem] font-bold">
