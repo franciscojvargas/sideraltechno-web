@@ -13,6 +13,7 @@ try {
     const palabras = v.cuerpoPlano.split(" ").length;
     if (palabras > 180) avisos.push(`texto largo (${palabras} palabras; mejor entre 90 y 140)`);
     if (v.resumen.length > 160) avisos.push(`resumen de ${v.resumen.length} caracteres: Google corta hacia los 160`);
+    if (v.en && v.en.resumen.length > 160) avisos.push(`resumen en inglés de ${v.en.resumen.length} caracteres: Google corta hacia los 160`);
     if (v.relacionadosPendientes?.length) avisos.push(`relacionados aún sin publicar: ${v.relacionadosPendientes.join(", ")}`);
     if (avisos.length) console.log(`  Aviso ${v.id}: ${avisos.join("; ")}`);
   }

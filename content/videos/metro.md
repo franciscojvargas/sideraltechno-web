@@ -174,6 +174,36 @@ relacionados: [revival, florida, barraca, masia, sonora]
 cuentas:
   - { red: instagram, usuario: metrodanceclub, nombre: "Metro Dance Club" }
   - { red: instagram, usuario: dave_alyan, nombre: "Dave Alyan" }
+en:
+  titulo: "Metro Dance Club: the nightclub that closed for being too successful"
+  serie: "Spanish scene · Clubs"
+  resumen: "Metro Dance Club, in Bigastro (Alicante): the 1987 cinema that closed for being too successful, the Jacarilla chalet and a name from Hollywood."
+  cifras:
+    - dato: "1987"
+      texto: "Metro is born in a former cinema on the outskirts of Bigastro. Its founder, José Ramón Navarrete, tells the story."
+    - dato: "Seventeen years old"
+      texto: "Navarrete’s age when he opened Metro: “In 1987, at 17, we were opening Metro”."
+    - dato: "Just over a year"
+      texto: "The first Metro closed for being “too successful to be located inside the village”. Then came the chalet on the Jacarilla road, named Sigue Sigue Metro."
+    - dato: "1991"
+      texto: "The year the club counts from: “1991 Metro Dance Club is born · Opening of the venue in Bigastro”, according to its official timeline."
+    - dato: "35 years"
+      texto: "The 35th anniversary was celebrated on 6 June 2026 with Joseph Capriati."
+    - dato: "14 November"
+      texto: "The Original Club night returns on 14 November 2026, with ANNĒ and Rebolledo, according to the club’s website."
+  creditos:
+    imagenes:
+      - "Logo and photo of the chalet in the early years (in black and white): Metro Dance Club."
+      - "Photo of the Vega Baja (in black and white): Keith Williamson, CC BY 2.0, Wikimedia Commons."
+      - "1928 Metro-Goldwyn-Mayer opening titles with Jackie the lion (Our Dancing Daughters): public domain in the US, Wikimedia Commons."
+    musica: "Dave Alyan: “Groove From 97” (Blackline Recordings)."
+    mapa: "Maps: © OpenStreetMap contributors (ODbL), Natural Earth, relief: Terrarium (SRTM)."
+  cuerpo: |
+    Metro Dance Club is a nightclub in Bigastro, a village in the Vega Baja area of Alicante, near Orihuela. It is in a chalet on the road from Bigastro to Jacarilla. Jeff Mills, Richie Hawtin and Sven Väth have played in its booth, according to its website.
+
+    Its founder, José Ramón Navarrete, tells the story. He opened Metro in 1987, aged 17, in a former cinema on the outskirts of the village. In just over a year he had to close because it was “too successful to be located inside the village”. Then came the chalet, named Sigue Sigue Metro.
+
+    The club’s official timeline begins in 1991. Counting from then, it celebrated its 35th anniversary on 6 June 2026, with Joseph Capriati.
 ---
 
 Metro Dance Club es una discoteca de Bigastro, un pueblo de la Vega Baja de Alicante, cerca de Orihuela. Está en un chalé de la carretera de Bigastro a Jacarilla. Por su cabina han pasado Jeff Mills, Richie Hawtin o Sven Väth, según su web.

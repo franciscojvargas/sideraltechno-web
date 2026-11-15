@@ -96,6 +96,34 @@ preguntasAbiertas:
 relacionados: [rojo, mesas, cdjvinilo]
 cuentas:
   - { red: instagram, usuario: bccoberlin, nombre: "BCCO" }
+en:
+  titulo: "Are you DJing with poor-quality music?"
+  serie: "Club culture · The booth"
+  resumen: "MP3, WAV and FLAC: what an MP3 loses, why a FLAC sounds the same as a WAV at half the size, and why converting an MP3 to WAV fixes nothing."
+  cifras:
+    - dato: "11 times smaller"
+      texto: "A 128 kbit/s MP3 takes up roughly one eleventh of the space of the same audio uncompressed."
+    - dato: "Half"
+      texto: "FLAC compresses without losing anything: it sounds the same as WAV and takes up roughly half the space."
+  creditos:
+    imagenes:
+      - "CDJ 2000: Fabexplosive, Wikimedia Commons, CC BY-SA 3.0 (black and white)."
+      - "USB flash drive, 1TB: EU+Mexico, Wikimedia Commons, CC0 (black and white)."
+      - "SanDisk Cruzer USB 4GB: Evan-Amos, Wikimedia Commons, public domain (black and white)."
+      - "Compact disc 1: gausanchennai, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+      - "CDs, Seitenansicht 2212: Dietmar Rabich, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+      - "Seagate ST33232A hard disk inner view: Eric Gaba, Wikimedia Commons, CC BY-SA 3.0 (black and white)."
+      - "Studio Mastering: Giuliano Radiciotti, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+      - "Vinyl collection at a record store: Mr Cup / Fabien Barral, Wikimedia Commons, CC0 (black and white)."
+    musica: "Music: Funkhaus, “System Wake” (BCCX016, BCCO). It plays in full, as a real 32 kbit/s MP3 in the MP3 shots and saturated in the bad-mix shot."
+    otros:
+      - "Background: a 40-band spectrum measured frame by frame on the music that is playing."
+  cuerpo: |
+    MP3, WAV and FLAC are not the same thing. None of them, on its own, means quality. It matters to DJs, because an expensive booth doesn't fix a poor file. What you hear depends first on what is on your USB stick.
+
+    MP3 uses lossy compression. It discards what is least audible to take up less space. According to the Library of Congress, at 128 kbit/s it takes up roughly one eleventh of the space of uncompressed audio. FLAC compresses without losing anything. According to Bandcamp, it sounds the same as a WAV and takes up roughly half the space.
+
+    Converting an MP3 to WAV doesn't bring back what was lost. The file gets bigger, but the sound is the same. And a lossless file also keeps the flaws of a bad mix.
 ---
 
 MP3, WAV y FLAC no son lo mismo. Ninguno es por sí solo sinónimo de calidad. Para quien pincha importa, porque una cabina cara no arregla un archivo pobre. Lo que suena depende primero de lo que llevas en el pendrive.

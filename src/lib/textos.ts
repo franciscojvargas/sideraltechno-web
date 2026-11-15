@@ -1,6 +1,6 @@
 import type { Idioma } from "./idiomas";
 
-// Textos de la interfaz. Las fichas de los vídeos no se traducen: se marcan con lang="es" cuando la interfaz va en otro idioma.
+// Textos de la interfaz. Las fichas llevan su propia traducción (bloque «en» de cada content/videos/<id>.md).
 
 const es = {
   lema: "Cultura techno en vídeos cortos",
@@ -41,9 +41,6 @@ const es = {
     migas: "Migas",
     videos: "Vídeos",
     borrador: "Borrador",
-    enEspanol: "",
-    noReproduce: "Tu navegador no reproduce este vídeo.",
-    descargalo: "Descárgalo",
     verTitulo: (titulo: string) => `Ver «${titulo}» en Instagram`,
     verInstagram: "Ver en Instagram",
     tambienEn: "También en",
@@ -123,9 +120,6 @@ const en: Textos = {
     migas: "Breadcrumb",
     videos: "Videos",
     borrador: "Draft",
-    enEspanol: "The video and these notes are in Spanish.",
-    noReproduce: "Your browser cannot play this video.",
-    descargalo: "Download it",
     verTitulo: (titulo: string) => `Watch “${titulo}” on Instagram`,
     verInstagram: "Watch on Instagram",
     tambienEn: "Also on",

@@ -56,6 +56,25 @@ preguntasAbiertas:
   - "¿Tapones en la pista: sí o no? En los comentarios ganó la broma al rechazo: «como ir al cine con gafas de sol», «viva comer bombo», y alguien que dijo haber perdido agudos y pide tapones siempre."
 relacionados: [limitador, bombo]
 cuentas: []
+en:
+  titulo: "Does going out to techno damage your hearing?"
+  serie: "Club culture · Hearing"
+  resumen: "What the WHO says about volume in a venue: a 100-decibel cap, a monthly hearing allowance and what earplugs change. General information, not medical advice."
+  cifras:
+    - dato: "100 dB"
+      texto: "The maximum average level the WHO recommends for a venue or event, measured live."
+    - dato: "1 h 45 min a month"
+      texto: "At 100 dB(A), the listening allowance equivalent to the WHO reference."
+    - dato: "About 6 hours a week"
+      texto: "The time that same allowance gives you with earplugs that reduce sound by 12 dB or more."
+  creditos:
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    Does going out to techno damage your hearing? This video sums up what the World Health Organization (WHO) says about volume in clubs, venues and festivals. It is general information, not medical advice. The reference is the WHO's 2022 standard for venues and events.
+
+    The WHO proposes a maximum average level of 100 decibels, measured live. It is a voluntary standard, not a law. Each country and each local council sets its own limits.
+
+    At 100 dB(A), the allowance equivalent to the WHO reference is one hour and 45 minutes a month. A single night at a club uses it up. The WHO notes that this exposure, once a month and about two hours per visit, is “probably without harm” for most people. With earplugs that reduce sound by 12 dB or more, the same allowance gives about six hours a week.
 ---
 
 ¿Salir de techno daña el oído? Este vídeo resume lo que dice la Organización Mundial de la Salud (OMS) sobre el volumen en clubes, salas y festivales. Es divulgación, no consejo médico. La referencia es la norma de la OMS de 2022 para salas y eventos.

@@ -2,16 +2,29 @@
 
 import { useDeferredValue, useEffect, useRef, useState } from "react";
 import type { Idioma } from "@/lib/idiomas";
-import { coincide } from "@/lib/texto";
+import { coincide, palabrasUnicas } from "@/lib/texto";
 import type { Textos } from "@/lib/textos";
 import { Cuadricula, type VideoTarjeta } from "./Cuadricula";
 
-export type VideoBuscable = VideoTarjeta & { texto: string };
+type Props = { videos: VideoTarjeta[]; indice: string; correo: string; idioma: Idioma; textos: Textos["buscador"] };
 
-export function Buscador({ videos, correo, idioma, textos: t }: { videos: VideoBuscable[]; correo: string; idioma: Idioma; textos: Textos["buscador"] }) {
+export function Buscador({ videos, indice, correo, idioma, textos: t }: Props) {
   const [consulta, setConsulta] = useState("");
   const diferida = useDeferredValue(consulta);
   const campo = useRef<HTMLInputElement>(null);
+  // El texto completo de las fichas llega al primer uso del buscador; hasta entonces se busca en título y serie.
+  const [textos, setTextos] = useState<Record<string, string> | null>(null);
+  const pedido = useRef(false);
+  const cargarIndice = () => {
+    if (pedido.current) return;
+    pedido.current = true;
+    fetch(indice)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((datos: Record<string, string>) => setTextos(datos))
+      .catch(() => {
+        pedido.current = false;
+      });
+  };
 
   useEffect(() => {
     const atajo = (e: KeyboardEvent) => {
@@ -26,7 +39,8 @@ export function Buscador({ videos, correo, idioma, textos: t }: { videos: VideoB
   }, []);
 
   const buscando = diferida.trim().length > 0;
-  const resultado = buscando ? videos.filter((v) => coincide(v.texto, diferida)) : videos;
+  const texto = (v: VideoTarjeta) => textos?.[v.id] ?? palabrasUnicas(`${v.titulo} ${v.serie ?? ""}`);
+  const resultado = buscando ? videos.filter((v) => coincide(texto(v), diferida)) : videos;
 
   return (
     <>
@@ -43,7 +57,12 @@ export function Buscador({ videos, correo, idioma, textos: t }: { videos: VideoB
             id="buscar"
             type="search"
             value={consulta}
-            onChange={(e) => setConsulta(e.target.value.slice(0, 80))}
+            onChange={(e) => {
+              cargarIndice();
+              setConsulta(e.target.value.slice(0, 80));
+            }}
+            onFocus={cargarIndice}
+            onPointerEnter={cargarIndice}
             placeholder={t.pista}
             autoComplete="off"
             spellCheck={false}

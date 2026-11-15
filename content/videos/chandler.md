@@ -165,6 +165,35 @@ cuentas:
   - { red: instagram, usuario: sonarfestival, nombre: "Sónar" }
   - { red: instagram, usuario: ignez__, nombre: "Ignez" }
   - { red: instagram, usuario: somov_records, nombre: "Somov Records" }
+en:
+  titulo: "Why does Kerri Chandler DJ with tapes?"
+  serie: "Club culture · The booth"
+  resumen: "Four reel-to-reel machines at once: why Kerri Chandler mixes on tape, from Frankie Knuckles and his father to closing Sónar 2024."
+  cifras:
+    - dato: "Age 13"
+      texto: "The age at which he started DJing, at the Rally Racquet Club in East Orange, New Jersey."
+    - dato: "Four tape machines"
+      texto: "He mixes with four open-reel tape machines at once. His machine is the Pioneer RT-707."
+    - dato: "1979"
+      texto: "With tape and a razor blade, Frankie Knuckles starts making new versions of the tracks he played, in Chicago."
+    - dato: "2024"
+      texto: "He closes Sónar, in Barcelona, with a set made with tapes only."
+  creditos:
+    imagenes:
+      - "Photos of Kerri Chandler and his tape machine: kerrichandler.com (portrait: Joe Finch), in black and white."
+      - "Frankie Knuckles: deepstereo, Wikimedia Commons, CC BY 2.0 (black and white)."
+      - "Studio evenings - Pioneer RT-1011L: Bennett from Brooklyn, Wikimedia Commons, CC BY-SA 2.0 (black and white)."
+    musica: "Music: Ignez, “Immersion” (Somov Records, SMV011). Tape effects synthesised for the video."
+    otros:
+      - "Background: a line drawing of a reel-to-reel tape machine, with the reels turning in time."
+  cuerpo: |
+    Kerri Chandler is one of the pioneers of deep house. He is from New Jersey and has been DJing since he was thirteen. Today he mixes with tapes.
+
+    They are not cassettes. They are open-reel tape machines, Pioneer RT-707s, and he uses four at once. With tape the needle doesn't jump, but lining up two tracks is harder than with vinyl. He says so himself: the tape always drifts and you have to correct the pitch throughout the set.
+
+    According to Resident Advisor, it comes from watching Frankie Knuckles and David Morales mix this way when he was starting out. Knuckles, the godfather of house, made new versions of tracks in Chicago with tape and a razor blade. And for Kerri it went back further: his father, Joseph Chandler, was also a DJ and recorded reel-to-reel tapes.
+
+    Today he tours with his tapes. In 2024 he closed Sónar, in Barcelona, without a single record. His website signs off with a line: “Keep the reels moving”.
 ---
 
 Kerri Chandler es uno de los pioneros del deep house. Es de Nueva Jersey y pincha desde los trece años. Hoy mezcla con cintas.

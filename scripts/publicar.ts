@@ -144,4 +144,4 @@ for (const f of traidos) fs.rmSync(f);
 if (traidos.length) console.log(`Borrador quitado de ${path.relative(raiz, borradores)} (sigue en su historial de git)`);
 for (const f of [fichaBorrador, ...deBorrador]) if (fs.existsSync(f)) console.log(`Aviso: queda una copia antigua en ${path.relative(raiz, f)}`);
 
-console.log("\nSiguiente: revisa la ficha (nada de trastienda), npm run comprobar && npm run build, y abre el PR.");
+console.log("\nSiguiente: revisa la ficha (nada de trastienda) y su bloque «en», npm run comprobar && npm run build, y abre el PR.");

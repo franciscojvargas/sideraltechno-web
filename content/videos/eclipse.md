@@ -150,6 +150,47 @@ relacionados: [detroit, atkins, muro, loveparade]
 cuentas:
   - { red: instagram, usuario: dandyjack_ruta_5, nombre: "Dandy Jack" }
   - { red: instagram, usuario: milo_raad, nombre: "Milo Raad" }
+en:
+  titulo: "A rave during an eclipse?"
+  serie: "Club culture · Origins"
+  resumen: "Arica, 3 November 1994: Chileans and Germans put on a rave on the day of a total eclipse. For many, that is where Chilean electronic music was born."
+  cifras:
+    - dato: "3 Nov 1994"
+      texto: "The total solar eclipse crossed Peru, northern Chile, Bolivia, northern Argentina, Paraguay and Brazil. Arica was inside the path of totality, and Putre, in the mountains, was near its centre line. The rave was that same night."
+    - dato: "18 people"
+      texto: "“We were 18 people on the plane flying from Europe to South America”, recalls Martin Schopf (Dandy Jack), one of the organisers. They left from Frankfurt."
+    - dato: "3 days"
+      texto: "Their tickets took them to Bogotá. On the way to Lima, a breakdown held them in Quito for eight hours. They slept in Lima, flew to Arequipa and Tacna, and a bus took them across to Arica. The journey took three full days."
+    - dato: "3 minutes"
+      texto: "In Putre total darkness lasted from 9:18:23 to 9:21:21 in the morning. In the city of Arica it was shorter: 1 minute and 57 seconds."
+    - dato: "10 in the morning"
+      texto: "“The Santiago parties were decisive, because there we had the first party that went on until ten in the morning”, says Ricardo Villalobos of the after-party at the club La Oz, on 11 and 12 November."
+  creditos:
+    imagenes:
+      - "Photos from Wikimedia Commons, in black and white."
+      - "The eclipse of 3 November 1994: Claudio Lelli (CC BY-SA 4.0)."
+      - "Arica and the Morro: Jowyto (CC BY-SA 3.0)."
+      - "Derrick May: ThatChickOverThere (CC BY-SA 4.0)."
+      - "Ricardo Villalobos: basic_sounds (CC BY-SA 2.0)."
+      - "Dawn on the day of the eclipse, Bolivia: Joe Bielawa (CC BY 2.0)."
+      - "Putre: WeHaKa (CC BY-SA 4.0)."
+      - "Alacrán island: Andyjavi (CC BY-SA 3.0)."
+      - "The Morro at night: Capablazab (CC BY-SA 3.0)."
+      - "The former Alacrán island: Sally Heredia Mundaca (CC BY-SA 4.0)."
+    musica: "Milo Raad, “Behind the eight ball” (Bushido EP). Sound effects synthesised for the video."
+    mapa: "Maps and relief: Natural Earth, © OpenStreetMap contributors (ODbL) and SRTM relief (Terrarium, Tilezen). The eclipse path, according to NASA RP 1318."
+  cuerpo: |
+    On 3 November 1994 a total solar eclipse crossed South America from west to east: Peru, northern Chile, Bolivia, northern Argentina, Paraguay and Brazil. Arica, the northernmost city in Chile, was inside the path of the shadow. And a group of Chileans and Germans decided that this was the day and the place for a rave.
+
+    The idea came from Martin Schopf, better known as Dandy Jack. He had been trying to put on parties in Chile since 1989 with Tobias Freund, his partner in Sieg Über Die Sonne. Eighteen people flew with them from Frankfurt. Among them was a young Ricardo Villalobos, born in Chile and raised in Germany, who was also invited to translate. The only sponsor was a German clothing brand, Pash.
+
+    The journey was an odyssey. Their tickets took them to Bogotá, and on the way to Lima a breakdown held them in Quito for eight hours. They slept in Lima, flew to Arequipa and Tacna and crossed the border by bus. Three whole days. Schopf named it “Fitzcarraldo 2000”.
+
+    On the day of the eclipse they went up to Putre, a village in the Andes near the centre line of the shadow. There total darkness lasted three minutes, from 9:18 to 9:21 in the morning.
+
+    That night came the rave: in the open air, on Alacrán island, joined to Arica by a breakwater, facing the Morro. Sieg Über Die Sonne played live, and Derrick May and Stacey Pullen, from Detroit, Villalobos, Heiko M/S/O and Terrible played DJ sets. At first the crowd did not react. “It was as if two worlds collided”, recalls Heiko Schäfer. In Santiago, days later, the after-party at the club La Oz went on until ten in the morning.
+
+    It was a small party. But today in Chile it is told as the birth of its electronic scene. A 2020 academic article describes it as the founding moment, already turned into myth, of electronic dance music in South America.
 ---
 
 El 3 de noviembre de 1994 un eclipse total de sol cruzó Sudamérica de oeste a este: Perú, el norte de Chile, Bolivia, el norte de Argentina, Paraguay y Brasil. Arica, la ciudad más al norte de Chile, quedó dentro de la franja de la sombra. Y un grupo de chilenos y alemanes decidió que ese era el día y el lugar para una rave.

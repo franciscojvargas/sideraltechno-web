@@ -3,15 +3,15 @@ import Link from "next/link";
 import { type Idioma, ruta } from "@/lib/idiomas";
 import type { Video } from "@/lib/schema";
 
-export type VideoTarjeta = Pick<Video, "id" | "serie" | "titulo" | "estado">;
+export type VideoTarjeta = Pick<Video, "id" | "serie" | "titulo" | "estado"> & { lang?: string };
 
 // También se renderiza en el cliente (buscador): los textos llegan por props.
 export function Cuadricula({ videos, idioma, borrador }: { videos: VideoTarjeta[]; idioma: Idioma; borrador: string }) {
   const rotulo = (v: VideoTarjeta) => [v.serie, v.estado === "borrador" && borrador].filter(Boolean).join(", ");
   return (
-    <ul lang={idioma === "es" ? undefined : "es"} className="reja grid grid-cols-2 gap-x-2 gap-y-1 sm:grid-cols-3 sm:gap-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+    <ul className="reja grid grid-cols-2 gap-x-2 gap-y-1 sm:grid-cols-3 sm:gap-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
       {videos.map((v) => (
-        <li key={v.id} className="celda">
+        <li key={v.id} className="celda" lang={v.lang}>
           <Link href={ruta(idioma, `/videos/${v.id}`)} className="group relative block overflow-hidden bg-carbon-2">
             <Image
               src={`/portadas/${v.id}.webp`}

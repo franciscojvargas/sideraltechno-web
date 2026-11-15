@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Arimo } from "next/font/google";
+import { arimo } from "@/lib/fuente";
 import { IDIOMA_ORIGINAL, IDIOMAS, ruta } from "@/lib/idiomas";
 import { SITIO } from "@/lib/sitio";
 import { TEXTOS } from "@/lib/textos";
@@ -7,7 +7,6 @@ import "./globals.css";
 
 // 404 de las URL sin ruta. El layout raíz está bajo [lang] y Next no puede componerla con él: documento completo, en todos los idiomas.
 
-const arimo = Arimo({ variable: "--font-arimo", subsets: ["latin"], display: "swap", weight: ["400", "700"], preload: false });
 
 export const metadata: Metadata = {
   title: `404 | ${SITIO.nombre}`,

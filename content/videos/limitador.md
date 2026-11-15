@@ -53,6 +53,21 @@ preguntasAbiertas:
   - "¿En qué sala te ha saltado el limitador? Es el dato que falta."
 relacionados: [oido, rojo, bombo]
 cuentas: []
+en:
+  titulo: "Why does the sound cut out in a techno set?"
+  serie: "Club culture · Sound limiters"
+  resumen: "What a venue’s sound limiter is, why it cuts the volume in the middle of a set, and what the WHO recommends: an average of 100 decibels."
+  cifras:
+    - dato: "100 dB"
+      texto: "The average level the WHO recommends not exceeding in venues and events, measured live."
+  creditos:
+    musica: "Holden Federico: “This Is Who You Are” (Deliverance)."
+  cuerpo: |
+    A sound limiter is a system that continuously measures the sound pressure in a venue or nightclub. It is set to a limit. If the level goes over it, the limiter lowers the volume or cuts the sound. That is why the music sometimes stops in the middle of a set without the DJ having done anything.
+
+    Those limits are not set by the DJ or the sound engineer. In Spain they depend on each autonomous community and each local council.
+
+    The reference is the voluntary standard the WHO published in 2022 for venues and festivals. It recommends not going above an average of 100 dB(A). That level is measured live, during the event. It is a recommendation, not a law. And it is the same thing a limiter does: measure while the music plays.
 ---
 
 Un limitador de sonido es un sistema que mide de forma continua la presión sonora de una sala o discoteca. Está ajustado a un límite. Si el nivel lo supera, baja el volumen o corta el sonido. Por eso, a veces, la música se apaga en mitad de un set sin que el DJ haya hecho nada.

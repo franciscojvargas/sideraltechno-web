@@ -33,9 +33,10 @@ El esquema de `src/lib/schema.ts` valida cada ficha al compilar: una cifra sin f
 
 ### Idiomas
 
-La web se lee en español (`/`) y en inglés (`/en`). Las fichas de los vídeos son las mismas en los dos casos y están en español;
-lo que cambia es la interfaz, los metadatos y las imágenes para redes. Cada página declara sus alternativas (`hreflang`) y el sitemap también.
-Para añadir un idioma: una entrada en `IDIOMAS` (`src/lib/idiomas.ts`) y su diccionario en `src/lib/textos.ts`. Las pruebas comprueban que no falte ninguna clave.
+La web se lee entera en español (`/`) y en inglés (`/en`): interfaz, fichas, metadatos, imágenes para redes y canal RSS (`/feed.xml` y `/en/feed.xml`).
+Cada ficha lleva su traducción en el bloque `en` (título, serie, resumen, texto, cifras, créditos y correcciones); las fuentes y los enlaces son los del original.
+Un vídeo publicado sin traducción no pasa la validación. Cada página declara sus alternativas (`hreflang`) y el sitemap también.
+Los textos de la interfaz están en `src/lib/textos.ts`; las pruebas comprueban que no falte ninguna clave.
 
 ```bash
 npm install

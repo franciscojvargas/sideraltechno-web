@@ -170,6 +170,37 @@ preguntasAbiertas:
   - "¿Hay en tu país alguna ley parecida?"
 relacionados: [loveparade]
 cuentas: []
+en:
+  titulo: "Was repeating a beat illegal?"
+  serie: "Club culture · Origins"
+  resumen: "A 1994 British law defined rave music as “a succession of repetitive beats”. It came after Castlemorton, and Autechre answered it."
+  cifras:
+    - dato: "1994"
+      texto: "The Criminal Justice and Public Order Act receives Royal Assent on 3 November. Its section 63, on raves, says the music includes sounds characterised by “a succession of repetitive beats”."
+    - dato: "May 1992"
+      texto: "For a week, tens of thousands of people gather at a free rave on Castlemorton Common, near Malvern. The police cannot stop it."
+    - dato: "Offence"
+      texto: "Until then, occupying someone else’s land was a civil matter. The 1994 law made it a criminal offence in certain cases."
+    - dato: "100 people"
+      texto: "Section 63 applied to open-air gatherings of 100 or more people, at night, with amplified music. The police could order them to leave."
+    - dato: "8 km"
+      texto: "The police could seize the sound equipment and stop anyone heading to the rave within 5 miles, about 8 kilometres."
+    - dato: "“Flutter”"
+      texto: "Autechre release it on the Anti EP (Warp, 1994), programmed so that no bar has the same beats. The record advised DJs to have a lawyer and a musicologist present."
+    - dato: "20 people"
+      texto: "The Anti-social Behaviour Act 2003 changes the threshold from 100 to 20 people in England and Wales, from 2004. In Scotland it is still 100."
+  creditos:
+    imagenes:
+      - "Photos from Wikimedia Commons: Fabian Musto, David Howard, Trevor Rickard and David Smith (CC BY-SA 2.0), Cristiano Betta (CC BY 2.0) and 909 bd (CC BY-SA 3.0)."
+      - "Pages of the Act: Crown copyright. Contains public sector information licensed under the Open Government Licence v3.0."
+    musica: "“Titan Punch”, by Rene Wise. The varying bars are recreated by synthesis: it is not “Flutter”."
+    mapa: "Map: © OpenStreetMap contributors (ODbL) and Natural Earth."
+  cuerpo: |
+    In 1994 the United Kingdom passed the Criminal Justice and Public Order Act. Its section 63 gave the police powers against raves. And to define them, the law said their music included sounds characterised by “a succession of repetitive beats”.
+
+    It goes back to May 1992. On Castlemorton Common, a meadow near Malvern in the west of England, tens of thousands of people gathered for a week at a free rave. The police could not stop it: occupying someone else’s land was then a civil matter. Under the new law, a gathering of 100 or more people, at night and in the open air, could be ordered to leave. The police could also seize the sound equipment and stop anyone heading there within 5 miles.
+
+    The scene responded. There were marches in London with “Kill the Bill” banners. And the British duo Autechre released “Flutter”, on Warp’s Anti EP, programmed so that no bar had the same beats. Section 63 is still in force: since 2004, 20 people are enough in England and Wales.
 ---
 
 En 1994 el Reino Unido aprobó la Criminal Justice and Public Order Act. Su sección 63 daba poderes a la policía contra las raves. Y para definirlas, la ley dijo que su música incluía sonidos caracterizados por «una sucesión de ritmos repetitivos».

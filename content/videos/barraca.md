@@ -168,6 +168,33 @@ cuentas:
   - { red: instagram, usuario: lbakalabat, nombre: "LB aka LABAT" }
   - { red: instagram, usuario: chlaer_, nombre: "Chlär" }
   - { red: instagram, usuario: memphislk, nombre: "Memphis LK" }
+en:
+  titulo: "Barraca: Spain's oldest nightclub?"
+  serie: "Spanish scene · Clubs"
+  resumen: "Over half a century on Les Palmeres beach, in Sueca: Barraca began as a Valencian barraca for tourists and ended up at the origin of the Ruta Destroy."
+  cifras:
+    - dato: "1965"
+      texto: "The year the club celebrates as its founding."
+    - dato: "1968"
+      texto: "Sueca's municipal archive holds Albert Piron's project and licence application for “a typical Valencian barraca”."
+    - dato: "Around 1980"
+      texto: "The music in the booth changes: first Juan Santamaría, then Carlos Simó. Out went disco; in came new wave and early electronic music."
+    - dato: "4 dance floors"
+      texto: "The barraca grew with marquees. Today there are Barraca, Terraza, Showroom and Circo, the largest, with its little horse."
+    - dato: "60 years"
+      texto: "On 7 December 2025 the club celebrated its sixtieth anniversary."
+  creditos:
+    imagenes:
+      - "Façade of Barraca and Villa Adelina (2026): Francesc Fort, Wikimedia Commons, CC BY-SA 4.0. In black and white."
+      - "Traditional barracas of the Albufera (“Barraques del pechinar”): Rodrigos2004, Wikimedia Commons, CC BY-SA 3.0. In black and white."
+    musica: "“Fixated (Chlär Remix)”, by LB aka LABAT, Chlär and Memphis LK."
+    mapa: "Map: © OpenStreetMap contributors (ODbL)."
+  cuerpo: |
+    Barraca is a nightclub in Les Palmeres, a beach in Sueca, south of València. According to El Debate, it is the pioneer of the Ruta del Bakalao, the Valencian club route, and the only one still open. Its name comes from its origin: a typical Valencian barraca, a traditional cottage, intended for tourism.
+
+    The club celebrates its founding in 1965. Sueca's municipal archive, however, holds Albert Piron's licence application, from 1968. The two dates coexist.
+
+    Around 1980 the music in the booth changed. With Carlos Simó, disco gave way to new wave and early electronic music. Its director, Vicente Pizcueta, explained the origin of a famous name: “The Ruta Destroy is a poster we made at Barraca, Heaven and Zona.” Today the club has four dance floors, among them the Circo.
 ---
 
 Barraca es una discoteca de Les Palmeres, una playa de Sueca, al sur de València. Según El Debate, es la pionera de la Ruta del Bakalao y la única que sigue en activo. Su nombre viene de su origen: una barraca típica valenciana pensada para el turismo.

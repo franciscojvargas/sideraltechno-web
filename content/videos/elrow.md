@@ -173,6 +173,31 @@ relacionados: [florida, monegros]
 cuentas:
   - { red: instagram, usuario: elrowofficial, nombre: "elrow" }
   - { red: instagram, usuario: florida135official, nombre: "Florida 135" }
+en:
+  titulo: "Where was elrow born?"
+  serie: "Spanish scene · Clubs"
+  resumen: "The elrow party was not born in Ibiza but in Viladecans, at the Sunday-morning sessions of Row 14, an Arnau family club that no longer exists."
+  cifras:
+    - dato: "2008"
+      texto: "The Arnau family opens Row 14 in an old masia, a Catalan farmhouse, in Viladecans, next to El Prat airport, with Laurent Garnier at the opening night."
+    - dato: "14 km"
+      texto: "Row 14 was about 14 kilometres from the centre of Barcelona, via the C-31. The family says the name comes from that distance."
+    - dato: "June 2010"
+      texto: "Juan and Cruz Arnau start the Sunday-morning sessions at Row 14 where elrow is born."
+    - dato: "A night licence, not a morning one"
+      texto: "Viladecans council ordered the morning sessions to stop: the club had a night-time nightclub licence, not a morning one."
+  creditos:
+    imagenes:
+      - "Photos: Florida 135 (f135.com), in black and white and without people: the Bronx street at Florida 135, Monegros from the air, the Row 14 sign and an elrow stage."
+      - "elrow logo (header of elrow.com)."
+    mapa: "3D map of the Barcelona area: © OpenStreetMap contributors (ODbL), Natural Earth."
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    The elrow party travels all over the world today. But it was not born in Ibiza. It was born on the outskirts of Barcelona, at Row 14, a club in Viladecans that no longer exists. Behind it is the Arnau family, the family behind Florida 135, in Fraga.
+
+    In 2008 the family opened Row 14 in an old masia, a Catalan farmhouse, next to El Prat airport. Laurent Garnier played at the opening. The name, the family says, comes from the 14 kilometres between the club and the centre of Barcelona.
+
+    In June 2010, Juan and Cruz Arnau started Sunday-morning sessions there. That is where elrow was born. The sessions did not last long. Viladecans council ordered them to stop: the club had a night-time nightclub licence, not a morning one.
 ---
 
 La fiesta elrow viaja hoy por todo el mundo. Pero no nació en Ibiza. Nació a las afueras de Barcelona, en Row 14, un club de Viladecans que ya no existe. Detrás está la familia Arnau, la del Florida 135, en Fraga.

@@ -3,27 +3,19 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Buscador } from "@/components/Buscador";
 import { SeguirInstagram } from "@/components/Redes";
-import { todosLosVideos, videosPublicados } from "@/lib/content";
+import { enIdioma, tarjeta, todosLosVideos, videosPublicados } from "@/lib/content";
 import { idiomaActual, idiomaDesconocido } from "@/lib/idioma-actual";
 import { IDIOMAS, ruta } from "@/lib/idiomas";
 import { MOSTRAR_BORRADORES, SITIO, jsonLd } from "@/lib/sitio";
-import { palabrasUnicas } from "@/lib/texto";
 import { TEXTOS } from "@/lib/textos";
 
 export default async function Inicio() {
   if (await idiomaDesconocido()) notFound();
   const idioma = await idiomaActual();
   const t = TEXTOS[idioma];
-  const videos = MOSTRAR_BORRADORES ? todosLosVideos() : videosPublicados();
+  const videos = (MOSTRAR_BORRADORES ? todosLosVideos() : videosPublicados()).map((v) => enIdioma(v, idioma));
   const [ultimo] = videos;
-  const buscables = videos.map((v) => ({
-    id: v.id,
-    serie: v.serie,
-    titulo: v.titulo,
-    estado: v.estado,
-    texto: palabrasUnicas([v.titulo, v.resumen, v.serie, v.etiquetas.join(" "), v.lugar?.nombre, v.lugar?.municipio, v.lugar?.provincia, v.cuerpoPlano].filter(Boolean).join(" ")),
-  }));
-  const langContenido = idioma === "es" ? undefined : "es";
+  const tarjetas = videos.map((v) => tarjeta(v, idioma));
 
   const datos = {
     "@context": "https://schema.org",
@@ -75,7 +67,7 @@ export default async function Inicio() {
                 ].filter(Boolean).join(" ")}
               >
                 {i === 0 && <span className="etiqueta absolute left-3 top-3 z-10 rounded-sm bg-blanco px-2 py-1.5 text-carbon">{t.portada.nuevo}</span>}
-                <Image src={`/portadas/${v.id}.webp`} alt={v.titulo} lang={langContenido} width={720} height={1280} {...(i === 0 ? { loading: "eager", fetchPriority: "high" } : {})} quality={70} sizes="(min-width: 1024px) 22vw, 52vw" className="aspect-[9/16] h-auto w-full object-cover" />
+                <Image src={`/portadas/${v.id}.webp`} alt={v.titulo} lang={v.idiomaFicha === idioma ? undefined : v.idiomaFicha} width={720} height={1280} {...(i === 0 ? { loading: "eager", fetchPriority: "high" } : {})} quality={70} sizes="(min-width: 1024px) 22vw, 52vw" className="aspect-[9/16] h-auto w-full object-cover" />
               </Link>
             ))}
           </div>
@@ -83,7 +75,7 @@ export default async function Inicio() {
       </section>
 
       <section id="videos" aria-labelledby="titulo-videos" className="marco scroll-mt-24">
-        <Buscador videos={buscables} correo={SITIO.correo} idioma={idioma} textos={t.buscador} />
+        <Buscador videos={tarjetas} indice={ruta(idioma, "/indice.json")} correo={SITIO.correo} idioma={idioma} textos={t.buscador} />
       </section>
     </>
   );

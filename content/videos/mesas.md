@@ -116,6 +116,37 @@ relacionados: [calidad, rojo, chandler, cdjvinilo]
 cuentas:
   - { red: instagram, usuario: alphathetaglobal, nombre: "AlphaTheta / Pioneer DJ Global" }
   - { red: instagram, usuario: allenandheath, nombre: "Allen & Heath" }
+en:
+  titulo: "Do analogue or digital mixers sound better?"
+  serie: "Club culture · The booth"
+  resumen: "Pioneer DJ versus Allen & Heath: what a digital and an analogue mixer do to the sound, and where the “warm character” comes from."
+  cifras:
+    - dato: "Pioneer DJ: digital"
+      texto: "The DJM-900NXS2, the DJM-A9 and the DJM-V10 convert the signal into data and process it digitally."
+    - dato: "Allen & Heath: analogue"
+      texto: "The Xone:92 and the Xone:96 mix with analogue circuits."
+    - dato: "Harmonics"
+      texto: "Some analogue circuits add harmonics and saturation, which is often called “warm character”."
+    - dato: "“Analogue, warm and natural”"
+      texto: "That is how Pioneer DJ describes the sound of its DJM-900NXS2, which is digital."
+  creditos:
+    imagenes:
+      - "Product photos (top views of the DJM-900NXS2, the DJM-A9, the DJM-V10, the Xone:92 and the Xone:96): Pioneer DJ and Allen & Heath (black and white)."
+      - "Allen & Heath Xone 96: Vittjas Tief, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+      - "DJ mixing (logo cropped, without the hand from the original): extranoise, Wikimedia Commons, CC BY-SA 2.5 (black and white)."
+      - "DJM 900NXS2 1, 2 and 3: FASTILY, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+      - "Esselte oscilloscope: Unnerving duck, Wikimedia Commons, CC0 (black and white)."
+      - "M-Audio Keystation 61es, board 1: Raimond Spekking, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+      - "Siglent SDS 2304 Digital Storage Oscilloscope: Wild Pancake, Wikimedia Commons, CC BY 4.0 (black and white)."
+    musica: "Music: Dictent Vroom, “First Order” (PMVA003, 2024). In the harmonics shot it is deliberately saturated, exaggerated so it can be heard."
+    otros:
+      - "Background: line oscilloscope showing the waveform of the music measured frame by frame."
+  cuerpo: |
+    In many techno booths there are two camps. Those who play on a Pioneer DJ mixer and those who will not give up their Allen & Heath. The underlying question is whether an analogue or a digital mixer sounds better. The short answer is that it depends.
+
+    Pioneer DJ makes digital mixers, such as the DJM-900NXS2, the DJM-A9 or the DJM-V10. They convert the signal into data and process it digitally. Allen & Heath makes analogue mixers, such as the Xone:92 or the Xone:96.
+
+    Some analogue circuits add harmonics and saturation. That is what is often called “warm character”. But Pioneer DJ describes its DJM-900NXS2, which is digital, as having “an analogue, warm and natural sound”. What decides it is the design of each mixer and how it is used.
 ---
 
 En muchas cabinas de techno hay dos bandos. Los que pinchan con una mesa de mezclas de Pioneer DJ y los que no cambian su Allen & Heath. La pregunta de fondo es si suena mejor una mesa analógica o una digital. La respuesta corta es que depende.

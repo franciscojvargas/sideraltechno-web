@@ -81,6 +81,28 @@ preguntasAbiertas:
 relacionados: [florida, copera]
 cuentas:
   - { red: instagram, usuario: oscarmulerooficial, nombre: "Óscar Mulero" }
+en:
+  titulo: "Can techno receive a medal from the Government?"
+  serie: "Spanish scene · Óscar Mulero"
+  resumen: "Óscar Mulero, a Madrid DJ who started in underground clubs in the late 80s, received the Gold Medal of Merit in the Fine Arts in 2025."
+  cifras:
+    - dato: "Late 80s"
+      texto: "He starts DJing in underground clubs in Madrid."
+    - dato: "2025"
+      texto: "The Council of Ministers awards him the Gold Medal of Merit in the Fine Arts."
+    - dato: "35"
+      texto: "Figures and institutions honoured that year. The Ministry describes him as “one of the leading figures of techno in Spain”."
+  creditos:
+    imagenes:
+      - "Video of Óscar Mulero DJing and photo of him looking at the camera: courtesy of Óscar Mulero, in black and white."
+    musica: "Óscar Mulero: “Asteroidal Dust” (Inducted Waves, 2022) and “Invisible Star” (album “Modulations”, 2025), as a nearly inaudible background; courtesy of the artist."
+  cuerpo: |
+    Óscar Mulero is a techno DJ from Madrid. He started DJing in the late 80s in the city’s underground clubs. In 2025 he received the Gold Medal of Merit in the Fine Arts. It is an award from the Government of Spain, approved by the Council of Ministers.
+
+    That year’s medals were approved on 16 December 2025. The list brought together 35 figures and institutions. Among them was a techno DJ. The Ministry of Culture’s press release describes him as “one of the leading figures of techno in Spain”.
+
+    As well as DJing, Mulero founded his own record labels.
+    He created Warm Up in 2000 and PoleGroup in 2004, according to his official website.
 ---
 
 Óscar Mulero es un DJ de techno de Madrid. Empezó a pinchar a finales de los años 80 en clubes underground de la ciudad. En 2025 recibió la Medalla de Oro al Mérito en las Bellas Artes. Es una distinción del Gobierno de España, que aprueba el Consejo de Ministros.

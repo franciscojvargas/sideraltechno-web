@@ -100,6 +100,31 @@ preguntasAbiertas:
   - "Un comentario dice que la Ruta iba «de Torrevieja a Castellón». No hemos encontrado ninguna fuente que lo apoye."
 relacionados: [correccion, cuantas, actv, barraca, chocolate]
 cuentas: []
+en:
+  titulo: "Where did the Ruta del Bakalao run?"
+  serie: "Spanish scene · Ruta del Bakalao"
+  resumen: "The El Saler road, three clubs on the map and a list of nine that was not official: the first video in the series and the one we had to correct."
+  cifras:
+    - dato: "30 km"
+      texto: "The Ruta covered about 30 kilometres of coast along the El Saler road, south of Valencia."
+    - dato: "200 m"
+      texto: "Chocolate was 200 metres from Barraca, in Sueca."
+    - dato: "9"
+      texto: "Nine clubs: ACTV, Spook Factory, Barraca, Chocolate, Espiral, NOD, Puzzle, Heaven and The Face."
+  creditos:
+    mapa: "3D map of the El Saler road: © OpenStreetMap contributors (ODbL)."
+    musica: "Track and sound effects synthesised for the video."
+  correcciones:
+    - error: "“Clubs right by the road” and “nine in total”: Espiral (La Eliana) and NOD (Riba-roja de Túria) were inland, ACTV was on Malvarrosa beach, and the list of nine is not official. The map placed only three clubs and the list showed nine."
+      correccion: "A video of its own, “Was the whole Ruta del Bakalao on a single road?”, with the map of the two inland clubs, the route of the road from north to south and the line “that list is not official”. On this video we left a comment pointing to the new one."
+    - error: "“Chocolate, just 200 metres” from Barraca. Thomann and Spanish Wikipedia said so in the same words; they were counted as two sources and were one."
+      correccion: "Measured between the Barraca node on OpenStreetMap and the point the club publishes: 519 metres, about 500."
+  cuerpo: |
+    The Ruta del Bakalao was a circuit of clubs in the Valencia area. It lasted from the early eighties to the mid-nineties. Its backbone was the El Saler road, the CV-500, which runs south towards Sueca between the beach and the Albufera.
+
+    English Wikipedia speaks of a circuit of about 30 kilometres. On OpenStreetMap, the CV-500 from Pinedo to Sueca measures 28.2 kilometres. Only three clubs have their location confirmed by two sources: ACTV in Malvarrosa, Spook Factory in Pinedo and Barraca in Sueca.
+
+    Several media outlets repeat a list of nine clubs, but it is not official. Two of them, Espiral and NOD, were inland. Our video said Chocolate was 200 metres from Barraca. Measured on the map, the distance is 519 metres.
 ---
 
 La Ruta del Bakalao fue un circuito de discotecas del área de Valencia. Duró de principios de los años ochenta a mediados de los noventa. Su eje era la carretera de El Saler, la CV-500, que baja hacia Sueca entre la playa y la Albufera.

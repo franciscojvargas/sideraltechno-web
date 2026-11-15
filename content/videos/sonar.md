@@ -166,6 +166,35 @@ cuentas:
   - { red: instagram, usuario: laurent_garnier, nombre: "Laurent Garnier" }
   - { red: instagram, usuario: svenvaeth_official, nombre: "Sven Väth" }
   - { red: instagram, usuario: simone_zino, nombre: "Simone Zino" }
+en:
+  titulo: "Sónar: a techno festival in a museum?"
+  serie: "Spanish scene · Festivals"
+  resumen: "Sónar was born in 1994 at the CCCB in Barcelona, by day and at one in the afternoon. At night people danced at Apolo. In 2026, day and night came together."
+  cifras:
+    - dato: "13:00"
+      texto: "On 2 June 1994, at one in the afternoon, Sónar by Day opened its doors at the CCCB."
+    - dato: "1994"
+      texto: "The Festival of Advanced Music and Multimedia Art is born, created by the journalist Ricard Robles and the musicians Enric Palau and Sergio Caballero."
+    - dato: "6,000"
+      texto: "About 6,000 people at the first edition, with Laurent Garnier, Sven Väth and Mixmaster Morris."
+    - dato: "2013"
+      texto: "After nineteen years between the CCCB and the MACBA, Sónar by Day moves to the Fira de Montjuïc. The night had been at the Fira Gran Via since 2001."
+    - dato: "126,000"
+      texto: "Attendance in 2018, the year of the 25th anniversary."
+    - dato: "2026"
+      texto: "For the first time, all of Sónar takes place at a single venue: the Fira Gran Via in L'Hospitalet."
+  creditos:
+    imagenes:
+      - "Photos from Wikimedia Commons: Canaan (CC BY-SA 4.0), Fred Romero (CC BY 2.0), Zarateman (CC0), Victoriano Javier Tornel García (CC BY-SA 2.0) and Jordiferrer (CC BY-SA 4.0)."
+      - "Sala Apolo at night: Nitsa (nitsa.com)."
+    musica: "“Signals”, by Simone Zino."
+    mapa: "Map: © OpenStreetMap contributors (ODbL)."
+  cuerpo: |
+    Sónar is a Barcelona festival. It was born on 2 June 1994, at one in the afternoon, at the Centre de Cultura Contemporània de Barcelona, the CCCB, in the Raval.
+
+    It was created by the journalist Ricard Robles and the musicians Enric Palau and Sergio Caballero, with a name that said it all: Festival of Advanced Music and Multimedia Art. The CCCB, newly opened, opened its doors to them. According to TV3, it was the first time an electronic music festival had been held in a museum space. At night people danced at Sala Apolo. About 6,000 people came, to see Laurent Garnier, Sven Väth or Mixmaster Morris.
+
+    Later the MACBA, the museum next door, joined in. Sónar by Day stayed there until 2013, when it moved to the Fira de Montjuïc. The night had been at the Fira Gran Via since 2001. In 2018 it reached 126,000 people. In 2026, for the first time, all of Sónar was held at a single venue: the Fira Gran Via in L'Hospitalet. According to Time Out Barcelona, in 2027, from 17 to 19 June, Sónar by Day returns to the city centre.
 ---
 
 Sónar es un festival de Barcelona. Nació el 2 de junio de 1994, a la una de la tarde, en el Centre de Cultura Contemporània de Barcelona, el CCCB, en el Raval.

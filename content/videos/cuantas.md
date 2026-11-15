@@ -99,6 +99,27 @@ preguntasAbiertas:
 relacionados: [ruta, correccion, actv, barraca, chocolate]
 cuentas:
   - { red: instagram, usuario: __vilchezz, nombre: "Vilchezz" }
+en:
+  titulo: "How many nightclubs did the Ruta del Bakalao have?"
+  serie: "Spanish scene · Ruta del Bakalao"
+  resumen: "Nine in our first video, more than 30 in the comments and more than 150 in Vicente Bresó's archive: the Ruta del Bakalao was not a list."
+  cifras:
+    - dato: "9"
+      texto: "The nightclubs we mentioned in our first video: ACTV, Spook Factory, Barraca, Chocolate, Espiral, NOD, Puzzle, Heaven and The Face."
+    - dato: "More than 30"
+      texto: "The clubs you named in the comments on the videos about the Ruta and about its road, which did not appear in either."
+    - dato: "More than 150"
+      texto: "The venues listed in Vicente Bresó's archive of Valencia nightclubs from the 80s and 90s. Not all of them were part of the Ruta."
+  creditos:
+    musica: "Vilchezz, “Parhelion” (2026)."
+    otros:
+      - "The dots in the video are not a map: each one is a venue."
+  cuerpo: |
+    How many nightclubs did Valencia's nightclub circuit have? There is no single answer. Our first video about the Ruta named nine. The comments brought a complaint: many were missing. So we turned the list into the question.
+
+    The first figure is nine: ACTV, Spook Factory, Barraca, Chocolate, Espiral, NOD, Puzzle, Heaven and The Face. They are the ones Vicente Bresó's archive calls “the most famous nightclubs of the Ruta”. It is not an official list.
+
+    The second figure is more than 30. These are the clubs named in the comments that did not appear in any video. The third is more than 150. These are the venues in Bresó's archive of Valencia nightclubs from the 80s and 90s. Not all of them were part of the Ruta.
 ---
 
 ¿Cuántas discotecas tenía el circuito de discotecas de Valencia? No hay una sola respuesta. Nuestro primer vídeo sobre la Ruta nombró nueve. Los comentarios trajeron una queja: faltaban muchas. Así que convertimos la lista en la pregunta.

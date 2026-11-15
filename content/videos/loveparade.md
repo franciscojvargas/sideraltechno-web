@@ -201,6 +201,53 @@ cuentas:
   - { red: instagram, usuario: ravetheplanet, nombre: "Rave The Planet" }
   - { red: instagram, usuario: dr_motte, nombre: "Dr. Motte" }
   - { red: instagram, usuario: danielle_de_picciotto, nombre: "Danielle de Picciotto" }
+en:
+  titulo: "From the Love Parade to Rave The Planet"
+  serie: "Club culture · Origins"
+  resumen: "It began in 1989 as a demonstration of 150 people in Berlin. It grew, became a business, ended in 2010 and returned to the street as Rave The Planet."
+  cifras:
+    - dato: "1 Jul 1989"
+      texto: "The first Love Parade: about 150 people dance to techno along the Kurfürstendamm, in West Berlin, behind a vehicle with speakers."
+    - dato: "Dr. Motte"
+      texto: "It was organised by the DJ Matthias Roeingh, Dr. Motte, and Danielle de Picciotto, who were a couple at the time."
+    - dato: "Demonstration"
+      texto: "It was registered as a demonstration, for peace and international understanding through love and music."
+    - dato: "Friede, Freude, Eierkuchen"
+      texto: "Peace, joy and pancakes: peace through disarmament, joy through music and pancakes for a fair distribution of food."
+    - dato: "Tiergarten"
+      texto: "As they no longer fitted on the Kurfürstendamm, they moved to the Straße des 17. Juni, in the Tiergarten. The golden angel of the Victory Column became its emblem."
+    - dato: "1.5 million"
+      texto: "In 1999, according to the figures of the time, a record one and a half million people."
+    - dato: "2001"
+      texto: "The courts rule that it must be held as a commercial event. From then on, the organisers pay for security and cleaning."
+    - dato: "2004–2005"
+      texto: "It does not take place, for lack of money."
+    - dato: "2006"
+      texto: "It returns with the gym chain McFit. Dr. Motte steps away because of the commercialisation."
+    - dato: "2007–2009"
+      texto: "It leaves Berlin for the Ruhr: Essen in 2007 and Dortmund in 2008. In 2009, Bochum cancels it on safety grounds."
+    - dato: "24 Jul 2010"
+      texto: "In Duisburg, a crush at the only entrance to the site kills 21 people and injures hundreds. Its organiser announces there will be no more Love Parades."
+    - dato: "9 Jul 2022"
+      texto: "The first Rave The Planet Parade, in Berlin: it calls for the city’s electronic music culture to be recognised as heritage."
+    - dato: "13 Mar 2024"
+      texto: "Berlin’s techno culture enters Germany’s national inventory of intangible cultural heritage."
+  creditos:
+    imagenes:
+      - "Photos from Wikimedia Commons: Till Krech (CC BY 2.0), extranoise (CC BY-SA 2.0), Hackedepicciotto (CC BY-SA 3.0), Aad van der Drift (CC BY 2.0), Romanus94 (CC BY-SA 4.0) and RundschauDuisburg (CC BY-SA 2.0)."
+      - "Love Parade logo: Wikimedia Commons, public domain."
+    musica: "“Consciência”, by DJ Dextro."
+    mapa: "Maps: © OpenStreetMap contributors (ODbL) and Natural Earth."
+  cuerpo: |
+    On 1 July 1989, four months before the fall of the Wall, about 150 people danced to techno along the Kurfürstendamm, in West Berlin. It was organised by the DJ Dr. Motte and his then partner, Danielle de Picciotto. They registered it as a demonstration, with a slogan: “Friede, Freude, Eierkuchen”. Peace, joy and pancakes, for a fair distribution of food.
+
+    Every summer there were more of them. When they no longer fitted on the avenue, they moved to the Tiergarten, and the golden angel of the Victory Column became its emblem. In 1999, according to the figures of the time, there were one and a half million.
+
+    In 2001, the courts said it was no longer a demonstration but a commercial event. The organisers now had to pay for cleaning and security. In 2004 and 2005 there was no money. It returned in 2006 with a gym chain, and Dr. Motte stepped away. Then it left Berlin for the Ruhr: Essen in 2007 and Dortmund in 2008. In 2009, Bochum cancelled it on safety grounds.
+
+    On 24 July 2010, in Duisburg, a crush on the only entrance ramp killed 21 people and injured hundreds. Its organiser said there would never be another Love Parade. Today there is a memorial on that ramp: “Love never ends”.
+
+    In 2022, Dr. Motte took to the street again with another demonstration, Rave The Planet. It called for Berlin’s techno culture to be recognised as heritage. In 2024 it entered Germany’s inventory of intangible cultural heritage. The party went back to what it was at the start: a protest.
 ---
 
 El 1 de julio de 1989, cuatro meses antes de la caída del Muro, unas 150 personas bailaron techno por el Kurfürstendamm, en Berlín Oeste. Lo organizaron el DJ Dr. Motte y su pareja de entonces, Danielle de Picciotto. Lo inscribieron como manifestación, con un lema: «Friede, Freude, Eierkuchen». Paz, alegría y tortitas, por un reparto justo de la comida.

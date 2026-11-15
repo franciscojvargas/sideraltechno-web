@@ -1,8 +1,8 @@
 import { z } from "zod";
 
-export const TIPOS_FUENTE = ["oficial", "prensa", "academico", "libro", "web", "enciclopedia", "mapa", "archivo", "comentarios", "entrevista"] as const;
+const TIPOS_FUENTE = ["oficial", "prensa", "academico", "libro", "web", "enciclopedia", "mapa", "archivo", "comentarios", "entrevista"] as const;
 
-export const TIPOS_VIDEO = ["club", "festival", "escena", "cultura", "dj", "artista", "correccion", "homenaje"] as const;
+const TIPOS_VIDEO = ["club", "festival", "escena", "cultura", "dj", "artista", "correccion", "homenaje"] as const;
 
 // YAML convierte «2019» en número y «2019-10-24» en fecha: se normaliza todo a texto.
 const fecha = z
@@ -13,7 +13,7 @@ const fecha = z
 // Solo enlaces web: nada de javascript:, data: ni similares.
 const enlace = z.url({ protocol: /^https?$/, message: "URL http(s) completa" });
 
-export const FuenteSchema = z.object({
+const FuenteSchema = z.object({
   clave: z.string().regex(/^[a-z0-9-]+$/, "clave en minúsculas con guiones"),
   medio: z.string().min(1),
   titulo: z.string().optional(),
@@ -26,19 +26,19 @@ export const FuenteSchema = z.object({
   consultada: fecha.optional(),
 });
 
-export const CifraSchema = z.object({
+const CifraSchema = z.object({
   dato: z.string().min(1),
   texto: z.string().min(1),
   fuentes: z.array(z.string()).min(1),
   matiz: z.string().optional(),
 });
 
-export const LineaGuionSchema = z.object({
+const LineaGuionSchema = z.object({
   clave: z.string(),
   texto: z.string(),
 });
 
-export const CorreccionSchema = z.object({
+const CorreccionSchema = z.object({
   fecha: fecha,
   error: z.string().min(1),
   correccion: z.string().min(1),
@@ -46,7 +46,7 @@ export const CorreccionSchema = z.object({
   origen: z.string().optional(),
 });
 
-export const LugarSchema = z.object({
+const LugarSchema = z.object({
   nombre: z.string().min(1),
   municipio: z.string().optional(),
   provincia: z.string().optional(),
@@ -56,12 +56,32 @@ export const LugarSchema = z.object({
   aproximado: z.boolean().optional(),
 });
 
-export const CreditosSchema = z.object({
+const CreditosSchema = z.object({
   imagenes: z.array(z.string()).optional(),
   musica: z.string().optional(),
   mapa: z.string().optional(),
   voz: z.string().default("Voz generada con IA (ElevenLabs), etiquetada como tal en Instagram y TikTok."),
   otros: z.array(z.string()).optional(),
+});
+
+// La ficha en inglés: lo que se lee en la página, en el mismo orden que el original.
+// Las fuentes, los lugares y los enlaces son los del original y no se repiten.
+const TraduccionSchema = z.object({
+  titulo: z.string().min(1),
+  serie: z.string().optional(),
+  resumen: z.string().min(20).max(220),
+  cifras: z.array(z.object({ dato: z.string().min(1), texto: z.string().min(1) })).default([]),
+  correcciones: z.array(z.object({ error: z.string().min(1), correccion: z.string().min(1) })).default([]),
+  creditos: z
+    .object({
+      imagenes: z.array(z.string()).optional(),
+      musica: z.string().optional(),
+      mapa: z.string().optional(),
+      voz: z.string().default("AI-generated voice (ElevenLabs), labelled as such on Instagram and TikTok."),
+      otros: z.array(z.string()).optional(),
+    })
+    .prefault({}),
+  cuerpo: z.string().trim().min(200, "el texto en inglés es demasiado corto (< 200 caracteres)"),
 });
 
 export const VideoFrontmatterSchema = z.object({
@@ -81,7 +101,6 @@ export const VideoFrontmatterSchema = z.object({
   instagram: z.string().regex(/^[A-Za-z0-9_-]+$/, "solo el código del reel").optional(),
   /** tiktok.com/@sideraltechno/video/<tiktok> */
   tiktok: z.string().regex(/^\d+$/, "solo el número del vídeo").optional(),
-  video: enlace.optional(),
   lugar: LugarSchema.optional(),
   etiquetas: z.array(z.union([z.string(), z.number()]).transform(String)).default([]),
   guion: z.array(LineaGuionSchema).default([]),
@@ -93,16 +112,14 @@ export const VideoFrontmatterSchema = z.object({
   preguntasAbiertas: z.array(z.string()).default([]),
   relacionados: z.array(z.string()).default([]),
   cuentas: z.array(z.object({ red: z.enum(["instagram", "tiktok", "web"]), usuario: z.string(), nombre: z.string().optional() })).default([]),
+  en: TraduccionSchema.optional(),
 });
 
 export type VideoFrontmatter = z.infer<typeof VideoFrontmatterSchema>;
 export type Fuente = z.infer<typeof FuenteSchema>;
-export type Cifra = z.infer<typeof CifraSchema>;
-export type Correccion = z.infer<typeof CorreccionSchema>;
 
 export type Video = VideoFrontmatter & {
   cuerpo: string;
   cuerpoPlano: string;
-  slug: string;
   relacionadosPendientes?: string[];
 };
