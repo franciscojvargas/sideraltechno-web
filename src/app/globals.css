@@ -1,4 +1,5 @@
-@import "tailwindcss";
+/* Solo src/: las fichas y los scripts no deben generar clases por palabras sueltas del texto. */
+@import "tailwindcss" source("..");
 
 :root {
   --carbon: #0b0c0c;
@@ -277,7 +278,7 @@
     display: none;
   }
 
-  /* Sin hover: número y título van bajo la portada y los toques tienen respuesta visual. */
+  /* Sin hover: serie y título van bajo la portada y los toques tienen respuesta visual. */
   @media (hover: none), (pointer: coarse) {
     .reja .velo {
       display: none;

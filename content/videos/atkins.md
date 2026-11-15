@@ -123,6 +123,34 @@ noDicho:
   - "Qué tema dio nombre al género se contradice entre fuentes: se cuenta la historia del título de 1988, que él mismo relataba."
   - "No se dice que grabara en Berlín: Tresor publicó el disco, pero dónde se grabó no consta."
 relacionados: [detroit, muro]
+en:
+  titulo: "Juan Atkins: the man who gave techno its name"
+  serie: "Club culture · Origins"
+  resumen: "A tribute to Juan Atkins: the grandmother who bought him a Korg, the Metroplex basement, Cybotron, Model 500 and the day he said “this is techno”."
+  cifras:
+    - dato: "1980"
+      texto: "He forms Cybotron with Rick Davis, his friend and musical mentor."
+    - dato: "1985"
+      texto: "He records “No UFO's” in his grandmother's basement. It is his first record as Model 500, on his label Metroplex."
+    - dato: "1988"
+      texto: "A British compilation was going to be called “The House Sound of Detroit”. Atkins refused and it came out as “Techno! The New Dance Sound of Detroit”."
+    - dato: "Aged 64"
+      texto: "He died in Mexico City, where he was due to perform. The Detroit Free Press dates his death to 31 October 2026."
+  creditos:
+    imagenes:
+      - "Portrait of Juan Atkins (2010): Angie Linder, CC BY-SA 2.0, Wikimedia Commons (in black and white, cropped)."
+      - "Photos from Wikimedia Commons: Dave Walker, ArnoldReinhold, PeRshGo, bobistraveling, Matt Perry, 909 bd, JacoTen, Myself248 and Rafael Aparicio (CC BY and CC BY-SA); F J Degenaar, Fantasy Records and NARA (public domain)."
+      - "Record covers and labels, and book covers: their respective owners."
+    musica: "Ricardo Garduño: “Soul Communication”. The TR-909 sound is recreated."
+    mapa: "Maps: © OpenStreetMap contributors (ODbL), Natural Earth."
+    otros:
+      - "The grandmother's house is a line drawing, not the real house."
+  cuerpo: |
+    Juan Atkins was a producer and DJ from Detroit, in the United States. The Detroit Historical Society says the genre took its name from one of his compositions. This video is a tribute to his story.
+
+    It all began at his grandmother's house. She played the organ and bought him a synthesiser, a Korg MS-10. In 1980 he formed Cybotron with Rick Davis, his friend and mentor. Later he set up a studio in the basement of that house. There he recorded “No UFO's”, his first record as Model 500, on his label Metroplex.
+
+    In 1988 a British compilation was going to be called “The House Sound of Detroit”. He refused: “This is techno,” he said. He died in Mexico City, where he was due to perform, at the age of 64.
 ---
 
 Juan Atkins fue un productor y DJ de Detroit, en Estados Unidos. La Detroit Historical Society dice que el género tomó su nombre de una de sus composiciones. Este vídeo es un homenaje a su historia.

@@ -188,6 +188,38 @@ preguntasAbiertas:
 relacionados: [florida, metro, dc10]
 cuentas:
   - { red: instagram, usuario: amnesiaibiza, nombre: "Amnesia Ibiza" }
+en:
+  titulo: "Amnesia: the Ibiza club that changed London's nightlife?"
+  serie: "Spanish scene · Ibiza"
+  resumen: "The Sant Rafel farmhouse that Antonio Escohotado rented in 1976, Alfredo in the booth and the four London DJs who took the sound home in 1987."
+  cifras:
+    - dato: "1976"
+      texto: "The Sant Rafel farmhouse opens for dancing. In May 1976 the widow of the owning family signs a five-year lease with Antonio Escohotado, who rents it with his partner Manolo Sáenz de Heredia."
+    - dato: "El taller del olvido"
+      texto: "The name Escohotado wanted, “the workshop of forgetting”. The name Amnesia was proposed by his partner, Manolo Sáenz de Heredia."
+    - dato: "1987"
+      texto: "In the summer of 1987 four London DJs, Paul Oakenfold, Danny Rampling, Nicky Holloway and Johnny Walker, travel to Ibiza for Oakenfold's birthday and hear Alfredo at Amnesia."
+    - dato: "1988"
+      texto: "The Second Summer of Love, the summer of Shoom, Future and Spectrum in London."
+    - dato: "50"
+      texto: "Amnesia celebrates its 50th anniversary throughout 2026, with the motto “50 years dancing in freedom”."
+  creditos:
+    imagenes:
+      - "NME (July 1989): “E viva Amnesia” cutting (the photo is Ku, not Amnesia)."
+      - "Amnesia Ibiza: 1985 stickers, 1989 poster, the 1976 terrace rebuilt for its 50th anniversary, logo and 50th-anniversary seal."
+      - "Shoom: 1988 flyers, designed by George Georgiou. Spectrum: 1988 poster, Dave Little; photo from DJ Food."
+      - "Amnesia in 2020: Andrew Woodvine, CC BY-SA 2.0, Wikimedia Commons."
+    musica: "Yrsen: “Bunong People”."
+    mapa: "Map: © OpenStreetMap contributors (ODbL), Natural Earth, relief: Terrarium (SRTM)."
+  correcciones:
+    - error: "The photo in frame 0 and in the “E viva Amnesia” shot, taken from the NME feature of July 1989, is not Amnesia: it is Ku, the club with the glass pyramid that is now Privilege's Vista Club. Our first reply in the comments (that it was Amnesia, because of the pyramid) was also wrong: Amnesia's pyramid was the small one on the terrace fountain."
+      correccion: "Acknowledged the same day in the comments to the two people who pointed it out."
+  cuerpo: |
+    Amnesia is a nightclub in Ibiza. It is in Sant Rafel, in the centre of the island, in a white Ibizan farmhouse. It opened for dancing in 1976. In 2026 it celebrates its fiftieth anniversary with the motto “50 years dancing in freedom”.
+
+    The philosopher Antonio Escohotado rented it with his partner, Manolo Sáenz de Heredia. Escohotado wanted to call it El taller del olvido, “the workshop of forgetting”. The name Amnesia was his partner's idea. At first the dance floor was open-air, under the trees. In the booth was Alfredo Fiorito, an Argentinian from Rosario.
+
+    In the summer of 1987, four London DJs heard Alfredo at Amnesia. According to the club's website and The Guardian, they were Paul Oakenfold, Danny Rampling, Nicky Holloway and Johnny Walker. Back in London, Rampling opened Shoom and Oakenfold opened Spectrum. In 1988 came the Second Summer of Love.
 ---
 
 Amnesia es una discoteca de Ibiza. Está en Sant Rafel, en el centro de la isla, en una finca payesa blanca. Abrió para bailar en 1976. En 2026 celebra su cincuenta aniversario con el lema «50 years dancing in freedom».

@@ -212,6 +212,75 @@ relacionados: [florida, metro, barraca, masia, nitsa]
 cuentas:
   - { red: instagram, usuario: salasonorabilbao, nombre: "Sala Sonora" }
   - { red: tiktok, usuario: salasonorabilbao, nombre: "Sala Sonora" }
+en:
+  titulo: "Sonora: if you are a DJ, you will know why its rooms are named that way"
+  serie: "Spanish scene · Clubs"
+  resumen: "An industrial building on the Bilbao estuary, facing the cranes of La Naval, and three rooms named after drum machines: the 808, the 909 and the 606."
+  cifras:
+    - dato: "2012"
+      texto: "Sonora opens in a former industrial building on Ribera de Axpe, in Astrabudua (Erandio), next to the metro exit."
+    - dato: "808 · 909 · 606"
+      texto: "The rooms have numbers, not names: the 808 and the 909 since the opening; today, the 606 as well."
+    - dato: "1980"
+      texto: "Roland TR-808: the long kick of hip hop."
+    - dato: "1981"
+      texto: "Roland TR-606: designed to be used with the TB-303 bass synthesiser, the acid machine."
+    - dato: "1983"
+      texto: "Roland TR-909: the dry kick of techno and house."
+  creditos:
+    imagenes:
+      - "Photos of the club, in black and white: Sala Sonora (its Instagram; the room seen from the booth is a still from the video by byseventh7) and Jesús Brinas / Time Out Bilbao."
+      - "Roland TR-808 and TR-909: Brandon Daniel, derived from Clusternote (CC BY-SA 2.0), via Wikimedia Commons."
+      - "Roland TR-606: Midas Wouters (CC BY-SA 3.0), via Wikimedia Commons."
+      - "La Naval and the estuary at Astrabudua: Zarateman (CC0), via Wikimedia Commons."
+    musica: "Connor Wall — “Disposed” (Rødhåd Presents: Solara Melfera)."
+    mapa: "Map: © OpenStreetMap contributors (ODbL)."
+    otros:
+      - "The sounds of the 808, the 606 (with its 303) and the 909 are recreated by synthesis for the video."
+  cuerpo: |
+    ## Two banks
+
+    The Bilbao estuary separates two stories. On the Sestao bank stand the cranes of La Naval, a former shipyard that stopped building ships. According to El Independiente, its land passed to a logistics operator; the Basque Government declared it a Conjunto Monumental (a protected monument) in 2022, according to the BOPV.
+
+    Opposite, in Astrabudua (Erandio), there is a former industrial building on Ribera de Axpe, next to the metro exit. That is how Deia described it in January 2012, when it was announced that a club would open there. BI FM remembered it in 2015 as “an immense building”.
+
+    ## A name that says it all
+
+    The club was called Sonora. One of its founding partners explained it in Deia: it is “designed for enjoying the sound”. It arrived with 30,000 watts of equipment, according to Deia, DOD Magazine and BI FM. Deia also reported a comparison made at the opening: “twice San Mamés”.
+
+    It opened in June 2012. BI FM gives 14 June; Deia, in its 12 June edition, spoke of “this Friday”, which fell on the 15th. That is why we only give the year.
+
+    ## Rooms with numbers
+
+    Sonora's rooms have numbers, not names. Deia noted it in June 2012: “808, 909... it is not a geometric progression”, but two of the rooms. In May of the same year, the newspaper placed club electronic music in the 909: deep, tech house and techno.
+
+    Today there is a third room, the 606. It appears in the September 2026 calendar the club itself posted on Instagram and in its October listings, with all three rooms open on the same night. In a post from the season, the club summed it up: “909 hardtechno mode. 606 techno mode”.
+
+    One nuance: the 909 was born as the techno room, but today it is the club's main room and also hosts other styles. That is why the video does not call it “the techno room”, but says it “has lived up to its name”: some of the biggest names in techno have played in its booth.
+
+    ## Why those numbers?
+
+    For anyone who loves electronic music, the numbers will sound familiar. The only source we have found that explains the origin of the names is the magazine Fast and Wide, around 2013: the rooms were named after “Roland's legendary drum machines”. It is a single source, so we tell it with that caution.
+
+    For any DJ, the three numbers are well known. They are three drum machines from the Japanese brand Roland:
+
+    - **TR-808**, from 1980. Its long kick shaped hip hop, according to Wikipedia.
+    - **TR-606**, made from 1981 to 1984. According to Wikipedia, it was designed to accompany the TB-303 bass synthesiser, the acid machine.
+    - **TR-909**, from 1983. Roland itself tells in “The TR-909 Story” how its dry kick became the sound of techno and house.
+
+    All three play in the video, in the order they came out. They are not recordings of the machines: they are sounds recreated by synthesis.
+
+    ## The booth
+
+    According to Deia, Carl Cox, Richie Hawtin and Marco Carola have played in Sonora's booth. There is a record of each one: Carl Cox played on 11 October 2022, according to Basques on Decks; Marco Carola appears on the club's Flickr in June 2015; and Richie Hawtin, British-Canadian, played on 4 April 2026, according to Songkick and the club's Instagram.
+
+    In 2014, the public voted Sonora “Best Club” at the Vicious Music Awards, according to Guía Dance and House Andújar. It was not the award for best discotheque, which went to Fabrik.
+
+    ## The estuary, again
+
+    The 2026-2027 season is the club's fifteenth, and it presents itself as “Building the night since 2012”. On one side of the estuary, the cranes that built ships. On the other, a building where machines now make rhythm.
+
+    The question stays open for anyone who has danced there: 606, 808 or 909?
 ---
 
 ## Dos orillas

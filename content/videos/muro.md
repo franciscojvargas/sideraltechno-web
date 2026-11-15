@@ -194,6 +194,56 @@ cuentas:
   - { red: instagram, usuario: tresorberlin, nombre: "Tresor Berlin" }
   - { red: instagram, usuario: dimihegemann, nombre: "Dimitri Hegemann" }
   - { red: instagram, usuario: undergroundresistance313, nombre: "Underground Resistance" }
+en:
+  titulo: "Why is Berlin the capital of techno?"
+  serie: "Club culture · Origins"
+  resumen: "After the fall of the Wall, a vault hidden in no man's land became Tresor, the club that served as the model for Berlin's clubs."
+  cifras:
+    - dato: "9 Nov 1989"
+      texto: "At the end of a press conference, in the early afternoon, the opening of the border is announced. That night the Wall falls."
+    - dato: "Ufo"
+      texto: "Dimitri Hegemann was looking for a venue after having to close Ufo, Berlin's first acid house club."
+    - dato: "A lighter"
+      texto: "With Johnnie Stieler, he went down with a lighter into a slippery basement. Stieler remembers it like this: “This must be what it feels like to discover a hoard of Aztec treasure.”"
+    - dato: "Wertheim"
+      texto: "The steel door guarded the vault of the old Wertheim department store, destroyed in the Second World War. The Wall had made it disappear for decades."
+    - dato: "Tresor"
+      texto: "The name comes from the place: “Tresor” is German for “safe”. The logo was drawn from a bolt on the door."
+    - dato: "13 Mar 1991"
+      texto: "At midnight a basement door opened at Leipziger Straße 126."
+    - dato: "1991"
+      texto: "In October of that year Tresor Records is born, with records by Underground Resistance and Blake Baxter, from Detroit."
+    - dato: "130 BPM"
+      texto: "“At 130 BPM, in the thick fog of dry ice, it really didn't matter where you came from,” wrote the journalist Jürgen Laarmann. Many young people from East and West met there for the first time."
+    - dato: "Model"
+      texto: "Tresor was in many ways the prototype of Berlin's clubs. Others followed its example, such as Planet and Walfisch."
+    - dato: "16 Apr 2005"
+      texto: "Last party at the original Tresor, next to Potsdamer Platz."
+    - dato: "The door"
+      texto: "Hegemann took the steel door apart with his own hands. Together with the deposit boxes, which also survive, it is the first exhibit of the Berlin exhibition at the Humboldt Forum."
+    - dato: "13 Mar 2024"
+      texto: "Berlin's techno culture enters Germany's national inventory of intangible cultural heritage. Its entry names Detroit techno, Chicago house and Belgian EBM among its roots."
+  creditos:
+    imagenes:
+      - "Death strip, 1977 and 1984: George Garrigues, Wikimedia Commons, CC BY-SA 3.0."
+      - "Potsdamer Platz, former Wall strip: Joachim F. Thurn / Bundesarchiv, Wikimedia Commons, CC BY-SA 3.0 DE."
+      - "Leipziger Platz with the Wertheim department store, 1910: Rudolf A. Schwartz, Wikimedia Commons, CC0."
+      - "Tresor, 2003: Wikimedia Commons, public domain."
+      - "Former site of Tresor: getoutski, Wikimedia Commons, CC BY-SA 2.0."
+      - "The Tresor door at the Humboldt Forum: Fridolin freudenfett, Wikimedia Commons, CC BY-SA 4.0."
+      - "All in black and white."
+    musica: "“Dark Brown Suspicion”, by HUJUS."
+    mapa: "Map: © OpenStreetMap contributors (ODbL), with the course of the Wall from the Berliner Mauerweg."
+  cuerpo: |
+    On 9 November 1989 the Berlin Wall fell. In the East, many buildings were left empty and with no clear owner.
+
+    Dimitri Hegemann had had to close Ufo, Berlin's first acid house club, and was looking for a venue. With his friend Johnnie Stieler and a lighter, he went down into a basement next to the former death strip, the no man's land between East and West. Behind a steel door there was a vault with rusty safe-deposit boxes. Stieler compared it to discovering Aztec treasure.
+
+    The vault belonged to the Wertheim department store, destroyed in the Second World War. The Wall had hidden it for decades. That is why the club was called Tresor, German for “safe”. Its logo came from a bolt on the door. It opened at midnight on 13 March 1991, at Leipziger Straße 126.
+
+    The sound was Detroit. In October of that year, Tresor Records released records by Underground Resistance. Many young people from East and West met there for the first time. Tresor was the prototype of Berlin's clubs and, after it, others opened, such as Planet and Walfisch.
+
+    The last party at the original Tresor was on 16 April 2005. Hegemann took the door apart with his own hands. Today, with its boxes, it is the first exhibit of the Berlin exhibition at the Humboldt Forum. In 2024, Berlin's techno culture entered Germany's inventory of intangible cultural heritage. Its entry names Detroit among its roots.
 ---
 
 El 9 de noviembre de 1989 cayó el Muro de Berlín. En el Este quedaron muchos edificios vacíos y sin dueño claro.

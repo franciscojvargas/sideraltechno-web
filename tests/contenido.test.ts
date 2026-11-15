@@ -22,4 +22,16 @@ describe("contenido", () => {
     const todo = JSON.stringify(v);
     expect(todo).not.toMatch(/visualizaciones|seguidores ganados|permiso pendiente|\b[\w-]+\/[\w.-]+\.(tsx?|mjs|py|json)\b|npm run/i);
   });
+  it.each(videos.filter((v) => v.estado === "publicado").map((v) => [v.id, v] as const))("%s: la versión en inglés sigue las reglas de la marca", (_id, v) => {
+    expect(v.en).toBeDefined();
+    // Los títulos de obras se citan tal cual, aunque lleven exclamación.
+    const todo = JSON.stringify(v.en).replace(/Techno! The New Dance Sound of Detroit|Kr!z/g, "");
+    expect(todo).not.toMatch(/[!¡«»]/);
+    expect(v.en!.resumen.length).toBeLessThanOrEqual(160);
+  });
+  it("una serie se traduce siempre igual", () => {
+    const series = new Map<string, Set<string>>();
+    for (const v of videos) if (v.serie && v.en?.serie) series.set(v.serie, (series.get(v.serie) ?? new Set()).add(v.en.serie));
+    expect([...series].filter(([, en]) => en.size > 1).map(([es, en]) => `${es} → ${[...en].join(" | ")}`)).toEqual([]);
+  });
 });

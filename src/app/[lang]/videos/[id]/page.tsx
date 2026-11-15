@@ -6,7 +6,7 @@ import { Markdown } from "@/components/Markdown";
 import { ListaFuentes } from "@/components/Fuentes";
 import { Cuadricula } from "@/components/Cuadricula";
 import { IconoInstagram, SeguirInstagram } from "@/components/Redes";
-import { todosLosVideos, urlInstagram, urlTiktok, videoPorId, videosPublicados } from "@/lib/content";
+import { enIdioma, tarjeta, todosLosVideos, urlInstagram, urlTiktok, videoPorId, videosPublicados } from "@/lib/content";
 import { fechaISO, fechaLarga } from "@/lib/fechas";
 import { idiomaActual, idiomaDesconocido } from "@/lib/idioma-actual";
 import { IDIOMAS, LOCALE_OG, alternativas, ruta } from "@/lib/idiomas";
@@ -34,14 +34,15 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/videos/[id]">): Promise<Metadata> {
   const { id } = await params;
-  const v = videoPorId(id);
-  if ((await idiomaDesconocido()) || !v || (v.estado !== "publicado" && !MOSTRAR_BORRADORES)) return {};
+  const original = videoPorId(id);
+  if ((await idiomaDesconocido()) || !original || (original.estado !== "publicado" && !MOSTRAR_BORRADORES)) return {};
   const idioma = await idiomaActual();
+  const v = enIdioma(original, idioma);
   const camino = `/videos/${v.id}`;
   return {
     title: v.titulo,
     description: v.resumen,
-    alternates: { canonical: ruta(idioma, camino), languages: alternativas(camino), types: { "application/rss+xml": "/feed.xml" } },
+    alternates: { canonical: ruta(idioma, camino), languages: alternativas(camino), types: { "application/rss+xml": ruta(idioma, "/feed.xml") } },
     keywords: v.etiquetas,
     openGraph: {
       type: "article",
@@ -63,18 +64,22 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/videos/[id
 
 export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/[id]">) {
   const { id } = await params;
-  const v = videoPorId(id);
-  if ((await idiomaDesconocido()) || !v || (v.estado !== "publicado" && !MOSTRAR_BORRADORES)) notFound();
+  const original = videoPorId(id);
+  if ((await idiomaDesconocido()) || !original || (original.estado !== "publicado" && !MOSTRAR_BORRADORES)) notFound();
   const idioma = await idiomaActual();
   const t = TEXTOS[idioma].video;
-  const langContenido = idioma === "es" ? undefined : "es";
+  const v = enIdioma(original, idioma);
+  // Solo un borrador sin traducir se lee en otro idioma que la página.
+  const langContenido = v.idiomaFicha === idioma ? undefined : v.idiomaFicha;
 
   const ig = urlInstagram(v);
   const tt = urlTiktok(v);
   const url = `${SITIO.url}${ruta(idioma, `/videos/${v.id}`)}`;
   const fuentesPorClave = new Map(v.fuentes.map((f, i) => [f.clave, i + 1]));
   const creditos = [...(v.creditos.imagenes ?? []), v.creditos.musica, v.creditos.mapa, ...(v.creditos.otros ?? []), v.creditos.voz].filter(Boolean);
-  const otros = visibles().filter((x) => x.id !== v.id);
+  const otros = visibles()
+    .filter((x) => x.id !== v.id)
+    .map((x) => tarjeta(x, idioma));
   const mas = [...otros.filter((x) => v.relacionados.includes(x.id)), ...otros.filter((x) => !v.relacionados.includes(x.id))].slice(0, 6);
 
   const datos = {
@@ -84,7 +89,7 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
         "@type": "Article",
         headline: v.titulo,
         description: v.resumen,
-        inLanguage: "es",
+        inLanguage: v.idiomaFicha,
         datePublished: fechaISO(v.publicado),
         dateModified: fechaISO(v.actualizado ?? v.publicado),
         author: { "@id": `${SITIO.url}/#marca` },
@@ -104,7 +109,6 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
             uploadDate: fechaISO(v.publicado),
             duration: v.duracion ? `PT${Math.round(v.duracion)}S` : undefined,
             embedUrl: `${ig}embed/`,
-            contentUrl: v.video,
             url: ig,
           },
         }),
@@ -145,15 +149,10 @@ export default async function PaginaVideo({ params }: PageProps<"/[lang]/videos/
           <h1 className="titular mt-5 max-w-5xl text-[clamp(2.1rem,4.6vw,5.25rem)]" lang={langContenido}>{v.titulo}</h1>
           <span className="regla mt-7" />
           <p className="mt-7 max-w-3xl text-lg leading-relaxed text-blanco/90 sm:mt-8 sm:text-xl" lang={langContenido}>{v.resumen}</p>
-          {t.enEspanol && <p className="mt-5 text-sm text-gris">{t.enEspanol}</p>}
         </header>
 
         <div className="mx-auto w-full max-w-[20rem] sm:max-w-[24rem] lg:sticky lg:top-28 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:mx-0 lg:max-w-none lg:self-start">
-          {v.video ? (
-            <video controls playsInline preload="none" poster={`/portadas/${v.id}.jpg`} className="aspect-[9/16] w-full rounded-sm bg-carbon-2" src={v.video}>
-              {t.noReproduce} <a href={v.video}>{t.descargalo}</a>.
-            </video>
-          ) : ig ? (
+          {ig ? (
             <a href={ig} target="_blank" rel="noopener noreferrer" className="group relative block overflow-hidden rounded-sm bg-carbon-2" aria-label={t.verTitulo(v.titulo)}>
               {portada}
               <span className="absolute bottom-5 right-5 flex h-16 w-16 items-center justify-center rounded-full bg-blanco text-carbon shadow-2xl shadow-black/60 transition-transform duration-300 group-hover:scale-110">

@@ -106,6 +106,26 @@ preguntasAbiertas:
   - "¿Qué peso tuvieron en el origen del techno Kraftwerk, el house de Chicago o el hi-NRG de los clubes gais? En los comentarios salieron los tres."
 relacionados: [atkins, muro, eclipse]
 cuentas: []
+en:
+  titulo: "Was techno born in Berlin?"
+  serie: "Club culture · Origins"
+  resumen: "Techno was born in Detroit in the 80s. A 1988 British compilation popularised the word, and in 2024 Germany declared Berlin's techno part of its heritage."
+  cifras:
+    - dato: "The 80s"
+      texto: "Detroit musicians such as Juan Atkins create techno: Cybotron in 1980, Model 500 and the Metroplex label in 1985."
+    - dato: "1988"
+      texto: "The compilation “Techno! The New Dance Sound of Detroit”, on 10 Records, popularised the word techno in the United Kingdom."
+    - dato: "2024"
+      texto: "Germany adds Berlin's techno culture to its national inventory of intangible cultural heritage."
+  creditos:
+    mapa: "Map: Natural Earth."
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    Was techno born in Berlin? No. Techno was born in Detroit, Michigan, in the United States, in the eighties. Berlin came later and made it its own, to the point of turning it into heritage.
+
+    It was created by Detroit musicians such as Juan Atkins. In 1980 he formed Cybotron with Rick Davis. In 1985 he launched Model 500 and his label, Metroplex. The Detroit Historical Society says that Atkins is “often” seen as the father of Detroit techno.
+
+    In 1988 the compilation “Techno! The New Dance Sound of Detroit”, on 10 Records, popularised the word techno in the United Kingdom. In 2024 Germany added Berlin's techno culture to its national inventory of intangible cultural heritage. It is not the UNESCO heritage list. And the official entry names Detroit techno among the roots of the genre.
 ---
 
 ¿Nació el techno en Berlín? No. El techno nació en Detroit, en Míchigan, Estados Unidos, en los años ochenta. Berlín llegó después y lo hizo suyo hasta convertirlo en patrimonio.

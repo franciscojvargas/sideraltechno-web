@@ -8,7 +8,7 @@ export async function Cabecera() {
   const idioma = await idiomaActual();
   return (
     <header className="cabecera marco flex items-center justify-between gap-4 pb-3 sm:gap-6 sm:pb-5 sm:pt-5">
-      <Wordmark tamano="sm" />
+      <Wordmark />
       <div className="flex items-center gap-3 sm:gap-5">
         <Redes />
         <SelectorIdioma idioma={idioma} etiqueta={TEXTOS[idioma].idioma} />

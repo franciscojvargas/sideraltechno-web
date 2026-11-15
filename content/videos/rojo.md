@@ -105,6 +105,28 @@ preguntasAbiertas:
 relacionados: [limitador, calidad, mesas]
 cuentas:
   - { red: instagram, usuario: gustavobassanii, nombre: "Gustavo Bassani" }
+en:
+  titulo: "Does playing in the red sound louder?"
+  serie: "Club culture · The booth"
+  resumen: "Playing in the red does not turn up the room: it clips the waveform. What the Pioneer DJM-900NXS2 manual says and why the limiter turns the amps down."
+  cifras:
+    - dato: "0 dB"
+      texto: "The peak level to which the manufacturer asks you to set the channel (TRIM) and the master (MASTER LEVEL) so that the sound does not distort."
+    - dato: "The amps go down"
+      texto: "When the signal arrives clipped, the room does not sound louder: the engineer compensates by turning down the power amps, which the DJ does not control, and the limiter does the same."
+  creditos:
+    imagenes:
+      - "DJM 900NXS2 1 and DJM 900NXS2 3: FASTILY, Wikimedia Commons, CC BY-SA 4.0 (converted to black and white)."
+      - "CDJ-2000 Nexus & DJM-900 2: FASTILY, Wikimedia Commons, CC BY-SA 4.0 (converted to black and white)."
+      - "Professional PA power amps from Crest Audio and QSC with control modules in rack (cropped): Niels Heidenreich, Wikimedia Commons, CC BY-SA 2.0 (black and white)."
+      - "Line array speakers: Epolk, Wikimedia Commons, CC BY-SA 4.0 (black and white)."
+    musica: "“Sauna”, Gustavo Bassani (Domme Sesh EP); in the clipping shot it plays clipped on purpose."
+  cuerpo: |
+    Does playing in the red sound louder? No. When the signal goes over the maximum the equipment allows, the waveform is cut off. That is clipping. More gain is not more volume: the room does not sound louder, it sounds worse.
+
+    The manual for the Pioneer DJ DJM-900NXS2 mixer covers it in its troubleshooting section. If the sound distorts, it asks you to set TRIM and MASTER LEVEL to about 0 dB at peak level. And what the red on the meter means varies from one piece of equipment to another.
+
+    There is a second consequence. According to Digital DJ Tips, which quotes the sound engineer at Ministry of Sound, the engineer compensates for the clipped signal by turning down the power amps. The DJ does not control those amps. The venue's limiter does the same on its own.
 ---
 
 ¿Pinchar en rojo suena más alto? No. Cuando la señal pasa del máximo que admite el equipo, la onda se recorta. Eso es el clipping. Más ganancia no es más volumen: la sala no suena más alta, suena peor.

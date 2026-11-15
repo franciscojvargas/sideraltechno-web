@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { fechaLarga } from "../src/lib/fechas";
 import { IDIOMAS, IDIOMA_ORIGINAL, alternativas, esIdioma, idiomaSeguro, ruta } from "../src/lib/idiomas";
-import { TEXTOS, type Textos } from "../src/lib/textos";
+import { TEXTOS } from "../src/lib/textos";
 
 describe("idiomas", () => {
   it("el original no lleva prefijo y los demás sí", () => {
@@ -34,15 +34,10 @@ describe("textos", () => {
   it.each(IDIOMAS)("%s no deja textos vacíos ni exclamaciones", (i) => {
     const vacios = claves(TEXTOS[i]).filter((c) => {
       const v = c.split(".").reduce<unknown>((o, k) => (o as Record<string, unknown>)[k], TEXTOS[i]);
-      return typeof v === "string" && v.trim() === "" && c !== "video.enEspanol";
+      return typeof v === "string" && v.trim() === "";
     });
     expect(vacios).toEqual([]);
     expect(JSON.stringify(TEXTOS[i])).not.toMatch(/[!¡]/);
-  });
-  it("el aviso de contenido en español solo aparece fuera del español", () => {
-    const t: Textos = TEXTOS[IDIOMA_ORIGINAL];
-    expect(t.video.enEspanol).toBe("");
-    for (const i of IDIOMAS.filter((x) => x !== IDIOMA_ORIGINAL)) expect(TEXTOS[i].video.enEspanol).not.toBe("");
   });
 });
 

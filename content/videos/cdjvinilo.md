@@ -178,6 +178,78 @@ cuentas:
   - { red: instagram, usuario: technics_global, nombre: "Technics" }
   - { red: instagram, usuario: alphathetaglobal, nombre: "Pioneer DJ (AlphaTheta)" }
   - { red: instagram, usuario: kriztoken, nombre: "Kr!z" }
+en:
+  titulo: "Does DJing with vinyl deserve more credit?"
+  serie: "Club culture · The booth"
+  resumen: "Vinyl versus CDJ: how a DJ knows whether two tracks match, how they line them up, why the needle can jump and what loops and cues add."
+  cifras:
+    - dato: "Vinyl: by ear"
+      texto: "With vinyl you can't see the waveform: the two tracks are lined up by listening, with the pitch fader and by touching the platter to slow it down or push it."
+    - dato: "Faster = higher"
+      texto: "If you speed up a record, the tempo and the pitch rise together."
+    - dato: "The needle can jump"
+      texto: "The needle sits in a groove; with a lot of bass in the room, feedback can make it jump."
+    - dato: "CDJ: the waveform on screen"
+      texto: "The CDJ screen shows the track's waveform and its tempo in BPM."
+    - dato: "Master Tempo"
+      texto: "It changes the tempo without changing the pitch. It appeared on the 1994 CDJ-500, according to Wikipedia."
+    - dato: "Loops and cues"
+      texto: "Loops repeat a section of the track and cues mark points to jump to with a button: eight hot cue buttons below the waveform and 4- and 8-beat loops on the CDJ-3000."
+  creditos:
+    imagenes:
+      - "Technics SL-1200MK2: Adrian DuMay, CC BY 2.0, Wikimedia Commons (in black and white)."
+      - "Technics SL-1200MK2 in a venue: Fst76, CC BY 3.0, Wikimedia Commons (in black and white)."
+      - "Pitch fader of a Technics SL-1200: Kenta Morigami, CC BY-SA 2.0, Wikimedia Commons (in black and white)."
+      - "Three CDJs and two SL-1210s at Bob Beaman, Munich: Arnold Jaeger Werner, CC BY 2.0, Wikimedia Commons (in black and white)."
+      - "Original 1972 Technics SL-1200: BMRR, CC BY-SA 4.0, Wikimedia Commons (in black and white)."
+      - "CDJ-2000: Fabexplosive, CC BY-SA 3.0, Wikimedia Commons (in black and white)."
+      - "Groove and needle: Franz van Duns, CC BY-SA 4.0, Wikimedia Commons (in black and white)."
+      - "CDJ-2000 Nexus and DJM-900 (two photos): FASTILY, CC BY-SA 4.0, Wikimedia Commons (in black and white)."
+      - "Grooves of an LP: Evan-Amos, public domain, Wikimedia Commons (in black and white)."
+      - "Technics SL-1200G: david falkner, CC BY 2.0, Wikimedia Commons (in black and white)."
+      - "CDJ-2000NXS2 and DJM-900NXS2: 加蛋不加價, CC BY 2.0, Wikimedia Commons (in black and white)."
+      - "CDJ-1000 product photo: Pioneer DJ."
+    musica: "Kr!z — “White Frost” (Glaciers). The demonstrations were built on this track; the needle sound and the effects were synthesised for the video."
+  cuerpo: |
+    ## The question that divides DJ booths
+
+    “That's not DJing.” It is the line that has divided vinyl DJs and CDJ DJs for more than twenty years. This dossier takes no side. It explains what the DJ does on each machine, so that the closing question can be answered knowing what we are talking about.
+
+    ## One task, two steps
+
+    To mix, the DJ brings two tracks to the same speed: this is called beatmatching. English Wikipedia, in its entry on beatmatching, describes adjusting the records by hand to keep them in time. The task has two steps. First, knowing whether the two tracks are in time. Then, matching them.
+
+    ## Step 1: knowing whether they are in time
+
+    With vinyl, the DJ knows by ear. They see nothing. According to the guide “How to beatmatch” on Pirate.com (Bec Irvine, 2024), lining up on vinyl takes more listening because there is no waveform to look at.
+
+    With CDJs, they can also see it. The screen shows the track's waveform and its tempo in BPM. Pioneer DJ's official CDJ-3000 product page mentions automatic BPM and grid analysis, and a three-band waveform. According to Wikipedia, the waveform display arrived with the CDJ-1000 in 2001 and let DJs see what was coming up in the track.
+
+    One caveat: with CDJs you also line up by ear. The dossier says the CDJ shows the waveform, not that you mix by looking at it. The screen helps; the ear is in charge.
+
+    ## Step 2: matching them
+
+    With vinyl, the hand does two things. It moves the pitch fader to match the speed and touches the platter to slow it down or push it for an instant. Pirate.com puts it this way: a gentle touch on the side of the platter is enough. Wikipedia describes the sliding pitch control of the Technics SL-1200, the turntable that was the booth standard for decades.
+
+    There is a physical consequence. If you speed up a record, the music also rises in pitch. Wikipedia puts a number on it: a record 5% faster sounds 5% higher and faster at the same time. In the demonstration, the record runs 8% faster and the pitch rises with it.
+
+    With CDJs and Master Tempo, the speed changes and the pitch stays put. Wikipedia places it on the 1994 CDJ-500: the pitch stays fixed even when the tempo moves. In the demonstration, the same 8%, and the pitch line stays flat. Against the previous shot, you can hear the difference.
+
+    ## The drawback of vinyl
+
+    The needle sits in a groove. With a lot of bass in the room, it can jump. Phil Morse explains it in Digital DJ Tips (2018): bass feedback makes the turntables rumble and, in the worst cases, knocks the needle out of the groove. We could only read that source, so the sentence stays at “it can jump”.
+
+    ## What the CDJ adds
+
+    The CDJ, on the other hand, adds tools. Loops repeat a section of the track. Cues mark points to jump to with a button. The CDJ-3000 product page describes eight hot cue buttons below the waveform and 4- and 8-beat loops. Wikipedia dates the loop to the CDJ-500 (1994) and hot cues with loops to the CDJ-1000 MK3 (2006).
+
+    ## What you hear
+
+    Vinyl forces you to listen. The CDJ helps you see. In the end, the credit doesn't lie in the machine: it lies in what you hear. That sentence sums up what came before and is not a fact. It takes no side.
+
+    ## The history of the machines
+
+    According to Wikipedia, the Technics SL-1200 was launched in 1972 for the consumer market, and the MK2, with the pitch fader in place of the dial, arrived in the late seventies: We Are Crossfader says 1978 and Wikipedia 1979, so we don't give the year. In 2001 Pioneer released the CDJ-1000, the first CD player to emulate a vinyl turntable, scratching included, according to Wikipedia and Mixmag. In 2010 Panasonic stopped making the turntable, according to TechCrunch and Wikipedia. In January 2016 it announced its return, and the first batch of 300 units sold out in Japan in half an hour, according to Mixmag and Digital Music News.
 ---
 
 ## La pregunta que divide a las cabinas

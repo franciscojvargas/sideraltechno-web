@@ -178,6 +178,37 @@ preguntasAbiertas:
 relacionados: [ruta, correccion, cuantas, oido, limitador]
 cuentas:
   - { red: instagram, usuario: lewisfautzi, nombre: "Lewis Fautzi" }
+en:
+  titulo: "ACTV: the nightclub that was in a bathhouse?"
+  serie: "Spanish scene · Ruta del Bakalao"
+  resumen: "From the Termas Victoria, a 1918 bathhouse on València's beach, to ACTV, the only club on the Ruta del Bakalao inside the city."
+  cifras:
+    - dato: "1918"
+      texto: "The Termas Victoria pavilion, a beachfront bathhouse offering hot seawater baths."
+    - dato: "1922"
+      texto: "The Termas Victoria saw out the year with a dinner dance and a jazz band in its glass rotunda."
+    - dato: "Mid-80s"
+      texto: "Julio Andújar opens ACTV on the lower floor of the old bathhouse: the only club on the Ruta inside the city."
+    - dato: "133 dB"
+      texto: "The output level of the speakers, according to its owner: “an outrageous level that isn't allowed now”."
+  creditos:
+    imagenes:
+      - "The pavilion today: TaronjaSatsuma, CC BY-SA 4.0 (Wikimedia Commons)."
+      - "“Adelfas de la Malvarrosa”, Joaquín Sorolla, 1904: photo CC BY-SA 4.0 (Wikimedia Commons)."
+      - "Cabanyal beach: Andrenoha, CC0 (Wikimedia Commons)."
+      - "Sea: Moniidiazz, CC BY-SA 3.0 es (Wikimedia Commons)."
+      - "Boats: Manuel Martín Vicente, CC BY 2.0 (Wikimedia Commons)."
+      - "Archive images: Julio Andújar's archive (Iconos del Diseño Valenciano), rutadestroy.com, Marítimo de Valencia, Valencia Bonita, Planeta Indie."
+    musica: "Lewis Fautzi, “Graviton Field”."
+    mapa: "Map: © OpenStreetMap contributors (ODbL)."
+    otros:
+      - "The posters, logo and signs in the video are our own line drawings, not reproductions of the work of Quique Company and Paco Bascuñán."
+  cuerpo: |
+    ACTV was a club on the Ruta del Bakalao, the Valencian club route, on Malvarrosa beach in València. It opened in the mid-eighties on the lower floor of an old bathhouse, the Termas Victoria. According to its founder, Julio Andújar, it was the only club on the Ruta inside the city. Today Akuarela Playa operates in the same pavilion.
+
+    The bathhouse was a 1918 pavilion right on the beach. It offered hot seawater baths to Valencia's bourgeoisie. People were already dancing there: in 1922 it saw out the year with a jazz band in its glass rotunda.
+
+    The name has several explanations. Its owner says it stands for Asociación Cultural Termas Victoria. Its designers speak of a play on alternating current and television. Hence people at the time said “activi”.
 ---
 
 ACTV fue una discoteca de la Ruta del Bakalao en la playa de la Malvarrosa, en València. Abrió a mediados de los ochenta en los bajos de un antiguo balneario, las Termas Victoria. Según su fundador, Julio Andújar, era la única discoteca de la Ruta dentro de la ciudad. Hoy, en el mismo pabellón, funciona Akuarela Playa.

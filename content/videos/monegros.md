@@ -281,6 +281,43 @@ cuentas:
   - { red: instagram, usuario: florida135official, nombre: "Florida 135" }
   - { red: instagram, usuario: elrowofficial, nombre: "elrow" }
   - { red: instagram, usuario: half.life__, nombre: "HALF LIFE" }
+en:
+  titulo: "The story behind Monegros"
+  serie: "Spanish scene · Clubs"
+  resumen: "From a free rave on Aunt Joaquina’s estate to more than 60,000 people in the desert: the story of the Monegros Desert Festival."
+  cifras:
+    - dato: "1992, 1993 or 1994"
+      texto: "The year of the first party in the desert varies by source. The video gives all three versions without choosing."
+    - dato: "1890 and 1904"
+      texto: "The great-great-grandfather, Josepet Satorres, lost the Las Peñetas estate in a game of poker and won it back in his own casino."
+    - dato: "2015"
+      texto: "The 2015 edition was cancelled because some of the estate’s owners did not authorise the use of the land. The last edition before the break was in 2014."
+    - dato: "2022"
+      texto: "The festival returned in 2022 to the same estate."
+    - dato: "Over 60,000"
+      texto: "Attendees at the 2026 edition (25 and 26 July), the largest in its history according to the organisers."
+    - dato: "97 countries"
+      texto: "Where the 2026 audience came from; 35% came from outside Spain (in the voiceover, “more than a third”)."
+    - dato: "4,500"
+      texto: "Workers at the 2026 edition, with a month of set-up."
+    - dato: "450"
+      texto: "Official buses to the site in 2026."
+    - dato: "€8.2 million"
+      texto: "Budget for the 2026 edition, according to Joaquín Cabós, the festival’s director."
+    - dato: "22 hours"
+      texto: "Hours of non-stop music in 2026."
+  creditos:
+    imagenes:
+      - "Photos from Florida 135 (f135.com), elrow and the Monegros Desert Festival archive (1994 flyer, 1996 and 2001 posters, aerial view of the site in 1999)."
+      - "Wikimedia Commons: Fraga, ecelan (CC BY 2.5); Los Monegros desert, Smoobs (CC BY 2.0); threshing floor, Juan Emilio Prades Bel (CC BY 4.0); 1778 deck of cards, public domain; Casino de Huesca, Kent Wang (CC BY-SA 4.0); Monegros, Willtron (CC BY-SA 3.0)."
+    musica: "“Awareness Is Freedom”, by HALF LIFE."
+    mapa: "Relief: Terrarium (Tilezen, SRTM). Roads, river, villages and site: © OpenStreetMap contributors (ODbL), Natural Earth."
+  cuerpo: |
+    The Monegros Desert Festival is an electronic music festival in the Los Monegros desert, in Fraga (Huesca). It was born in the Arnau family, the family behind Florida 135. It began as a free rave without official permits at Las Peñetas, a family estate. Before it took this name it was the Groove Parade.
+
+    The year of the first party varies by source: 1992, 1993 or 1994. According to the official timeline, a great-great-grandfather of the family lost the estate in a game of poker in 1890. He won it back in 1904 in his own casino. It is a family story.
+
+    The 2015 edition was cancelled because some of the owners did not authorise the use of the land. The festival returned in 2022. In 2026 it brought together more than 60,000 people from 97 countries, according to the organisers.
 ---
 
 El Monegros Desert Festival es un festival de música electrónica en el desierto de Los Monegros, en Fraga (Huesca). Nació en la familia Arnau, la del Florida 135. Empezó como una rave gratis y sin permisos oficiales en Las Peñetas, una finca de la familia. Antes de llamarse así fue la Groove Parade.

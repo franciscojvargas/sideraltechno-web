@@ -216,6 +216,67 @@ cuentas:
   - { red: instagram, usuario: sala_apolo, nombre: "Sala Apolo" }
   - { red: instagram, usuario: jeff_mills_official, nombre: "Jeff Mills" }
   - { red: instagram, usuario: laurent_garnier, nombre: "Laurent Garnier" }
+en:
+  titulo: "Nitsa: the club born on a revolving dance floor?"
+  serie: "Spanish scene · Clubs"
+  resumen: "From a basement with a revolving dance floor to Sala Apolo: the story of Nitsa, of DJ Sideral, of the shift from pop to electronic and of its B-side, Astin."
+  cifras:
+    - dato: "1994"
+      texto: "In September Aleix Vergés, DJ Sideral, arrives in the Nitsa booth and becomes its resident DJ."
+    - dato: "350 people"
+      texto: "What the basement in Plaza Joan Llongueras could hold, according to Gabi Ruiz, who programmed Nitsa; at Apolo, a thousand."
+    - dato: "1996"
+      texto: "The basement becomes too small and Nitsa moves to Sala Apolo, on Nou de la Rambla street."
+    - dato: "1935"
+      texto: "An indoor amusement park, the Autopark, opens in the Apolo building."
+    - dato: "30 years"
+      texto: "In December 2024 Nitsa celebrates its thirtieth anniversary with a week of DJ sets."
+  creditos:
+    imagenes:
+      - "Sala Apolo (old photo of the façade, sala-apolo.com)."
+      - "Nitsa (façade at night, nitsa.com)."
+      - "Façade of Sala Apolo: Enric (CC BY-SA 4.0), via Wikimedia Commons."
+      - "Nou de la Rambla 107-113: Xavier Badia Castellà (CC BY-SA 3.0, cropped), via Wikimedia Commons."
+      - "The Paral·lel from the Mirador de Colom, 27-1-1935: Jaume Biosca i Juvé (public domain, AFCEC)."
+      - "All converted to black and white. Logos: Nitsa, Astin and Sala Apolo."
+    musica: "GCOD — “Descent” [KYSH-EP07]."
+    mapa: "World map: Natural Earth (public domain). Map: © OpenStreetMap contributors (ODbL)."
+  cuerpo: |
+    ## A basement that went round
+
+    Before Sala Apolo, Nitsa was in a basement in Plaza Joan Llongueras, in the Sant Gervasi neighbourhood of Barcelona. It was a low-ceilinged venue with a revolving dance floor: while people danced, the floor turned. Xceed Nightmag describes it as “a basement turned into a revolving dance floor, decorated with a 1970s style”. The Sala Apolo website mentions low ceilings, smoky black walls and a “fantastic” revolving dance floor. Time Out Barcelona, in 2015, called it “the legendary Barcelonese club with the revolving dance floor”.
+
+    According to eldiario.es, Nitsa was first conceived as a pop and indie club. The documentary about those years sums it up in its title: *Nitsa 94/96: el giro electrónico* (the electronic turn).
+
+    ## DJ Sideral
+
+    In September 1994 Aleix Vergés, who played as DJ Sideral, arrived in the booth. Beteve tells the story, in 2021, and so does Wololo Sound, in 2022. According to Beteve, in his first sets he almost always played pop and only at the end dared to play electronic music. Rockdelux names him as the club's main catalyst, and the Apolo website remembers him as its resident DJ in that period.
+
+    We do not give the year the club opened because the sources disagree: the official website says 1993; Rockdelux and Barcelona Cultura, 1994. What is documented is that Sideral arrived in September 1994.
+
+    Jeff Mills, from Detroit, and Laurent Garnier, from France, both played in that booth. Beteve, Barcelona Cultura, Xceed and Gabi Ruiz, in his interview for Apolo75, all record it. Beteve credits Gabi Ruiz with inventing Nitsa Club.
+
+    ## From the square to Apolo
+
+    The basement became too small. Barcelona Cultura says the regulars grew so much that another venue was needed. Gabi Ruiz, who programmed Nitsa, puts it in numbers in his interview for Apolo75: they went from a capacity of 350 people at the “Giratorio” to a Sala Apolo that could hold a thousand. And on the first night, he recalls, the queue went round the block. In 1996 Nitsa moved to Sala Apolo, on Nou de la Rambla street, next to the Paral·lel. eldiario.es, Wololo Sound and the venue's own website agree, and the website gives the month: September.
+
+    ## A building that began as an amusement park
+
+    The Apolo building has its own story. According to eldiario.es, in 1935 José Vallés Rovira opened an indoor amusement park there, the AutoPark. El Retrovisor confirms it: it began in 1935 as Autopark, run by Josep Vallés, and changed its name after the Civil War.
+
+    ## The club hidden in the name
+
+    Astin is not another venue or the earlier club: it is Nitsa's B-side inside Apolo. It opened in October 2017 in the former La (2), the building's second room (Barcelona Cultura, NRF Magazine), and the Apolo website presents it as its counterweight: “its B-side”. Its sound is different: more house, more disco and the newest music. Its name is Nitsa spelt backwards. Xceed says it plainly: Astin is the name Nitsa reversed. The venue's website plays with the anagram: Astin is the same as Nitsa, but totally different.
+
+    Where the name “Nitsa” comes from, on the other hand, is not explained by any source we have found.
+
+    ## Thirty years
+
+    In December 2024 Nitsa celebrated its thirtieth anniversary with a week of DJ sets, from 3 to 7 December, according to Beteve. Rockdelux and the Apolo website also covered the anniversary.
+
+    ## What the comments brought
+
+    The topic came from the audience. In the comments on Florida 135, one person suggested Nitsa among the most important clubs in Spain. Later, another asked us to remember Aleix Vergés, DJ Sideral, because of the coincidence with our name. If you have kept a flyer from 1994 to 1996, from the basement or from the early years at Apolo, it would help us complete the story.
 ---
 
 ## Un sótano que daba vueltas

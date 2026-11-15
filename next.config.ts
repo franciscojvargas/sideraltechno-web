@@ -8,10 +8,16 @@ const csp = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${desarrollo ? " 'unsafe-eval' https://va.vercel-scripts.com" : ""}`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob:",
+  "img-src 'self' data:",
   "font-src 'self'",
-  "media-src 'self' https:",
+  // La web no aloja vídeo ni audio: los reels se ven en Instagram y TikTok.
+  "media-src 'none'",
   "connect-src 'self'",
+  // Ni atributos on…= ni marcos ni workers: nada de eso hace falta y cierra caminos a un script inyectado.
+  "script-src-attr 'none'",
+  "frame-src 'none'",
+  "worker-src 'none'",
+  "manifest-src 'self'",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'none'",
@@ -24,7 +30,7 @@ const seguridad = [
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "X-Frame-Options", value: "DENY" },
-  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()" },
+  { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
   { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
   { key: "Cross-Origin-Resource-Policy", value: "same-site" },
   { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
@@ -59,6 +65,8 @@ const nextConfig: NextConfig = {
       { source: `/${original}`, destination: "/", permanent: true },
       { source: `/${original}/videos/:id(${ID})`, destination: "/videos/:id", permanent: true },
       { source: `/${original}/og.png`, destination: "/og.png", permanent: true },
+      { source: `/${original}/feed.xml`, destination: "/feed.xml", permanent: true },
+      { source: `/${original}/indice.json`, destination: "/indice.json", permanent: true },
       { source: `/${original}/videos/:id(${ID})/og.png`, destination: "/videos/:id/og.png", permanent: true },
       // Las imágenes sociales cambiaron de nombre: las vistas previas ya guardadas siguen funcionando.
       { source: "/opengraph-image", destination: "/og.png", permanent: true },
@@ -70,6 +78,8 @@ const nextConfig: NextConfig = {
       afterFiles: [
         { source: "/", destination: `/${original}` },
         { source: "/og.png", destination: `/${original}/og.png` },
+        { source: "/feed.xml", destination: `/${original}/feed.xml` },
+        { source: "/indice.json", destination: `/${original}/indice.json` },
         { source: `/videos/:id(${ID})`, destination: `/${original}/videos/:id` },
         { source: `/videos/:id(${ID})/og.png`, destination: `/${original}/videos/:id/og.png` },
       ],
@@ -80,6 +90,8 @@ const nextConfig: NextConfig = {
     return [
       { source: "/:path*", headers: seguridad },
       { source: "/portadas/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=604800, stale-while-revalidate=86400" }] },
+      // El índice del buscador es para la propia web, no para los resultados de Google.
+      ...["/indice.json", ...idiomas.map((i) => `/${i}/indice.json`)].map((source) => ({ source, headers: [{ key: "X-Robots-Tag", value: "noindex" }] })),
       // Imágenes públicas: los lectores RSS y las vistas previas de otras webs deben poder mostrarlas.
       ...["/portadas/:path*", ...sociales].map((source) => ({ source, headers: [{ key: "Cross-Origin-Resource-Policy", value: "cross-origin" }] })),
     ];

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Arimo } from "next/font/google";
+import { arimo } from "@/lib/fuente";
 import { Analytics } from "@vercel/analytics/next";
 import { Cabecera } from "@/components/Cabecera";
 import { Pie } from "@/components/Pie";
@@ -9,7 +9,6 @@ import { SITIO } from "@/lib/sitio";
 import { TEXTOS } from "@/lib/textos";
 import "../globals.css";
 
-const arimo = Arimo({ variable: "--font-arimo", subsets: ["latin"], display: "swap", weight: ["400", "700"], preload: false });
 
 export const ensureStatic = "navigation";
 
@@ -25,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: { default: `${SITIO.nombre} | ${t.lema}`, template: `%s | ${SITIO.nombre}` },
     description: t.descripcion,
     applicationName: SITIO.nombre,
-    alternates: { canonical: ruta(idioma), languages: alternativas(), types: { "application/rss+xml": "/feed.xml" } },
+    alternates: { canonical: ruta(idioma), languages: alternativas(), types: { "application/rss+xml": ruta(idioma, "/feed.xml") } },
     openGraph: {
       type: "website",
       siteName: SITIO.nombre,

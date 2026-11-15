@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ImageResponse } from "next/og";
-import { todosLosVideos, videoPorId, videosPublicados } from "@/lib/content";
+import { enIdioma, todosLosVideos, videoPorId, videosPublicados } from "@/lib/content";
 import { IDIOMAS, esIdioma } from "@/lib/idiomas";
 import { MOSTRAR_BORRADORES } from "@/lib/sitio";
 import { TEXTOS } from "@/lib/textos";
@@ -14,9 +14,10 @@ export function generateStaticParams() {
 
 export async function GET(_peticion: Request, { params }: RouteContext<"/[lang]/videos/[id]/og.png">) {
   const { lang, id } = await params;
-  const v = videoPorId(id);
+  const original = videoPorId(id);
   // El id llega de la URL: sin vídeo visible no se toca el disco.
-  if (!esIdioma(lang) || !v || (v.estado !== "publicado" && !MOSTRAR_BORRADORES)) return new Response(null, { status: 404 });
+  if (!esIdioma(lang) || !original || (original.estado !== "publicado" && !MOSTRAR_BORRADORES)) return new Response(null, { status: 404 });
+  const v = enIdioma(original, lang);
   const t = TEXTOS[lang].imagen;
   const titulo = v.titulo;
   const portada = `data:image/jpeg;base64,${fs.readFileSync(path.join(process.cwd(), "public", "portadas", `${v.id}.jpg`)).toString("base64")}`;

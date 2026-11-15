@@ -211,6 +211,46 @@ cuentas:
   - { red: tiktok, usuario: discotecachocolate, nombre: "Discoteca Chocolate" }
   - { red: instagram, usuario: coliseum_almudevar_oficial, nombre: "Coliseum" }
   - { red: instagram, usuario: mislaw_music, nombre: "Mislaw" }
+en:
+  titulo: "Chocolate: a nightclub inside Hansel and Gretel's house?"
+  serie: "Spanish scene · Ruta del Bakalao"
+  resumen: "A rice-drying shed in Sueca that in 1980 dressed up in chocolate and cream: the story of Chocolate, the Cathedral of music of the Ruta del Bakalao."
+  cifras:
+    - dato: "1980"
+      texto: "In summer Chocolate Cream opens in a former rice-drying shed and warehouse in Les Palmeres, Sueca, next to the Albufera."
+    - dato: "Half a kilometre"
+      texto: "Chocolate and Barraca are 519 metres apart in a straight line."
+    - dato: "Hansel and Gretel"
+      texto: "The design was inspired by the chocolate house in the fairy tale: a chocolate façade with drips of cream. Its interior designer, Nacho Moscardó, turned the space into “a giant cake”."
+    - dato: "1986"
+      texto: "After the early years of Toni Vidal, “Toni el Gitano”, who gave the venue a dark, gothic sound, José Conca arrives. He stays for sixteen years."
+    - dato: "7:00"
+      texto: "At seven in the morning a concert began, as a continuation of the night session."
+    - dato: "6 Nov 2004"
+      texto: "Chocolate says goodbye as a nightclub with almost all the DJs who had been residents. After that it carried on with one-off parties."
+    - dato: "3 Sep 2022"
+      texto: "It opens again, ten years after closing in 2012."
+    - dato: "14 Nov 2026"
+      texto: "The club's next party, Chocolate x Coliseum, announced on its Instagram."
+  creditos:
+    imagenes:
+      - "Club photos: Discoteca Chocolate (discotecachocolate.com), photo feature by Jota Martínez and Rodrigo."
+      - "Chocolate Cream façade: La Casa de la Arquitectura."
+      - "Flyers and 1990 poster: Discoteca Chocolate."
+      - "Rice fields of Sueca (“35. Vistes dels arrossars de Sueca”): Vicenç Salvador Torres Guerola, Wikimedia Commons, CC BY-SA 3.0."
+      - "All in black and white."
+    musica: "“Sen”, by Mislaw."
+    mapa: "Map: © OpenStreetMap contributors (ODbL). Chocolate's position as given by the club."
+  cuerpo: |
+    Chocolate is a nightclub in Les Palmeres, a hamlet of Sueca next to the Albufera, south of València. It is half a kilometre from Barraca, among rice fields. Before it was a nightclub it was a rice-drying shed and warehouse.
+
+    It opened in the summer of 1980 under the name Chocolate Cream. The design was inspired by the chocolate house in the tale of Hansel and Gretel: a brown façade with drips of cream. Its interior designer, Nacho Moscardó, says he proposed turning the space into “a giant cake”. Soon after, it was renamed simply Chocolate.
+
+    In the booth, Toni Vidal, known as Toni el Gitano, took the venue towards a dark, gothic sound. In 1986 José Conca arrived, and he stayed for sixteen years. According to the club, it was the first nightclub to programme concerts at seven in the morning, as a continuation of the night. Its motto was “Don't say Saturday, say Chocolate”. People called it the Cathedral of music.
+
+    On 6 November 2004 it closed as a nightclub, with almost all its residents in the booth. It carried on with one-off parties and changed hands. In 2012 it closed its doors. On 3 September 2022 it opened again, ten years later. Today it opens on special dates: the next one is 14 November 2026, together with Coliseum.
+
+    Our first video about the Ruta del Bakalao said that Chocolate was 200 metres from Barraca. Measured on the map, it is 519 metres.
 ---
 
 Chocolate es una discoteca de Les Palmeres, una pedanía de Sueca junto a la Albufera, al sur de València. Está a medio kilómetro de Barraca, entre arrozales. Antes de ser discoteca era un secadero y almacén de arroz.

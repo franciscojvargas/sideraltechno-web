@@ -139,6 +139,28 @@ preguntasAbiertas:
   - "¿Eran NOD y Espiral parte de la Ruta? La prensa dice que sí; parte del público, que no."
 relacionados: [ruta, cuantas, actv, barraca, chocolate]
 cuentas: []
+en:
+  titulo: "Was the whole Ruta del Bakalao on a single road?"
+  serie: "Spanish scene · Ruta del Bakalao"
+  resumen: "Our first video implied it and we apologised: Espiral and NOD were inland. The route of the Ruta del Bakalao, told properly."
+  cifras:
+    - dato: "2"
+      texto: "Two clubs on the list in the first video were not on the coast: Espiral, in La Eliana, and NOD, in Riba-roja de Túria."
+    - dato: "Around 1996"
+      texto: "The Ruta faded out around 1996."
+    - dato: "1984"
+      texto: "Spook Factory, in Pinedo, had already opened in 1984."
+    - dato: "2011"
+      texto: "Puzzle, in El Perelló, closed in 2011."
+  creditos:
+    mapa: "Line map: © OpenStreetMap contributors (ODbL). Where there are no coordinates for the club, the dot marks the town, not the venue."
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    This video corrects the first one we made about the Ruta del Bakalao, the club route in València. In it we talked about “nightclubs by the roadside” and gave a list of nine. But the Ruta was not all on one road.
+
+    Two of those clubs were not even on the coast. Espiral was in La Eliana. NOD was in Riba-roja de Túria, inland, west of València. The press counts them as part of the Ruta, although some people dispute it.
+
+    The heart of the Ruta was indeed on the El Saler road, the CV-500. There, in Pinedo, Spook Factory had already opened in 1984. Further south, Puzzle, in El Perelló, closed in 2011. The Ruta faded out around 1996.
 ---
 
 Este vídeo corrige el primero que hicimos sobre la Ruta del Bakalao, en València. En él hablamos de «discotecas a pie de carretera» y presentamos una lista de nueve. Pero la Ruta no estaba toda en una carretera.

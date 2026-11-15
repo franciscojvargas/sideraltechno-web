@@ -128,6 +128,29 @@ cuentas:
   - { red: instagram, usuario: masia_discoteca, nombre: "Masía" }
   - { red: instagram, usuario: dr.evil_masia, nombre: "Dr Evil" }
   - { red: instagram, usuario: luar.techno, nombre: "LUAR" }
+en:
+  titulo: "Masía: how old is it really?"
+  serie: "Spanish scene · Clubs"
+  resumen: "Masía, in Segorbe (Castellón), counts from 1991. But there is a ticket stamped in July 1987: before that, La Masía stood on the same site."
+  cifras:
+    - dato: "35 years"
+      texto: "Masía celebrated its 35th anniversary on 6 June 2026: it counts from 1991."
+    - dato: "17 July 1987"
+      texto: "The date stamped on a ticket kept by a follower: “ENTRADA · Masia DISCO”, with a hand-drawn map showing Segorbe, Sot de Ferrer, Algar, Sagunto and la Vall d'Uixó."
+    - dato: "1991"
+      texto: "In the summer of 1991 Xima Segarra, who worked there as a promoter, also opened La Masía in winter: “Masía as such was born”."
+  creditos:
+    imagenes:
+      - "The 1987 ticket and the 1990s invitations: from a follower of the account. The Masía logo: Discoteca Masía."
+      - "Photos of the Palancia valley (Segorbe, Algar, Sot de Ferrer): Enrique Íñiguez Rodríguez (Qoan), CC BY-SA 3.0; Joanbanjo, CC BY-SA 3.0 and 4.0 (Wikimedia Commons)."
+    musica: "LUAR: “Distant Voices”."
+    mapa: "Map: © OpenStreetMap contributors (ODbL)."
+  cuerpo: |
+    Masía is a nightclub in Segorbe, in the Alto Palancia district of Castellón. It stands next to the village of Sot de Ferrer. On 6 June 2026 it celebrated its 35th anniversary. Hard Music calls it “the second home of thousands of masieros”.
+
+    The club counts from 1991, but there is a ticket stamped on 17 July 1987. The two dates fit together. Before, the venue was La Masía, a summer nightclub with an open-air dance floor. In the summer of 1991 Xima Segarra, who worked there as a promoter, also opened it in winter.
+
+    Sets by the DJ J. Demasiado dated between 1991 and 1993 have survived. According to Hard Music, Israel, Xima’s son, known as Dr Evil, “introduced hardcore and newstyle”.
 ---
 
 Masía es una discoteca de Segorbe, en la comarca del Alto Palancia, en Castellón. Está junto al pueblo de Sot de Ferrer. El 6 de junio de 2026 celebró su 35 aniversario. Hard Music la llama «la segunda casa de miles de masieros».

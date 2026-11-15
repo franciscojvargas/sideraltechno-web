@@ -60,6 +60,23 @@ preguntasAbiertas:
   - "¿Dónde notas el bombo: pecho, tripa o cabeza? Alguien respondió que lo nota «como si me sujetaran»."
 relacionados: [oido, limitador]
 cuentas: []
+en:
+  titulo: "Why do you feel a hard-hitting kick drum right in your chest?"
+  serie: "Club culture · Bass"
+  resumen: "Why you feel the kick drum in your body: bass from 20 to 200 hertz, and a study using techno on the organ of balance."
+  cifras:
+    - dato: "20–200 Hz"
+      texto: "The bass band (“low-frequency sound”). Below 20 Hz is infrasound. At levels somewhat above the threshold, vibrations can be felt in various parts of the body."
+    - dato: "90 dB"
+      texto: "With a techno sample “typical of a club”, the subjects' sternocleidomastoid muscle responded, via the vestibular system, from 90 dB(A) upwards."
+  creditos:
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    You don't only hear a techno kick drum with your ears. You feel it in your chest, in your stomach, sometimes in your head. The explanation has two parts.
+
+    The first part is physics. A 2004 review in Noise & Health defines low-frequency sound as the band between 20 and 200 hertz. At levels somewhat above the hearing threshold, vibrations can be felt in various parts of the body.
+
+    The second part has to do with balance. In 2000, a study had ten people listen to a sample of techno typical of a club. It measured a response that passes through the vestibular system, the inner-ear organ that controls balance. It appeared from 90 dB(A) upwards. Its authors put it forward as a hypothesis, not as a rule. More volume means more risk to your hearing.
 ---
 
 El bombo del techno no se oye solo con los oídos. Se nota en el pecho, en la tripa, a veces en la cabeza. La explicación tiene dos partes.

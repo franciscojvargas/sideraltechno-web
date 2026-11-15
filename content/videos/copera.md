@@ -115,6 +115,30 @@ preguntasAbiertas:
 relacionados: [florida, mulero, barraca]
 cuentas:
   - { red: instagram, usuario: industrialcopera, nombre: "Industrial Copera" }
+en:
+  titulo: "Industrial Copera: one of Spain's oldest techno clubs"
+  serie: "Spanish scene · Clubs"
+  resumen: "From Clandestino, in L'Hospitalet, to a warehouse in Armilla in 1992 and another in La Zubia since 2014: the story of Industrial Copera, in Granada."
+  cifras:
+    - dato: "1992"
+      texto: "Rosa González and Jesús Carilla return to Granada and open Industrial Copera in a warehouse on an industrial estate in Armilla."
+    - dato: "2013"
+      texto: "Housing goes up around the warehouse, the red tape begins and the club closes in Armilla."
+    - dato: "2014"
+      texto: "It opens again in another warehouse, in La Zubia, under the same name."
+    - dato: "30 years"
+      texto: "In 2022 it turns thirty, “one of Spain's oldest” according to Resident Advisor, and Laurent Garnier comes back."
+  creditos:
+    imagenes:
+      - "Courtesy of Industrial Copera, in black and white and without people: the neon sign with the name (Rockdelux / Primavera Sound), the dance floor (Beatburguer), the La Zubia warehouse (ArchDaily; project photos by Tomás García Píriz) and the screen at the 30th anniversary (Wololo Sound)."
+    mapa: "Maps: © OpenStreetMap contributors (ODbL), Natural Earth. The housing around Armilla is an illustration, labelled as such."
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    Industrial Copera is a techno club in Granada. According to Resident Advisor, it is one of the oldest clubs in Spain. Today it is in a warehouse in La Zubia. Its story begins in the eighties in L'Hospitalet, next to Barcelona. There Rosa González and Jesús Carilla ran a club called Clandestino.
+
+    In 1992 the couple returned to Granada. They opened Industrial Copera in a warehouse on an industrial estate in Armilla. According to Rockdelux, Jeff Mills, Richie Hawtin, Carl Cox and Laurent Garnier all played in that warehouse. Over the years housing was built around it and the red tape began. In 2013 the club closed in Armilla.
+
+    In 2014 it opened again in another warehouse, in La Zubia, under the same name. Today it is run by their son, Junior, who also DJs at the club. In 2022 it turned thirty and Laurent Garnier came back to play.
 ---
 
 Industrial Copera es un club de techno de Granada. Según Resident Advisor, es una de las salas más antiguas de España. Hoy está en una nave de La Zubia. Su historia empieza en los años ochenta en L'Hospitalet, junto a Barcelona. Allí Rosa González y Jesús Carilla llevaban un club llamado Clandestino.

@@ -197,6 +197,51 @@ relacionados: [metro, masia, actv]
 cuentas:
   - { red: instagram, usuario: revivalalicante, nombre: "Revival" }
   - { red: instagram, usuario: hypnotic_insomnia, nombre: "Insomnia Emotional Club" }
+en:
+  titulo: "Revival: the club that opened on Saturday and closed on Monday"
+  serie: "Spanish scene · Clubs"
+  resumen: "Revival, in Los Montesinos (Alicante): from Sunday after-hours to two sunrises in a row, the 2013 closure and a club still on tour."
+  cifras:
+    - dato: "By the lagoons"
+      texto: "The warehouse stood among the farmland of Los Montesinos, just a few metres from the La Mata lagoon."
+    - dato: "Mid-nineties"
+      texto: "Revival is born in the mid-nineties in Los Montesinos, in the Vega Baja del Segura."
+    - dato: "Sunday, 6:00"
+      texto: "At first Revival was a Sunday after-hours club, open from six in the morning. Later the management decided to open on Saturday nights too."
+    - dato: "Saturday to Monday"
+      texto: "It opened on Saturday at midnight and closed on Monday morning, without stopping for a single hour."
+    - dato: "“Mecca of electronic music”"
+      texto: "That is how the newspaper Información described it in 2014: “a venue well known for years as a mecca of electronic music”."
+    - dato: "February 2013"
+      texto: "Revival closes in February 2013. Its last party starts on Sunday 10 February at twelve noon."
+    - dato: "“Solo Una”"
+      texto: "In 2014 the club announces a one-off party, “Solo Una” (“Just One”), for Friday 15 August."
+    - dato: "4,093 signatures"
+      texto: "A 2015 petition on change.org calls for the club to reopen. This is the figure the counter shows."
+    - dato: "Metro, “our home”"
+      texto: "The 25th (2022), 26th (2023) and 29th (2026) anniversaries are held at Carmen 24, the club's name for Metro Dance Club, on the road from Bigastro to Jacarilla."
+    - dato: "Over 2,000"
+      texto: "The people with tickets for the 29th anniversary, in July 2026, according to the club."
+    - dato: "21 November"
+      texto: "The tour of its long-time DJs (Peke, Gascón, Churu, Kuki) stops on Saturday 21 November 2026 at Insomnia, in Ledaña (Cuenca)."
+  creditos:
+    imagenes:
+      - "Façade, car park, snail, Metro's patio and Insomnia poster: @revivalalicante."
+      - "Logo: discorevival.com."
+      - "The warehouse with the mural: HOUSEartzá (2007)."
+      - "The warehouse at night and the booth: El Rampón (blog, 2011)."
+      - "Covers of “Subculture”, “La Esencia del Techno” and “Revival vol. 3”: Discogs."
+      - "“Solo Una” poster (2014): NeGRo83jm blog."
+      - "The warehouse with the signature collection: change.org (2015)."
+      - "All in black and white."
+    musica: "“Spider Web”, by DJ Dextro."
+    mapa: "Map: © OpenStreetMap contributors (ODbL), Natural Earth."
+  cuerpo: |
+    Revival is a club in Los Montesinos, in the Vega Baja area of Alicante. It was born in the mid-nineties in a warehouse right next to the La Mata and Torrevieja lagoons.
+
+    At first it was an after-hours club: it opened on Sunday at six in the morning. Later it began opening on Saturday at midnight and did not stop until Monday. Two sunrises in a row with the music playing. The press went as far as calling it a “mecca of electronic music”.
+
+    It closed in February 2013, with a last party that started on a Sunday at midday. The following year it announced a special date, “Solo Una” (“Just One”), and thousands of people called for it to reopen. Without its warehouse, Revival became a snail: it carries its home on its back. It celebrates its anniversaries at Metro, in Bigastro, and its long-time DJs are still on tour.
 ---
 
 Revival es una discoteca de Los Montesinos, en la Vega Baja de Alicante. Nació a mediados de los noventa en una nave pegada a las lagunas de La Mata y Torrevieja.

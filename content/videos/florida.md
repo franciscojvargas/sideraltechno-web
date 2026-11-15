@@ -132,6 +132,28 @@ preguntasAbiertas:
 relacionados: [elrow, monegros, sonora]
 cuentas:
   - { red: instagram, usuario: florida135official, nombre: "Florida 135" }
+en:
+  titulo: "Florida 135: Spain's most important club?"
+  serie: "Spanish scene · Clubs"
+  resumen: "From a village cinema in 1942 to the Cathedral of techno: the story of Florida 135, in Fraga, and of the Arnau family, who went on to create Monegros and elrow."
+  cifras:
+    - dato: "1942"
+      texto: "Juan Arnau and Francisca Ibarz, a couple from Aitona (Lleida), open the Cine Florida."
+    - dato: "The 80s"
+      texto: "In the mid-eighties the venue is turned into a recreation of 135th Street in the Bronx. That is where the name comes from."
+    - dato: "1993"
+      texto: "The same family throws a party in the Monegros desert. It is the origin of the Monegros Desert Festival."
+    - dato: "Over eight decades"
+      texto: "In 2026 the club still opens one night a month, in a season that began on 19 September."
+  creditos:
+    mapa: "Map: © OpenStreetMap contributors (ODbL), Natural Earth."
+    musica: "Track and sound effects synthesised for the video."
+  cuerpo: |
+    Florida 135 is a nightclub in Fraga, in the province of Huesca, halfway between Lleida and Zaragoza. Today it is known as the Cathedral of techno. Its story begins in a village cinema.
+
+    In 1942 Juan Arnau and Francisca Ibarz, a couple from Aitona, opened the Cine Florida. The venue later became a dance hall. In the mid-eighties the family turned it into a recreation of 135th Street in the Bronx, New York. That is where the name comes from.
+
+    Two well-known parties came out of that family. According to Heraldo de Aragón, El Español and elrow, in 1993 the family held a party in the Monegros desert, the origin of the Monegros Desert Festival. The next generation created elrow, the confetti party. More than eight decades later, the club still opens one night a month.
 ---
 
 Florida 135 es una discoteca de Fraga, en la provincia de Huesca, a medio camino entre Lleida y Zaragoza. Hoy la llaman la Catedral del techno. Su historia empieza en un cine de pueblo.
