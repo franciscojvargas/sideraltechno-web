@@ -146,7 +146,7 @@ noDicho:
   - "Que sea «el club más longevo de Madrid»: lo dice Vozpópuli, sin más fuente."
 preguntasAbiertas:
   - "¿Madrugarías un domingo para bailar?"
-relacionados: [mulero, dc10, florida]
+relacionados: [mulero, dc10, florida, coliseum]
 cuentas:
   - { red: instagram, usuario: space_ofsound, nombre: "Space of Sound" }
   - { red: instagram, usuario: lab.theclub, nombre: "LAB theClub" }
