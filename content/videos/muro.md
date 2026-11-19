@@ -189,7 +189,7 @@ noDicho:
   - "Que la UNESCO declarara patrimonio el techno de Berlín: es el inventario nacional alemán, no la lista de la UNESCO."
 preguntasAbiertas:
   - "¿Estuviste en el Tresor de Leipziger Straße? ¿Qué recuerdas de la cámara?"
-relacionados: [detroit, atkins, loveparade, sincierre]
+relacionados: [detroit, atkins, loveparade, sincierre, jaguar]
 cuentas:
   - { red: instagram, usuario: tresorberlin, nombre: "Tresor Berlin" }
   - { red: instagram, usuario: dimihegemann, nombre: "Dimitri Hegemann" }
