@@ -104,7 +104,7 @@ noDicho:
   - "Que sea Patrimonio Mundial de la UNESCO: es el inventario nacional alemán."
 preguntasAbiertas:
   - "¿Qué peso tuvieron en el origen del techno Kraftwerk, el house de Chicago o el hi-NRG de los clubes gais? En los comentarios salieron los tres."
-relacionados: [atkins, muro, eclipse]
+relacionados: [atkins, muro, eclipse, jaguar]
 cuentas: []
 en:
   titulo: "Was techno born in Berlin?"

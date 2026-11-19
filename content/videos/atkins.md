@@ -122,7 +122,7 @@ noDicho:
   - "La causa de la muerte no se dice: no está confirmada."
   - "Qué tema dio nombre al género se contradice entre fuentes: se cuenta la historia del título de 1988, que él mismo relataba."
   - "No se dice que grabara en Berlín: Tresor publicó el disco, pero dónde se grabó no consta."
-relacionados: [detroit, muro]
+relacionados: [detroit, muro, jaguar]
 en:
   titulo: "Juan Atkins: the man who gave techno its name"
   serie: "Club culture · Origins"
