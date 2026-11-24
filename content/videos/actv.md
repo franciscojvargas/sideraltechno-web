@@ -175,7 +175,7 @@ noDicho:
 preguntasAbiertas:
   - "¿Cuándo fue la última vez que bailaste en ACTV? Di el año."
   - "¿Estaba ACTV en la Malvarrosa o en el Cabanyal? Una persona lo discutió en los comentarios y no lo hemos comprobado."
-relacionados: [ruta, correccion, cuantas, oido, limitador]
+relacionados: [ruta, correccion, cuantas, oido, limitador, spook]
 cuentas:
   - { red: instagram, usuario: lewisfautzi, nombre: "Lewis Fautzi" }
 en:

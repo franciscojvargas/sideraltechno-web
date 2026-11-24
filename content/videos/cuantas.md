@@ -96,7 +96,7 @@ noDicho:
 preguntasAbiertas:
   - "¿Cuál era tu primera parada?"
   - "¿Dónde estaban Calavera, Arsenal o Arabesco? Los habéis nombrado, pero no tenemos su ubicación con fuente."
-relacionados: [ruta, correccion, actv, barraca, chocolate]
+relacionados: [ruta, correccion, actv, barraca, chocolate, spook]
 cuentas:
   - { red: instagram, usuario: __vilchezz, nombre: "Vilchezz" }
 en:
