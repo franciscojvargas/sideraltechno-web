@@ -195,7 +195,7 @@ noDicho:
 preguntasAbiertas:
   - "¿A qué hora salías de Spook? Si guardas una entrada, un flyer o una foto con fecha, ayuda a contar mejor su historia."
   - "¿Cuánto duraba de verdad el parón de las seis? Las fuentes no se ponen de acuerdo."
-relacionados: [ruta, chocolate, barraca, actv, cuantas]
+relacionados: [ruta, chocolate, barraca2, barraca, actv, cuantas]
 cuentas:
   - { red: instagram, usuario: spook.club, nombre: "Spook" }
 en:

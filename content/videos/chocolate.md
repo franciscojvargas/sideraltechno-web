@@ -205,7 +205,7 @@ noDicho:
 preguntasAbiertas:
   - "¿Sábado o Chocolate? ¿En qué años ibas?"
   - "Si guardas un flyer o una entrada de los 80 o los 90, con fecha, ayuda a cerrar lo que las fuentes no aclaran: quién pinchó la inauguración y cuándo pasó a llamarse solo Chocolate."
-relacionados: [barraca, ruta, correccion, cuantas, actv, spook]
+relacionados: [barraca2, barraca, ruta, correccion, cuantas, actv, spook]
 cuentas:
   - { red: instagram, usuario: discotecachocolate, nombre: "Discoteca Chocolate" }
   - { red: tiktok, usuario: discotecachocolate, nombre: "Discoteca Chocolate" }
