@@ -204,7 +204,7 @@ noDicho:
   - "Que Andrés Campo pinchara allí como DJ Kuki: solo lo dice Heraldo de Aragón."
 preguntasAbiertas:
   - "¿Desde dónde ibas a Coliseum?"
-relacionados: [florida, spaceofsound, revival]
+relacionados: [florida, spaceofsound, revival, pontaeri]
 cuentas:
   - { red: instagram, usuario: coliseum_almudevar_oficial, nombre: "Coliseum" }
   - { red: instagram, usuario: djfrankvo, nombre: "DJ Frank" }
