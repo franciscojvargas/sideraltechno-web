@@ -10,7 +10,7 @@ estado: publicado
 formato: ampliado
 duracion: 89
 publicado: 2026-11-19
-actualizado: 2026-11-19
+actualizado: 2026-11-27
 instagram: Df7PpoJTuyq
 tiktok: "7709883045624450327"
 lugar:
