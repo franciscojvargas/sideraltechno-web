@@ -168,7 +168,7 @@ preguntasAbiertas:
   - "¿Barraca o Circo? ¿En qué años bailabas en Les Palmeres?"
   - "¿Fuiste a alguna boda en Barraca en los setenta? Si guardas una foto, ayuda a contar mejor su historia."
   - "¿Cuándo llegó Carlos Simó a la cabina: 1980 o 1982? Si tienes un flyer o una foto con fecha, ayuda a cerrarlo."
-relacionados: [barraca, ruta, chocolate, spook, actv, cuantas]
+relacionados: [barraca, ruta, chocolate, spook, actv, cuantas, zul]
 cuentas:
   - { red: instagram, usuario: barraca_music, nombre: "Barraca" }
 en:
