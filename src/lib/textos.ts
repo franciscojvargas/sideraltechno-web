@@ -68,7 +68,7 @@ const es = {
     lema: "Un vídeo, una historia, cada dato con su fuente",
     sigue: "Síguenos en Instagram para ver cada vídeo nuevo. También estamos en",
     pregunta: "¿Un dato mal, una fuente mejor o un tema?",
-    legal: "© 2026 Sideral Techno. Voz generada con IA. Mapas: colaboradores de OpenStreetMap.",
+    legal: "© 2026 Sideral Techno. Voz generada con IA, salvo donde los créditos digan otra cosa. Mapas: colaboradores de OpenStreetMap.",
     salud: "Los datos de salud son divulgación de la OMS, no consejo médico.",
   },
 
@@ -147,7 +147,7 @@ const en: Textos = {
     lema: "One video, one story, every fact with its source",
     sigue: "Follow us on Instagram to see every new video. We are also on",
     pregunta: "A wrong fact, a better source or a topic?",
-    legal: "© 2026 Sideral Techno. AI-generated voice. Maps: OpenStreetMap contributors.",
+    legal: "© 2026 Sideral Techno. AI-generated voice, except where the credits say otherwise. Maps: OpenStreetMap contributors.",
     salud: "Health figures are WHO public information, not medical advice.",
   },
 
